@@ -3,24 +3,23 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: nn_loss.aux
 The style file: acmsiggraph.bst
 Database file #1: nn_loss.bib
-Warning--I didn't find a database entry for "Praun:00"
-Warning--I didn't find a database entry for "Turk:01"
-Warning--I didn't find a database entry for "Wei:01"
-Warning--I didn't find a database entry for "Theisel:02"
-Warning--I didn't find a database entry for "Stam:03"
-Warning--I didn't find a database entry for "Zhang:06"
-Warning--I didn't find a database entry for "Zhang:07"
 Warning--I didn't find a database entry for "Hertzmann:00"
 Warning--I didn't find a database entry for "Ray:06"
 Warning--I didn't find a database entry for "ray:07"
+Warning--I didn't find a database entry for "Praun:00"
+Warning--I didn't find a database entry for "Turk:01"
+Warning--I didn't find a database entry for "Wei:01"
+Warning--I didn't find a database entry for "Stam:03"
 Warning--I didn't find a database entry for "vanWijk:02"
 Warning--I didn't find a database entry for "vanWijk:03"
+Warning--I didn't find a database entry for "Theisel:02"
+Warning--I didn't find a database entry for "Zhang:06"
 Warning--I didn't find a database entry for "Chen:07"
 Warning--I didn't find a database entry for "Helman:91"
 Warning--empty organization in NEURIPS2018_a41b3bb3
 You've used 1 entry,
             2748 wiz_defined-function locations,
-            630 strings with 4934 characters,
+            628 strings with 4918 characters,
 and the built_in function-call counts, 559 in all, are:
 = -- 41
 > -- 48
@@ -59,4 +58,4 @@ warning$ -- 1
 while$ -- 3
 width$ -- 2
 write$ -- 18
-(There were 15 warnings)
+(There were 14 warnings)

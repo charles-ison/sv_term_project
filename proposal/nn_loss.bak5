@@ -16,7 +16,6 @@
 \usepackage{graphicx}
 \usepackage{epsfig}
 \usepackage{amsmath,amscd,amssymb}
-\usepackage{hyperref}
 
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{proposition}[theorem]{Proposition}
@@ -139,25 +138,11 @@ matrix ($N=2$), and a cross ($N=4$). %Note we anticipate reflectional
 	\label{fig:symmetry_examples}
 \end{figure*}
 
-For our term project, we propose that the following paper: https://arxiv.org/pdf/1712.09913.pdf can be used for Option 2. 
-In this paper, the authors create scalar field visualizations of various neural network architectures that they call “Loss Landscapes.” In these visualizations, the loss function’s results serve as the scalar value and a two dimensional reduction of the model’s weights serves the directional elements of the field. 
-The specific loss functions used in the original paper are cross entropy (\url{https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html}) and mean squared error (\url{https://pytorch.org/docs/stable/generated/torch.nn.MSELoss.html}). 
-The dimensionality reduction is done using two different approaches: principal component analysis and random vectors within the input space created by sampling a random Gaussian distribution. 
-The resulting loss landscapes generated can then provide insights about how certain architectural decisions can improve or worsen a network's trainability.
+For our term project, we propose that the following paper: https://arxiv.org/pdf/1712.09913.pdf can be used for Option 2. In this paper, the authors create scalar field visualizations of various neural network architectures that they call “Loss Landscapes.” In these visualizations, the loss function’s results serve as the scalar value and a two dimensional reduction of the model’s weights serves the directional elements of the field. The specific loss functions used in the original paper are cross entropy (https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html) and mean squared error (https://pytorch.org/docs/stable/generated/torch.nn.MSELoss.html). The dimensionality reduction is done using two different approaches: principal component analysis and random vectors within the input space created by sampling a random Gaussian distribution. The resulting loss landscapes generated can then provide insights about how certain architectural decisions can improve or worsen a network's trainability.
 
-Just like the original authors, we will have to generate our own datasets by creating test models of multiple popular neural network architectures and recording their performance across a range of weights. 
-The original authors tested ResNet and VGG architectures with various permutations, which we can recreate and also potentially extend to newer architectures such as a Vision Transformer (https://arxiv.org/pdf/2010.11929v2.pdf). 
-To create our loss dataset, we will also use the CIFAR-10 dataset (https://www.cs.toronto.edu/~kriz/cifar.html) as input into our testing models like the original paper. 
-The models will be created in Python using Pytorch and then our results exported to PLY files which we will use to generate corresponding visualizations in OpenGL.
+Just like the original authors, we will have to generate our own datasets by creating test models of multiple popular neural network architectures and recording their performance across a range of weights. The original authors tested ResNet and VGG architectures with various permutations, which we can recreate and also potentially extend to newer architectures such as a Vision Transformer (https://arxiv.org/pdf/2010.11929v2.pdf). To create our loss dataset, we will also use the CIFAR-10 dataset (https://www.cs.toronto.edu/~kriz/cifar.html) as input into our testing models like the original paper. The models will be created in Python using Pytorch and then our results exported to PLY files which we will use to generate corresponding visualizations in OpenGL.
 
-To evaluate the correctness of our models we will use four separate criteria. 
-
-First, we will confirm that our results align with the original papers, which includes both quantitatively confirming our model’s performance aligns with the expected results and visually confirming our loss landscapes align with those presented in the paper. 
-Secondly, we will extract all critical points from our field, classify them using a Hessian, and confirm they match the expected values based on the scalar field visualization. 
-Next, the original authors also visualized their model’s convergence to a local minimum during gradient descent. 
-We will do the same using polylines in OpenGL and then confirm the convergence’s path both matches our model’s results and follows the expected path of least resistance along our scalar field. 
-Finally, we will judge our visualization’s overall usefulness by the ability to draw meaningful insights about neural network’s architectures from the visualization. For example, the original authors were able to gain an intuition about the impact of increasing network depth and its impact on convexity. 
-Our visualizations should be of a high enough quality to convey the same information.
+To evaluate the correctness of our models we will use four separate criteria. First, we will confirm that our results align with the original papers, which includes both quantitatively confirming our model’s performance aligns with the expected results and visually confirming our loss landscapes align with those presented in the paper. Secondly, we will extract all critical points from our field, classify them using a Hessian, and confirm they match the expected values based on the scalar field visualization. Next, the original authors also visualized their model’s convergence to a local minimum during gradient descent. We will do the same using polylines in OpenGL and then confirm the convergence’s path both matches our model’s results and follows the expected path of least resistance along our scalar field. Finally, we will judge our visualization’s overall usefulness by the ability to draw meaningful insights about neural network’s architectures from the visualization. For example, the original authors were able to gain an intuition about the impact of increasing network depth and its impact on convexity. Our visualizations should be of a high enough quality to convey the same information.
 
 
 
@@ -301,13 +286,7 @@ Subsection, TODO\dots
 
 
 
-\section{Conclusion}
-\label{sec:conclusion}
-
-The conclusion will be written in the final report.
-
-
-\section*{Appendix}
+\section*{Appendix: $N$-RoSy's and $N$-th Order Tensors}
 \label{sec:higher_tensors}
 
 To be determined.
