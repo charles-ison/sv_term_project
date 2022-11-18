@@ -70,8 +70,8 @@ surfaces, topology.}
 			\includegraphics[width=5.50in]{/Users/mattm/repos/cs_453/sv_term_project/proposal/images/scalar-field-teaser.png}
 			\\
 		\end{array}$
-	\caption{Example of a loss landscape visualization from the paper: (a) without skip connections, (b)
-		with skip connections. } \label{fig:teaser} }
+	\caption{Example of a loss landscape visualization from the paper: (a) without skip connections, (b) with skip connections. 
+		We propose to implement these visualizations as the first step of our term project, then proceeding with creating other visualizations and enhancing them. } \label{fig:teaser} }
 
 %% The ``\maketitle'' command must be the first command after the
 %% ``\begin{document}'' command. It prepares and prints the title block.
@@ -111,92 +111,31 @@ surfaces, topology.}
 %% page of your paper.
 
 
-Many objects in computer graphics can be described by {\em
-		rotational symmetries}, such as brush strokes and hatches in
-non-photorealistic rendering, regular patterns in texture synthesis,
-and principle curvature directions in surface parameterization and
-geometry remeshing. Intuitively, an {\em $N$-way rotational
-		symmetry} ($N$-RoSy) represents phenomena that are {\em invariant}
-under rotations of an integer multiple of $\frac{2\pi}{N}$. Example
-$N$-RoSy's include a vector ($N=1$), an eigenvector of a symmetric
-matrix ($N=2$), and a cross ($N=4$). %Note we anticipate reflectional
-%symmetries to be studied in the future, so we choose {\em RoSy} to
-%distinguish.
-
-\begin{figure*}[t]
-	\begin{center}
-		$\begin{array}{@{\hspace{-0.00in}}c@{\hspace{0.05in}}c@{\hspace{0.05in}}c@{\hspace{0.05in}}c@{\hspace{0.05in}}c}
-				\includegraphics[height=1.3in]{images/tetra.eps}
-				 & \includegraphics[height=1.3in]{images/octa.eps}
-				 & \includegraphics[height=1.3in]{images/cube.eps}
-				 & \includegraphics[height=1.3in]{images/icos.eps}
-				 & \includegraphics[height=1.3in]{images/dodec.eps} \\
-			\end{array}$
-	\end{center}
-	\caption{$N$-way rotational symmetries appear naturally in the
-		Platonic solids: tetrahedron ($N=2$), octahedron ($N=3$), cube
-		($N=4$), icosahedron ($N=6$), and dodecahedron ($N=10$). }
-	\label{fig:symmetry_examples}
-\end{figure*}
-
-For our term project, we propose that the following paper: https://arxiv.org/pdf/1712.09913.pdf can be used for Option 2. 
+For our term project, we propose that the paper "Visualizing the Loss Landscape of Neural Nets" (\url{https://arxiv.org/pdf/1712.09913.pdf}) be used for Option 2 (implementing a published research paper). 
 In this paper, the authors create scalar field visualizations of various neural network architectures that they call “Loss Landscapes.” In these visualizations, the loss function’s results serve as the scalar value and a two dimensional reduction of the model’s weights serves the directional elements of the field. 
 The specific loss functions used in the original paper are cross entropy (\url{https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html}) and mean squared error (\url{https://pytorch.org/docs/stable/generated/torch.nn.MSELoss.html}). 
-The dimensionality reduction is done using two different approaches: principal component analysis and random vectors within the input space created by sampling a random Gaussian distribution. 
+The dimensionality reduction is done using two different approaches: principal component analysis and random vector selection. 
+For the later approach, two random vectors within the input space created by sampling a random Gaussian distribution. These vectors are used as the two dimensions of the scalar field input.
 The resulting loss landscapes generated can then provide insights about how certain architectural decisions can improve or worsen a network's trainability.
 
 Just like the original authors, we will have to generate our own datasets by creating test models of multiple popular neural network architectures and recording their performance across a range of weights. 
-The original authors tested ResNet and VGG architectures with various permutations, which we can recreate and also potentially extend to newer architectures such as a Vision Transformer (https://arxiv.org/pdf/2010.11929v2.pdf). 
-To create our loss dataset, we will also use the CIFAR-10 dataset (https://www.cs.toronto.edu/~kriz/cifar.html) as input into our testing models like the original paper. 
-The models will be created in Python using Pytorch and then our results exported to PLY files which we will use to generate corresponding visualizations in OpenGL.
+The original authors tested ResNet and VGG architectures with various permutations, which we can recreate and also potentially extend to newer architectures such as a Vision Transformer (\url{https://arxiv.org/pdf/2010.11929v2.pdf}). 
+To create our loss dataset, we will also use the CIFAR-10 dataset (\url{https://www.cs.toronto.edu/~kriz/cifar.html}) as input into our testing models like the original paper. 
+The models will be created in Python using PyTorch and then our results exported to PLY files which we will use to generate corresponding visualizations in OpenGL.
 
 To evaluate the correctness of our models we will use four separate criteria. 
 
-First, we will confirm that our results align with the original papers, which includes both quantitatively confirming our model’s performance aligns with the expected results and visually confirming our loss landscapes align with those presented in the paper. 
-Secondly, we will extract all critical points from our field, classify them using a Hessian, and confirm they match the expected values based on the scalar field visualization. 
-Next, the original authors also visualized their model’s convergence to a local minimum during gradient descent. 
-We will do the same using polylines in OpenGL and then confirm the convergence’s path both matches our model’s results and follows the expected path of least resistance along our scalar field. 
-Finally, we will judge our visualization’s overall usefulness by the ability to draw meaningful insights about neural network’s architectures from the visualization. For example, the original authors were able to gain an intuition about the impact of increasing network depth and its impact on convexity. 
-Our visualizations should be of a high enough quality to convey the same information.
-
-
-
-In this paper, we make the following contributions.
 
 \begin{enumerate}
 	%\itemsep 0pt
 	%\parskip -1pt
-	\item We provide coherent definitions for algebraic
-	      operations on $N$-RoSy's by observing the link between $N$-RoSy's
-	      and $N$-th order symmetric tensors. This link also enables the
-	      definitions of analytic properties of $N$-RoSy fields such as
-	      continuity, differentiability, and singularity.
-	\item We present a vector-based representation for $N$-RoSy's that
-	      supports compact storage of discrete $N$-RoSy fields on mesh
-	      surfaces and facilitates the analysis and design of $N$-RoSy fields.
-	\item We describe the topology of $N$-RoSy fields on surfaces
-	      and provide efficient algorithms to extract singularities and
-	      separatrices.
-	\item We develop a design system in which $N$-RoSy fields
-	      can be interactively created and modified on surfaces. In
-	      particular, our system provides explicit control over the number and
-	      location of the singularities in the field. We demonstrate the
-	      effectiveness of our system with pen-and-ink sketching of surfaces
-	      and quad-dominant remeshing.
-	      %\item We present a visualization technique that is fast and
-	      %high-quality when $N=2$, $3$, $4$, and $6$.
+	\item First, we will confirm that our results align with the original papers, which includes both quantitatively confirming our model’s performance aligns with the expected results and visually confirming our loss landscapes align with those presented in the paper. 
+	\item Second, we will extract all critical points from our field, classify them using a Hessian, and confirm they match the expected values based on the scalar field visualization. 
+	\item Third, the original authors visualized their model’s convergence to a local minimum during gradient descent, as seen in  Figure \ref{fig:descent_trajectory}. We will compare our local minimum with theirs to verify our accuracy.
+	\item Finally, we will judge our visualization’s overall usefulness by the ability to draw meaningful insights about neural network’s architectures from the visualization. For example, the original authors were able to gain an intuition about the impact of increasing network depth and its impact on convexity. 
+	Our visualizations should be of a high enough quality to convey the same information.
 \end{enumerate}
 
-The remainder of the paper is organized as follows. We first review
-related work on $N$-RoSy fields in Section~\ref{sec:previous_work}
-and present our vector-based representation of $N$-RoSy's in
-Section~\ref{sec:representation}. Next, we discuss the analysis and
-design of $N$-RoSy fields in Sections~\ref{sec:analysis}
-and~\ref{sec:design}, respectively. In
-Section~\ref{sec:application}, we show the results of applying our
-analysis and design system to pen-and-ink sketching and geometry
-remeshing. Finally, we summarize our contributions and discuss some
-possible future work in Section~\ref{sec:conclusion}.
 
 \section{Previous Work}
 \label{sec:previous_work}
@@ -263,16 +202,11 @@ TODO...
 \begin{figure}[t]
 	\begin{center}
 		$\begin{array}{@{\hspace{-0.00in}}c@{\hspace{0.05in}}c}
-				\includegraphics[height=1.07in]{images/cancel_step0_4sym.eps}
-				 & \includegraphics[height=1.07in]{images/cancel_step0_1sym.eps}
+				\includegraphics[height=1.07in]{images/traj-plot-SGD.png}
 				\\
 			\end{array}$
 	\end{center}
-	\caption{ A comparison between a $4$-RoSy field (left) and its
-		representation vector field (right). Notice that the sets of points
-		with a zero value are the same for both fields (colored dots).
-		Representation vectors remove the directional ambiguity in an
-		$N$-RoSy field. } \label{fig:vector_representation}
+	\caption{ Plots from the original authors visualizing the model's convergence to a local minimum during gradient descent. } \label{fig:descent_trajectory}
 \end{figure}
 
 \section{Topological Analysis of $N$-RoSy Fields}
