@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.17)  17 NOV 2022 23:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.17)  18 NOV 2022 11:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -212,108 +212,53 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 91.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 78.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 91.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 78.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 91.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 78.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 91.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 78.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 91.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 78.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Package epstopdf Info: Source file: <images/venus_2sym_antiA.eps>
-(epstopdf)                    date: 2022-11-17 22:50:45
-(epstopdf)                    size: 1915923 bytes
-(epstopdf)             Output file: <images/venus_2sym_antiA-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-17 23:08:31
-(epstopdf)                    size: 159036 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/venus_2sym_antiA-eps-converted-to.pdf images/venus_2sym_antiA.eps>
-(epstopdf)             \includegraphics on input line 91.
-Package epstopdf Info: Output file is already uptodate.
-<images/venus_2sym_antiA-eps-converted-to.pdf, id=1, 593.21625pt x 803.0pt>
-File: images/venus_2sym_antiA-eps-converted-to.pdf Graphic file (type pdf)
-<use images/venus_2sym_antiA-eps-converted-to.pdf>
-Package pdftex.def Info: images/venus_2sym_antiA-eps-converted-to.pdf  used on input line 91.
-(pdftex.def)             Requested size: 126.47249pt x 171.1958pt.
-Package epstopdf Info: Source file: <images/venus_before_antiA.eps>
-(epstopdf)                    date: 2022-11-17 22:50:45
-(epstopdf)                    size: 1916061 bytes
-(epstopdf)             Output file: <images/venus_before_antiA-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-17 23:08:31
-(epstopdf)                    size: 159428 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/venus_before_antiA-eps-converted-to.pdf images/venus_before_antiA.eps>
-(epstopdf)             \includegraphics on input line 91.
-Package epstopdf Info: Output file is already uptodate.
-<images/venus_before_antiA-eps-converted-to.pdf, id=2, 593.21625pt x 803.0pt>
-File: images/venus_before_antiA-eps-converted-to.pdf Graphic file (type pdf)
-<use images/venus_before_antiA-eps-converted-to.pdf>
-Package pdftex.def Info: images/venus_before_antiA-eps-converted-to.pdf  used on input line 91.
-(pdftex.def)             Requested size: 126.47249pt x 171.1958pt.
-Package epstopdf Info: Source file: <images/venus_after_antiA.eps>
-(epstopdf)                    date: 2022-11-17 22:50:45
-(epstopdf)                    size: 1915980 bytes
-(epstopdf)             Output file: <images/venus_after_antiA-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-17 23:08:31
-(epstopdf)                    size: 160443 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/venus_after_antiA-eps-converted-to.pdf images/venus_after_antiA.eps>
-(epstopdf)             \includegraphics on input line 91.
-Package epstopdf Info: Output file is already uptodate.
-<images/venus_after_antiA-eps-converted-to.pdf, id=3, 593.21625pt x 803.0pt>
-File: images/venus_after_antiA-eps-converted-to.pdf Graphic file (type pdf)
-<use images/venus_after_antiA-eps-converted-to.pdf>
-Package pdftex.def Info: images/venus_after_antiA-eps-converted-to.pdf  used on input line 91.
-(pdftex.def)             Requested size: 126.47249pt x 171.1958pt.
-Package epstopdf Info: Source file: <images/venus_smooth_antiA.eps>
-(epstopdf)                    date: 2022-11-17 22:50:45
-(epstopdf)                    size: 1915961 bytes
-(epstopdf)             Output file: <images/venus_smooth_antiA-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-17 23:08:32
-(epstopdf)                    size: 159590 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/venus_smooth_antiA-eps-converted-to.pdf images/venus_smooth_antiA.eps>
-(epstopdf)             \includegraphics on input line 91.
-Package epstopdf Info: Output file is already uptodate.
-<images/venus_smooth_antiA-eps-converted-to.pdf, id=4, 593.21625pt x 803.0pt>
-File: images/venus_smooth_antiA-eps-converted-to.pdf Graphic file (type pdf)
-<use images/venus_smooth_antiA-eps-converted-to.pdf>
-Package pdftex.def Info: images/venus_smooth_antiA-eps-converted-to.pdf  used on input line 91.
-(pdftex.def)             Requested size: 126.47249pt x 171.1958pt.
-
-Overfull \hbox (15.84108pt too wide) in paragraph at lines 91--91
- []$[]$ 
- []
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
+</Users/mattm/repos/cs_453/sv_term_project/proposal/images/scalar-field-teaser.png, id=1, 692.5875pt x 314.17375pt>
+File: /Users/mattm/repos/cs_453/sv_term_project/proposal/images/scalar-field-teaser.png Graphic file (type png)
+<use /Users/mattm/repos/cs_453/sv_term_project/proposal/images/scalar-field-teaser.png>
+Package pdftex.def Info: /Users/mattm/repos/cs_453/sv_term_project/proposal/images/scalar-field-teaser.png  used on input line 78.
+(pdftex.def)             Requested size: 397.48499pt x 180.31293pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
-LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 91.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 91.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 78.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 78.
+
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 91.
+(Font)              for symbol `textbraceleft' on input line 78.
 
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 106.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 106.
 Package epstopdf Info: Source file: <images/tetra.eps>
 (epstopdf)                    date: 2022-11-17 22:50:45
 (epstopdf)                    size: 674413 bytes
@@ -321,12 +266,12 @@ Package epstopdf Info: Source file: <images/tetra.eps>
 (epstopdf)                    date: 2022-11-17 23:08:32
 (epstopdf)                    size: 32815 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/tetra-eps-converted-to.pdf images/tetra.eps>
-(epstopdf)             \includegraphics on input line 169.
+(epstopdf)             \includegraphics on input line 156.
 Package epstopdf Info: Output file is already uptodate.
-<images/tetra-eps-converted-to.pdf, id=5, 104.39pt x 90.3375pt>
+<images/tetra-eps-converted-to.pdf, id=3, 104.39pt x 90.3375pt>
 File: images/tetra-eps-converted-to.pdf Graphic file (type pdf)
 <use images/tetra-eps-converted-to.pdf>
-Package pdftex.def Info: images/tetra-eps-converted-to.pdf  used on input line 169.
+Package pdftex.def Info: images/tetra-eps-converted-to.pdf  used on input line 156.
 (pdftex.def)             Requested size: 108.5662pt x 93.95122pt.
 Package epstopdf Info: Source file: <images/octa.eps>
 (epstopdf)                    date: 2022-11-17 22:50:45
@@ -335,12 +280,12 @@ Package epstopdf Info: Source file: <images/octa.eps>
 (epstopdf)                    date: 2022-11-17 23:08:32
 (epstopdf)                    size: 36607 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/octa-eps-converted-to.pdf images/octa.eps>
-(epstopdf)             \includegraphics on input line 170.
+(epstopdf)             \includegraphics on input line 157.
 Package epstopdf Info: Output file is already uptodate.
-<images/octa-eps-converted-to.pdf, id=6, 91.34125pt x 90.3375pt>
+<images/octa-eps-converted-to.pdf, id=4, 91.34125pt x 90.3375pt>
 File: images/octa-eps-converted-to.pdf Graphic file (type pdf)
 <use images/octa-eps-converted-to.pdf>
-Package pdftex.def Info: images/octa-eps-converted-to.pdf  used on input line 170.
+Package pdftex.def Info: images/octa-eps-converted-to.pdf  used on input line 157.
 (pdftex.def)             Requested size: 94.99544pt x 93.95122pt.
 Package epstopdf Info: Source file: <images/cube.eps>
 (epstopdf)                    date: 2022-11-17 22:50:45
@@ -349,12 +294,12 @@ Package epstopdf Info: Source file: <images/cube.eps>
 (epstopdf)                    date: 2022-11-17 23:08:32
 (epstopdf)                    size: 38677 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cube-eps-converted-to.pdf images/cube.eps>
-(epstopdf)             \includegraphics on input line 171.
+(epstopdf)             \includegraphics on input line 158.
 Package epstopdf Info: Output file is already uptodate.
-<images/cube-eps-converted-to.pdf, id=7, 96.36pt x 104.39pt>
+<images/cube-eps-converted-to.pdf, id=5, 96.36pt x 104.39pt>
 File: images/cube-eps-converted-to.pdf Graphic file (type pdf)
 <use images/cube-eps-converted-to.pdf>
-Package pdftex.def Info: images/cube-eps-converted-to.pdf  used on input line 171.
+Package pdftex.def Info: images/cube-eps-converted-to.pdf  used on input line 158.
 (pdftex.def)             Requested size: 86.72905pt x 93.95122pt.
 Package epstopdf Info: Source file: <images/icos.eps>
 (epstopdf)                    date: 2022-11-17 22:50:45
@@ -363,12 +308,12 @@ Package epstopdf Info: Source file: <images/icos.eps>
 (epstopdf)                    date: 2022-11-17 23:08:33
 (epstopdf)                    size: 70097 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/icos-eps-converted-to.pdf images/icos.eps>
-(epstopdf)             \includegraphics on input line 172.
+(epstopdf)             \includegraphics on input line 159.
 Package epstopdf Info: Output file is already uptodate.
-<images/icos-eps-converted-to.pdf, id=8, 97.36375pt x 90.3375pt>
+<images/icos-eps-converted-to.pdf, id=6, 97.36375pt x 90.3375pt>
 File: images/icos-eps-converted-to.pdf Graphic file (type pdf)
 <use images/icos-eps-converted-to.pdf>
-Package pdftex.def Info: images/icos-eps-converted-to.pdf  used on input line 172.
+Package pdftex.def Info: images/icos-eps-converted-to.pdf  used on input line 159.
 (pdftex.def)             Requested size: 101.25887pt x 93.95122pt.
 Package epstopdf Info: Source file: <images/dodec.eps>
 (epstopdf)                    date: 2022-11-17 22:50:45
@@ -377,106 +322,97 @@ Package epstopdf Info: Source file: <images/dodec.eps>
 (epstopdf)                    date: 2022-11-17 23:08:33
 (epstopdf)                    size: 79010 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/dodec-eps-converted-to.pdf images/dodec.eps>
-(epstopdf)             \includegraphics on input line 173.
+(epstopdf)             \includegraphics on input line 160.
 Package epstopdf Info: Output file is already uptodate.
-<images/dodec-eps-converted-to.pdf, id=9, 96.36pt x 90.3375pt>
+<images/dodec-eps-converted-to.pdf, id=7, 96.36pt x 90.3375pt>
 File: images/dodec-eps-converted-to.pdf Graphic file (type pdf)
 <use images/dodec-eps-converted-to.pdf>
-Package pdftex.def Info: images/dodec-eps-converted-to.pdf  used on input line 173.
+Package pdftex.def Info: images/dodec-eps-converted-to.pdf  used on input line 160.
 (pdftex.def)             Requested size: 100.21495pt x 93.95122pt.
 
-Overfull \hbox (5.32933pt too wide) in paragraph at lines 168--175
+Overfull \hbox (5.32933pt too wide) in paragraph at lines 155--162
  []$ 
  []
+
+
+LaTeX Warning: Citation 'Praun:00' on page 1 undefined on input line 195.
+
+
+LaTeX Warning: Citation 'Turk:01' on page 1 undefined on input line 195.
+
+
+LaTeX Warning: Citation 'Wei:01' on page 1 undefined on input line 195.
+
+
+LaTeX Warning: Citation 'Theisel:02' on page 1 undefined on input line 195.
+
+
+LaTeX Warning: Citation 'Stam:03' on page 1 undefined on input line 195.
+
+
+LaTeX Warning: Citation 'Zhang:06' on page 1 undefined on input line 195.
+
+
+LaTeX Warning: Citation 'Zhang:07' on page 1 undefined on input line 196.
 
 [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./images/venus_2sym_antiA-eps-converted-to.pdf> <./images/venus_before_antiA-eps-converted-to.pdf> <./images/venus_after_antiA-eps-converted-to.pdf> <./images/venus_smooth_antiA-eps-converted-to.pdf>]
+ </Users/mattm/repos/cs_453/sv_term_project/proposal/images/scalar-field-teaser.png>]
 
-LaTeX Warning: Citation 'Praun:00' on page 2 undefined on input line 237.
-
-
-LaTeX Warning: Citation 'Turk:01' on page 2 undefined on input line 237.
+LaTeX Warning: Citation 'Zhang:06' on page 2 undefined on input line 228.
 
 
-LaTeX Warning: Citation 'Wei:01' on page 2 undefined on input line 237.
+LaTeX Warning: Citation 'Zhang:06' on page 2 undefined on input line 238.
 
 
-LaTeX Warning: Citation 'Theisel:02' on page 2 undefined on input line 237.
+LaTeX Warning: Citation 'Turk:01' on page 2 undefined on input line 240.
 
 
-LaTeX Warning: Citation 'Stam:03' on page 2 undefined on input line 237.
+LaTeX Warning: Reference `sec:conclusion' on page 2 undefined on input line 284.
 
 
-LaTeX Warning: Citation 'Zhang:06' on page 2 undefined on input line 237.
+LaTeX Warning: Citation 'Hertzmann:00' on page 2 undefined on input line 294.
 
 
-LaTeX Warning: Citation 'Zhang:07' on page 2 undefined on input line 238.
+LaTeX Warning: Citation 'Ray:06' on page 2 undefined on input line 297.
 
 
-LaTeX Warning: Citation 'Zhang:06' on page 2 undefined on input line 270.
+LaTeX Warning: Citation 'ray:07' on page 2 undefined on input line 308.
 
 
-LaTeX Warning: Citation 'Zhang:06' on page 2 undefined on input line 291.
+LaTeX Warning: Citation 'Praun:00' on page 2 undefined on input line 313.
 
 
-LaTeX Warning: Citation 'Turk:01' on page 2 undefined on input line 293.
+LaTeX Warning: Citation 'Turk:01' on page 2 undefined on input line 313.
 
 
-LaTeX Warning: Citation 'Hertzmann:00' on page 2 undefined on input line 360.
+LaTeX Warning: Citation 'Wei:01' on page 2 undefined on input line 313.
 
 
-LaTeX Warning: Citation 'Ray:06' on page 2 undefined on input line 363.
+LaTeX Warning: Citation 'Stam:03' on page 2 undefined on input line 314.
 
 
-LaTeX Warning: Citation 'ray:07' on page 2 undefined on input line 374.
+LaTeX Warning: Citation 'vanWijk:02' on page 2 undefined on input line 315.
+
+
+LaTeX Warning: Citation 'vanWijk:03' on page 2 undefined on input line 315.
+
+
+LaTeX Warning: Citation 'Theisel:02' on page 2 undefined on input line 317.
+
+
+LaTeX Warning: Citation 'Zhang:06' on page 2 undefined on input line 317.
+
+
+LaTeX Warning: Citation 'Chen:07' on page 2 undefined on input line 319.
+
+
+LaTeX Warning: Citation 'Zhang:06' on page 2 undefined on input line 321.
 
 [2 <./images/tetra-eps-converted-to.pdf> <./images/octa-eps-converted-to.pdf> <./images/cube-eps-converted-to.pdf> <./images/icos-eps-converted-to.pdf> <./images/dodec-eps-converted-to.pdf>]
 
-LaTeX Warning: Citation 'Praun:00' on page 3 undefined on input line 379.
-
-
-LaTeX Warning: Citation 'Turk:01' on page 3 undefined on input line 379.
-
-
-LaTeX Warning: Citation 'Wei:01' on page 3 undefined on input line 379.
-
-
-LaTeX Warning: Citation 'Stam:03' on page 3 undefined on input line 380.
-
-
-LaTeX Warning: Citation 'vanWijk:02' on page 3 undefined on input line 381.
-
-
-LaTeX Warning: Citation 'vanWijk:03' on page 3 undefined on input line 381.
-
-
-LaTeX Warning: Citation 'Theisel:02' on page 3 undefined on input line 383.
-
-
-LaTeX Warning: Citation 'Zhang:06' on page 3 undefined on input line 383.
-
-
-LaTeX Warning: Citation 'Chen:07' on page 3 undefined on input line 385.
-
-
-LaTeX Warning: Citation 'Zhang:07' on page 3 undefined on input line 385.
-
-
-LaTeX Warning: Citation 'Zhang:06' on page 3 undefined on input line 387.
-
-
-LaTeX Warning: Citation 'Helman:91' on page 3 undefined on input line 393.
-
-
-LaTeX Warning: Citation 'Delmarcelle:94' on page 3 undefined on input line 396.
-
-
-LaTeX Warning: Citation 'Zhang:07' on page 3 undefined on input line 418.
-
-
-LaTeX Warning: Citation 'Zhang:07' on page 3 undefined on input line 426.
+LaTeX Warning: Citation 'Helman:91' on page 3 undefined on input line 327.
 
 Package epstopdf Info: Source file: <images/cancel_step0_4sym.eps>
 (epstopdf)                    date: 2022-11-17 22:50:45
@@ -485,12 +421,12 @@ Package epstopdf Info: Source file: <images/cancel_step0_4sym.eps>
 (epstopdf)                    date: 2022-11-17 23:08:33
 (epstopdf)                    size: 84548 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cancel_step0_4sym-eps-converted-to.pdf images/cancel_step0_4sym.eps>
-(epstopdf)             \includegraphics on input line 521.
+(epstopdf)             \includegraphics on input line 351.
 Package epstopdf Info: Output file is already uptodate.
-<images/cancel_step0_4sym-eps-converted-to.pdf, id=54, 513.92pt x 513.92pt>
+<images/cancel_step0_4sym-eps-converted-to.pdf, id=41, 513.92pt x 513.92pt>
 File: images/cancel_step0_4sym-eps-converted-to.pdf Graphic file (type pdf)
 <use images/cancel_step0_4sym-eps-converted-to.pdf>
-Package pdftex.def Info: images/cancel_step0_4sym-eps-converted-to.pdf  used on input line 521.
+Package pdftex.def Info: images/cancel_step0_4sym-eps-converted-to.pdf  used on input line 351.
 (pdftex.def)             Requested size: 77.32776pt x 77.32942pt.
 Package epstopdf Info: Source file: <images/cancel_step0_1sym.eps>
 (epstopdf)                    date: 2022-11-17 22:50:45
@@ -499,508 +435,38 @@ Package epstopdf Info: Source file: <images/cancel_step0_1sym.eps>
 (epstopdf)                    date: 2022-11-17 23:08:34
 (epstopdf)                    size: 70881 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/cancel_step0_1sym-eps-converted-to.pdf images/cancel_step0_1sym.eps>
-(epstopdf)             \includegraphics on input line 522.
+(epstopdf)             \includegraphics on input line 352.
 Package epstopdf Info: Output file is already uptodate.
-<images/cancel_step0_1sym-eps-converted-to.pdf, id=55, 513.92pt x 513.92pt>
+<images/cancel_step0_1sym-eps-converted-to.pdf, id=42, 513.92pt x 513.92pt>
 File: images/cancel_step0_1sym-eps-converted-to.pdf Graphic file (type pdf)
 <use images/cancel_step0_1sym-eps-converted-to.pdf>
-Package pdftex.def Info: images/cancel_step0_1sym-eps-converted-to.pdf  used on input line 522.
+Package pdftex.def Info: images/cancel_step0_1sym-eps-converted-to.pdf  used on input line 352.
 (pdftex.def)             Requested size: 77.32776pt x 77.32942pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 533.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 363.
+(./nn_loss.bbl) [3
 
-LaTeX Warning: Citation 'Hertzmann:00' on page 3 undefined on input line 544.
-
-[3 <./images/cancel_step0_4sym-eps-converted-to.pdf> <./images/cancel_step0_1sym-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <images/cubeU_model_with_seps.eps>
-(epstopdf)                    date: 2022-11-17 22:50:45
-(epstopdf)                    size: 1067668 bytes
-(epstopdf)             Output file: <images/cubeU_model_with_seps-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-17 23:08:34
-(epstopdf)                    size: 39392 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/cubeU_model_with_seps-eps-converted-to.pdf images/cubeU_model_with_seps.eps>
-(epstopdf)             \includegraphics on input line 615.
-Package epstopdf Info: Output file is already uptodate.
-<images/cubeU_model_with_seps-eps-converted-to.pdf, id=67, 513.92pt x 513.92pt>
-File: images/cubeU_model_with_seps-eps-converted-to.pdf Graphic file (type pdf)
-<use images/cubeU_model_with_seps-eps-converted-to.pdf>
-Package pdftex.def Info: images/cubeU_model_with_seps-eps-converted-to.pdf  used on input line 615.
-(pdftex.def)             Requested size: 79.4921pt x 79.49744pt.
-Package epstopdf Info: Source file: <images/cubeU_withoutSeps.eps>
-(epstopdf)                    date: 2022-11-17 22:50:45
-(epstopdf)                    size: 1089738 bytes
-(epstopdf)             Output file: <images/cubeU_withoutSeps-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-17 23:08:34
-(epstopdf)                    size: 52614 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/cubeU_withoutSeps-eps-converted-to.pdf images/cubeU_withoutSeps.eps>
-(epstopdf)             \includegraphics on input line 616.
-Package epstopdf Info: Output file is already uptodate.
-<images/cubeU_withoutSeps-eps-converted-to.pdf, id=68, 385.44pt x 385.44pt>
-File: images/cubeU_withoutSeps-eps-converted-to.pdf Graphic file (type pdf)
-<use images/cubeU_withoutSeps-eps-converted-to.pdf>
-Package pdftex.def Info: images/cubeU_withoutSeps-eps-converted-to.pdf  used on input line 616.
-(pdftex.def)             Requested size: 79.4921pt x 79.49744pt.
-Package epstopdf Info: Source file: <images/cubeU_withSeps.eps>
-(epstopdf)                    date: 2022-11-17 22:50:45
-(epstopdf)                    size: 1089599 bytes
-(epstopdf)             Output file: <images/cubeU_withSeps-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-17 23:08:34
-(epstopdf)                    size: 54888 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/cubeU_withSeps-eps-converted-to.pdf images/cubeU_withSeps.eps>
-(epstopdf)             \includegraphics on input line 617.
-Package epstopdf Info: Output file is already uptodate.
-<images/cubeU_withSeps-eps-converted-to.pdf, id=69, 385.44pt x 385.44pt>
-File: images/cubeU_withSeps-eps-converted-to.pdf Graphic file (type pdf)
-<use images/cubeU_withSeps-eps-converted-to.pdf>
-Package pdftex.def Info: images/cubeU_withSeps-eps-converted-to.pdf  used on input line 617.
-(pdftex.def)             Requested size: 79.4921pt x 79.49744pt.
-
-Overfull \hbox (9.75871pt too wide) in paragraph at lines 613--620
- []$ 
- []
-
-
-LaTeX Warning: Citation 'Scheuermann:98' on page 4 undefined on input line 693.
-
-
-LaTeX Warning: Citation 'Delmarcelle:94' on page 4 undefined on input line 693.
-
-
-LaTeX Warning: Citation 'Delmarcelle:94' on page 4 undefined on input line 727.
-
-[4 <./images/cubeU_model_with_seps-eps-converted-to.pdf> <./images/cubeU_withoutSeps-eps-converted-to.pdf> <./images/cubeU_withSeps-eps-converted-to.pdf>]
-
-LaTeX Warning: Citation 'Tricoche:02' on page 5 undefined on input line 766.
-
-
-LaTeX Warning: Citation 'Delmarcelle:94' on page 5 undefined on input line 767.
-
-Package epstopdf Info: Source file: <images/3_separatrices_0.eps>
-(epstopdf)                    date: 2022-11-17 22:50:45
-(epstopdf)                    size: 357932 bytes
-(epstopdf)             Output file: <images/3_separatrices_0-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-17 23:08:35
-(epstopdf)                    size: 14016 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/3_separatrices_0-eps-converted-to.pdf images/3_separatrices_0.eps>
-(epstopdf)             \includegraphics on input line 844.
-Package epstopdf Info: Output file is already uptodate.
-<images/3_separatrices_0-eps-converted-to.pdf, id=84, 519.9425pt x 550.055pt>
-File: images/3_separatrices_0-eps-converted-to.pdf Graphic file (type pdf)
-<use images/3_separatrices_0-eps-converted-to.pdf>
-Package pdftex.def Info: images/3_separatrices_0-eps-converted-to.pdf  used on input line 844.
-(pdftex.def)             Requested size: 75.13982pt x 79.49744pt.
-Package epstopdf Info: Source file: <images/3_separatrices_1.eps>
-(epstopdf)                    date: 2022-11-17 22:50:45
-(epstopdf)                    size: 358733 bytes
-(epstopdf)             Output file: <images/3_separatrices_1-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-17 23:08:35
-(epstopdf)                    size: 14513 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/3_separatrices_1-eps-converted-to.pdf images/3_separatrices_1.eps>
-(epstopdf)             \includegraphics on input line 845.
-Package epstopdf Info: Output file is already uptodate.
-<images/3_separatrices_1-eps-converted-to.pdf, id=85, 519.9425pt x 550.055pt>
-File: images/3_separatrices_1-eps-converted-to.pdf Graphic file (type pdf)
-<use images/3_separatrices_1-eps-converted-to.pdf>
-Package pdftex.def Info: images/3_separatrices_1-eps-converted-to.pdf  used on input line 845.
-(pdftex.def)             Requested size: 75.13982pt x 79.49744pt.
-Package epstopdf Info: Source file: <images/3_separatrices.eps>
-(epstopdf)                    date: 2022-11-17 22:50:45
-(epstopdf)                    size: 379163 bytes
-(epstopdf)             Output file: <images/3_separatrices-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-17 23:08:35
-(epstopdf)                    size: 26953 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/3_separatrices-eps-converted-to.pdf images/3_separatrices.eps>
-(epstopdf)             \includegraphics on input line 846.
-Package epstopdf Info: Output file is already uptodate.
-<images/3_separatrices-eps-converted-to.pdf, id=86, 578.16pt x 660.4675pt>
-File: images/3_separatrices-eps-converted-to.pdf Graphic file (type pdf)
-<use images/3_separatrices-eps-converted-to.pdf>
-Package pdftex.def Info: images/3_separatrices-eps-converted-to.pdf  used on input line 846.
-(pdftex.def)             Requested size: 69.58792pt x 79.49744pt.
-Package epstopdf Info: Source file: <images/3_separatrices_2.eps>
-(epstopdf)                    date: 2022-11-17 22:50:45
-(epstopdf)                    size: 356485 bytes
-(epstopdf)             Output file: <images/3_separatrices_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-17 23:08:36
-(epstopdf)                    size: 12942 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/3_separatrices_2-eps-converted-to.pdf images/3_separatrices_2.eps>
-(epstopdf)             \includegraphics on input line 849.
-Package epstopdf Info: Output file is already uptodate.
-<images/3_separatrices_2-eps-converted-to.pdf, id=87, 519.9425pt x 550.055pt>
-File: images/3_separatrices_2-eps-converted-to.pdf Graphic file (type pdf)
-<use images/3_separatrices_2-eps-converted-to.pdf>
-Package pdftex.def Info: images/3_separatrices_2-eps-converted-to.pdf  used on input line 849.
-(pdftex.def)             Requested size: 75.13982pt x 79.49744pt.
-Package epstopdf Info: Source file: <images/3_separatrices_3.eps>
-(epstopdf)                    date: 2022-11-17 22:50:45
-(epstopdf)                    size: 355113 bytes
-(epstopdf)             Output file: <images/3_separatrices_3-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-17 23:08:36
-(epstopdf)                    size: 11740 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/3_separatrices_3-eps-converted-to.pdf images/3_separatrices_3.eps>
-(epstopdf)             \includegraphics on input line 850.
-Package epstopdf Info: Output file is already uptodate.
-<images/3_separatrices_3-eps-converted-to.pdf, id=88, 519.9425pt x 550.055pt>
-File: images/3_separatrices_3-eps-converted-to.pdf Graphic file (type pdf)
-<use images/3_separatrices_3-eps-converted-to.pdf>
-Package pdftex.def Info: images/3_separatrices_3-eps-converted-to.pdf  used on input line 850.
-(pdftex.def)             Requested size: 75.13982pt x 79.49744pt.
-Package epstopdf Info: Source file: <images/4_separatrices.eps>
-(epstopdf)                    date: 2022-11-17 22:50:45
-(epstopdf)                    size: 373536 bytes
-(epstopdf)             Output file: <images/4_separatrices-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-17 23:08:36
-(epstopdf)                    size: 25904 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/4_separatrices-eps-converted-to.pdf images/4_separatrices.eps>
-(epstopdf)             \includegraphics on input line 851.
-Package epstopdf Info: Output file is already uptodate.
-<images/4_separatrices-eps-converted-to.pdf, id=89, 542.025pt x 568.1225pt>
-File: images/4_separatrices-eps-converted-to.pdf Graphic file (type pdf)
-<use images/4_separatrices-eps-converted-to.pdf>
-Package pdftex.def Info: images/4_separatrices-eps-converted-to.pdf  used on input line 851.
-(pdftex.def)             Requested size: 75.84163pt x 79.49744pt.
-
-LaTeX Warning: Citation 'Tricoche:02' on page 5 undefined on input line 879.
-
-
-LaTeX Warning: Citation 'Tricoche:02' on page 5 undefined on input line 893.
-
-
-LaTeX Warning: Citation 'Zhang:06' on page 5 undefined on input line 904.
-
-
-LaTeX Warning: Citation 'Zhang:06' on page 5 undefined on input line 907.
-
-
-LaTeX Warning: Citation 'Zhang:07' on page 5 undefined on input line 912.
-
-
-LaTeX Warning: Citation 'Wang:06' on page 5 undefined on input line 913.
-
-[5 <./images/3_separatrices_0-eps-converted-to.pdf> <./images/3_separatrices_1-eps-converted-to.pdf> <./images/3_separatrices-eps-converted-to.pdf> <./images/3_separatrices_2-eps-converted-to.pdf> <./images/3_separatrices_3-eps-converted-to.pdf> <./images/4_separatrices-eps-converted-to.pdf>]
-
-LaTeX Warning: Citation 'Zhang:06' on page 6 undefined on input line 1084.
-
-
-LaTeX Warning: Citation 'Zhang:07' on page 6 undefined on input line 1085.
-
-
-LaTeX Warning: Citation 'Zhang:06' on page 6 undefined on input line 1088.
-
-
-LaTeX Warning: Citation 'Zhang:06' on page 6 undefined on input line 1096.
-
-
-LaTeX Warning: Citation 'vanWijk:03' on page 6 undefined on input line 1096.
-
-
-LaTeX Warning: Citation 'Turk:01' on page 6 undefined on input line 1097.
-
-
-LaTeX Warning: Citation 'Wei:01' on page 6 undefined on input line 1097.
-
-
-LaTeX Warning: Citation 'Praun:00' on page 6 undefined on input line 1097.
-
-
-LaTeX Warning: Citation 'vanWijk:02' on page 6 undefined on input line 1101.
-
-
-LaTeX Warning: Citation 'vanWijk:02' on page 6 undefined on input line 1123.
-
-
-LaTeX Warning: Citation 'Zhang:06' on page 6 undefined on input line 1133.
-
-
-LaTeX Warning: Citation 'vanWijk:03' on page 6 undefined on input line 1136.
-
-
-LaTeX Warning: Citation 'Turk:01' on page 6 undefined on input line 1141.
-
-
-LaTeX Warning: Citation 'Wei:01' on page 6 undefined on input line 1141.
-
-
-LaTeX Warning: Citation 'Floater:03' on page 6 undefined on input line 1182.
-
-
-LaTeX Warning: Citation 'Hertzmann:00' on page 6 undefined on input line 1215.
-
-
-LaTeX Warning: Citation 'Ray:06' on page 6 undefined on input line 1217.
-
-[6]
-
-LaTeX Warning: Citation 'Zhang:06' on page 7 undefined on input line 1367.
-
-
-LaTeX Warning: Citation 'Mischaikow:02' on page 7 undefined on input line 1371.
-
-
-LaTeX Warning: Citation 'Zhang:06' on page 7 undefined on input line 1379.
-
-
-LaTeX Warning: Citation 'Mischaikow:02' on page 7 undefined on input line 1381.
-
-
-LaTeX Warning: Citation 'Zhang:06' on page 7 undefined on input line 1382.
-
-Package epstopdf Info: Source file: <images/cancel_step0_4sym.eps>
-(epstopdf)                    date: 2022-11-17 22:50:45
-(epstopdf)                    size: 1078032 bytes
-(epstopdf)             Output file: <images/cancel_step0_4sym-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-17 23:08:33
-(epstopdf)                    size: 84548 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/cancel_step0_4sym-eps-converted-to.pdf images/cancel_step0_4sym.eps>
-(epstopdf)             \includegraphics on input line 1395.
-Package epstopdf Info: Output file is already uptodate.
-File: images/cancel_step0_4sym-eps-converted-to.pdf Graphic file (type pdf)
-<use images/cancel_step0_4sym-eps-converted-to.pdf>
-Package pdftex.def Info: images/cancel_step0_4sym-eps-converted-to.pdf  used on input line 1395.
-(pdftex.def)             Requested size: 77.32776pt x 77.32942pt.
-Package epstopdf Info: Source file: <images/cancel_step1_4sym.eps>
-(epstopdf)                    date: 2022-11-17 22:50:45
-(epstopdf)                    size: 1077736 bytes
-(epstopdf)             Output file: <images/cancel_step1_4sym-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-17 23:08:37
-(epstopdf)                    size: 83738 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/cancel_step1_4sym-eps-converted-to.pdf images/cancel_step1_4sym.eps>
-(epstopdf)             \includegraphics on input line 1396.
-Package epstopdf Info: Output file is already uptodate.
-<images/cancel_step1_4sym-eps-converted-to.pdf, id=120, 513.92pt x 513.92pt>
-File: images/cancel_step1_4sym-eps-converted-to.pdf Graphic file (type pdf)
-<use images/cancel_step1_4sym-eps-converted-to.pdf>
-Package pdftex.def Info: images/cancel_step1_4sym-eps-converted-to.pdf  used on input line 1396.
-(pdftex.def)             Requested size: 77.32776pt x 77.32942pt.
-Package epstopdf Info: Source file: <images/cancel_step2_4sym.eps>
-(epstopdf)                    date: 2022-11-17 22:50:45
-(epstopdf)                    size: 1077868 bytes
-(epstopdf)             Output file: <images/cancel_step2_4sym-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-17 23:08:37
-(epstopdf)                    size: 83910 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/cancel_step2_4sym-eps-converted-to.pdf images/cancel_step2_4sym.eps>
-(epstopdf)             \includegraphics on input line 1397.
-Package epstopdf Info: Output file is already uptodate.
-<images/cancel_step2_4sym-eps-converted-to.pdf, id=121, 513.92pt x 513.92pt>
-File: images/cancel_step2_4sym-eps-converted-to.pdf Graphic file (type pdf)
-<use images/cancel_step2_4sym-eps-converted-to.pdf>
-Package pdftex.def Info: images/cancel_step2_4sym-eps-converted-to.pdf  used on input line 1397.
-(pdftex.def)             Requested size: 77.32776pt x 77.32942pt.
-
-Overfull \hbox (3.2657pt too wide) in paragraph at lines 1394--1400
- []$ 
- []
-
-Package epstopdf Info: Source file: <images/bimba_before_antiA.eps>
-(epstopdf)                    date: 2022-11-17 22:50:45
-(epstopdf)                    size: 2586709 bytes
-(epstopdf)             Output file: <images/bimba_before_antiA-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-17 23:08:37
-(epstopdf)                    size: 189418 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/bimba_before_antiA-eps-converted-to.pdf images/bimba_before_antiA.eps>
-(epstopdf)             \includegraphics on input line 1428.
-Package epstopdf Info: Output file is already uptodate.
-<images/bimba_before_antiA-eps-converted-to.pdf, id=122, 481.8pt x 481.8pt>
-File: images/bimba_before_antiA-eps-converted-to.pdf Graphic file (type pdf)
-<use images/bimba_before_antiA-eps-converted-to.pdf>
-Package pdftex.def Info: images/bimba_before_antiA-eps-converted-to.pdf  used on input line 1428.
-(pdftex.def)             Requested size: 166.2212pt x 166.22118pt.
-Package epstopdf Info: Source file: <images/bimba_middle_antiA.eps>
-(epstopdf)                    date: 2022-11-17 22:50:45
-(epstopdf)                    size: 2586621 bytes
-(epstopdf)             Output file: <images/bimba_middle_antiA-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-17 23:08:37
-(epstopdf)                    size: 188520 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/bimba_middle_antiA-eps-converted-to.pdf images/bimba_middle_antiA.eps>
-(epstopdf)             \includegraphics on input line 1429.
-Package epstopdf Info: Output file is already uptodate.
-<images/bimba_middle_antiA-eps-converted-to.pdf, id=123, 481.8pt x 481.8pt>
-File: images/bimba_middle_antiA-eps-converted-to.pdf Graphic file (type pdf)
-<use images/bimba_middle_antiA-eps-converted-to.pdf>
-Package pdftex.def Info: images/bimba_middle_antiA-eps-converted-to.pdf  used on input line 1429.
-(pdftex.def)             Requested size: 166.2212pt x 166.22118pt.
-Package epstopdf Info: Source file: <images/bimba_after_antiA.eps>
-(epstopdf)                    date: 2022-11-17 22:50:45
-(epstopdf)                    size: 2586656 bytes
-(epstopdf)             Output file: <images/bimba_after_antiA-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-17 23:08:38
-(epstopdf)                    size: 187291 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/bimba_after_antiA-eps-converted-to.pdf images/bimba_after_antiA.eps>
-(epstopdf)             \includegraphics on input line 1430.
-Package epstopdf Info: Output file is already uptodate.
-<images/bimba_after_antiA-eps-converted-to.pdf, id=124, 481.8pt x 481.8pt>
-File: images/bimba_after_antiA-eps-converted-to.pdf Graphic file (type pdf)
-<use images/bimba_after_antiA-eps-converted-to.pdf>
-Package pdftex.def Info: images/bimba_after_antiA-eps-converted-to.pdf  used on input line 1430.
-(pdftex.def)             Requested size: 166.2212pt x 166.22118pt.
-
-Overfull \hbox (5.00104pt too wide) in paragraph at lines 1427--1437
- []$ 
- []
-
-
-Underfull \vbox (badness 8113) has occurred while \output is active []
-
-
-
-LaTeX Warning: Citation 'Girshick:00' on page 7 undefined on input line 1455.
-
-
-LaTeX Warning: Citation 'Hertzmann:00' on page 7 undefined on input line 1460.
-
-
-LaTeX Warning: Citation 'Meyer:02' on page 7 undefined on input line 1460.
-
-
-LaTeX Warning: Citation 'Cohen:03' on page 7 undefined on input line 1460.
-
-
-LaTeX Warning: Citation 'Rusinkiewicz:04' on page 7 undefined on input line 1460.
-
-
-LaTeX Warning: Citation 'Hertzmann:00' on page 7 undefined on input line 1464.
-
-
-LaTeX Warning: Citation 'Zhang:07' on page 7 undefined on input line 1471.
-
-
-LaTeX Warning: Citation 'Hertzmann:00' on page 7 undefined on input line 1477.
-
-
-LaTeX Warning: Citation 'Meyer:02' on page 7 undefined on input line 1484.
-
-Package epstopdf Info: Source file: <images/bunny_remesh_too_smooth_fld.eps>
-(epstopdf)                    date: 2022-11-17 22:50:45
-(epstopdf)                    size: 4217968 bytes
-(epstopdf)             Output file: <images/bunny_remesh_too_smooth_fld-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-17 23:08:38
-(epstopdf)                    size: 153277 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/bunny_remesh_too_smooth_fld-eps-converted-to.pdf images/bunny_remesh_too_smooth_fld.eps>
-(epstopdf)             \includegraphics on input line 1530.
-Package epstopdf Info: Output file is already uptodate.
-<images/bunny_remesh_too_smooth_fld-eps-converted-to.pdf, id=125, 246.9225pt x 246.9225pt>
-File: images/bunny_remesh_too_smooth_fld-eps-converted-to.pdf Graphic file (type pdf)
-<use images/bunny_remesh_too_smooth_fld-eps-converted-to.pdf>
-Package pdftex.def Info: images/bunny_remesh_too_smooth_fld-eps-converted-to.pdf  used on input line 1530.
-(pdftex.def)             Requested size: 122.85876pt x 122.8581pt.
-Package epstopdf Info: Source file: <images/bunny_remesh_too_smooth.eps>
-(epstopdf)                    date: 2022-11-17 22:50:45
-(epstopdf)                    size: 5806296 bytes
-(epstopdf)             Output file: <images/bunny_remesh_too_smooth-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-17 23:08:38
-(epstopdf)                    size: 587391 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/bunny_remesh_too_smooth-eps-converted-to.pdf images/bunny_remesh_too_smooth.eps>
-(epstopdf)             \includegraphics on input line 1531.
-Package epstopdf Info: Output file is already uptodate.
-<images/bunny_remesh_too_smooth-eps-converted-to.pdf, id=126, 289.08pt x 289.08pt>
-File: images/bunny_remesh_too_smooth-eps-converted-to.pdf Graphic file (type pdf)
-<use images/bunny_remesh_too_smooth-eps-converted-to.pdf>
-Package pdftex.def Info: images/bunny_remesh_too_smooth-eps-converted-to.pdf  used on input line 1531.
-(pdftex.def)             Requested size: 122.85876pt x 122.85516pt.
-Package epstopdf Info: Source file: <images/bunny_remesh_after_fld.eps>
-(epstopdf)                    date: 2022-11-17 22:50:45
-(epstopdf)                    size: 4217775 bytes
-(epstopdf)             Output file: <images/bunny_remesh_after_fld-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-17 23:08:38
-(epstopdf)                    size: 152711 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/bunny_remesh_after_fld-eps-converted-to.pdf images/bunny_remesh_after_fld.eps>
-(epstopdf)             \includegraphics on input line 1533.
-Package epstopdf Info: Output file is already uptodate.
-<images/bunny_remesh_after_fld-eps-converted-to.pdf, id=127, 246.9225pt x 246.9225pt>
-File: images/bunny_remesh_after_fld-eps-converted-to.pdf Graphic file (type pdf)
-<use images/bunny_remesh_after_fld-eps-converted-to.pdf>
-Package pdftex.def Info: images/bunny_remesh_after_fld-eps-converted-to.pdf  used on input line 1533.
-(pdftex.def)             Requested size: 122.85876pt x 122.8581pt.
-Package epstopdf Info: Source file: <images/bunny_remesh_after.eps>
-(epstopdf)                    date: 2022-11-17 22:50:45
-(epstopdf)                    size: 5806407 bytes
-(epstopdf)             Output file: <images/bunny_remesh_after-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-17 23:08:39
-(epstopdf)                    size: 584229 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/bunny_remesh_after-eps-converted-to.pdf images/bunny_remesh_after.eps>
-(epstopdf)             \includegraphics on input line 1534.
-Package epstopdf Info: Output file is already uptodate.
-<images/bunny_remesh_after-eps-converted-to.pdf, id=128, 289.08pt x 289.08pt>
-File: images/bunny_remesh_after-eps-converted-to.pdf Graphic file (type pdf)
-<use images/bunny_remesh_after-eps-converted-to.pdf>
-Package pdftex.def Info: images/bunny_remesh_after-eps-converted-to.pdf  used on input line 1534.
-(pdftex.def)             Requested size: 122.85876pt x 122.85516pt.
-
-Overfull \hbox (8.32684pt too wide) in paragraph at lines 1526--1537
- []$ 
- []
-
-
-LaTeX Warning: Citation 'Alliez:03' on page 7 undefined on input line 1557.
-
-
-LaTeX Warning: Citation 'Alliez:03' on page 7 undefined on input line 1560.
-
-
-LaTeX Warning: Citation 'Marinov:04' on page 7 undefined on input line 1560.
-
-
-LaTeX Warning: Citation 'Dong:05' on page 7 undefined on input line 1560.
-
-
-LaTeX Warning: Citation 'Ray:06' on page 7 undefined on input line 1561.
-
-
-LaTeX Warning: Citation 'Tong:06' on page 7 undefined on input line 1566.
-
-
-LaTeX Warning: Citation 'Dong:06' on page 7 undefined on input line 1569.
-
-[7 <./images/cancel_step1_4sym-eps-converted-to.pdf> <./images/cancel_step2_4sym-eps-converted-to.pdf>]
-
-LaTeX Warning: Citation 'Alliez:03' on page 8 undefined on input line 1595.
-
-
-LaTeX Warning: Citation 'Ray:06' on page 8 undefined on input line 1598.
-
-Package epstopdf Info: Source file: <images/dragon_hiRes.eps>
-(epstopdf)                    date: 2022-11-17 22:50:45
-(epstopdf)                    size: 3495966 bytes
-(epstopdf)             Output file: <images/dragon_hiRes-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-17 23:08:39
-(epstopdf)                    size: 621622 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/dragon_hiRes-eps-converted-to.pdf images/dragon_hiRes.eps>
-(epstopdf)             \includegraphics on input line 1601.
-Package epstopdf Info: Output file is already uptodate.
-<images/dragon_hiRes-eps-converted-to.pdf, id=139, 1011.78pt x 863.225pt>
-File: images/dragon_hiRes-eps-converted-to.pdf Graphic file (type pdf)
-<use images/dragon_hiRes-eps-converted-to.pdf>
-Package pdftex.def Info: images/dragon_hiRes-eps-converted-to.pdf  used on input line 1601.
-(pdftex.def)             Requested size: 1011.77753pt x 863.2229pt.
-
-LaTeX Warning: Citation 'Ray:06' on page 8 undefined on input line 1640.
-
-
-LaTeX Warning: Citation 'Tong:06' on page 8 undefined on input line 1640.
-
-
-LaTeX Warning: Citation 'Zhang:07' on page 8 undefined on input line 1657.
-
-[8 <./images/bimba_before_antiA-eps-converted-to.pdf> <./images/bimba_middle_antiA-eps-converted-to.pdf> <./images/bimba_after_antiA-eps-converted-to.pdf>]
-No file nn_loss.bbl.
-[9 <./images/bunny_remesh_too_smooth_fld-eps-converted-to.pdf> <./images/bunny_remesh_too_smooth-eps-converted-to.pdf> <./images/bunny_remesh_after_fld-eps-converted-to.pdf> <./images/bunny_remesh_after-eps-converted-to.pdf> <./images/dragon_hiRes-eps-converted-to.pdf>] (./nn_loss.aux)
+ <./images/cancel_step0_4sym-eps-converted-to.pdf> <./images/cancel_step0_1sym-eps-converted-to.pdf>] (./nn_loss.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 3947 strings out of 478268
- 65396 string characters out of 5846346
- 376696 words of memory out of 5000000
- 22041 multiletter control sequences out of 15000+600000
- 523600 words of font info for 149 fonts, out of 8000000 for 9000
+ 3768 strings out of 478268
+ 58397 string characters out of 5846346
+ 361378 words of memory out of 5000000
+ 21893 multiletter control sequences out of 15000+600000
+ 517103 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,62p,932b,355s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on nn_loss.pdf (9 pages, 4251781 bytes).
+ 55i,13n,62p,551b,355s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on nn_loss.pdf (3 pages, 1335604 bytes).
 PDF statistics:
- 227 PDF objects out of 1000 (max. 8388607)
- 104 compressed objects within 2 object streams
+ 91 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 151 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: nn_loss.aux
+The style file: acmsiggraph.bst
+Database file #1: nn_loss.bib
+Warning--I didn't find a database entry for "Praun:00"
+Warning--I didn't find a database entry for "Turk:01"
+Warning--I didn't find a database entry for "Wei:01"
+Warning--I didn't find a database entry for "Theisel:02"
+Warning--I didn't find a database entry for "Stam:03"
+Warning--I didn't find a database entry for "Zhang:06"
+Warning--I didn't find a database entry for "Zhang:07"
+Warning--I didn't find a database entry for "Hertzmann:00"
+Warning--I didn't find a database entry for "Ray:06"
+Warning--I didn't find a database entry for "ray:07"
+Warning--I didn't find a database entry for "vanWijk:02"
+Warning--I didn't find a database entry for "vanWijk:03"
+Warning--I didn't find a database entry for "Chen:07"
+Warning--I didn't find a database entry for "Helman:91"
+Warning--empty organization in NEURIPS2018_a41b3bb3
+You've used 1 entry,
+            2748 wiz_defined-function locations,
+            630 strings with 4934 characters,
+and the built_in function-call counts, 559 in all, are:
+= -- 41
+> -- 48
+< -- 0
++ -- 16
+- -- 16
+* -- 55
+:= -- 111
+add.period$ -- 4
+call.type$ -- 1
+change.case$ -- 9
+chr.to.int$ -- 1
+cite$ -- 2
+duplicate$ -- 17
+empty$ -- 32
+format.name$ -- 17
+if$ -- 104
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 1
+newline$ -- 9
+num.names$ -- 5
+pop$ -- 10
+preamble$ -- 1
+purify$ -- 8
+quote$ -- 0
+skip$ -- 10
+stack$ -- 0
+substring$ -- 5
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 8
+warning$ -- 1
+while$ -- 3
+width$ -- 2
+write$ -- 18
+(There were 15 warnings)
