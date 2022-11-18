@@ -1,17 +1,16 @@
 # Fdb version 3
-["bibtex nn_loss"] 1668807461 "nn_loss.aux" "nn_loss.bbl" "nn_loss" 1668807462
+["bibtex nn_loss"] 1668810698 "nn_loss.aux" "nn_loss.bbl" "nn_loss" 1668810699
   "./acmsiggraph.bst" 1668754245 23437 379793d86df76794fd7d06d3cc00dde1 ""
-  "nn_loss.aux" 1668807462 3766 abd6fefc9f639c5b9f9a43c6fa94cf2f "pdflatex"
-  "nn_loss.bib" 1668800254 547 632e4f9cc3dd37416045ff05f5424458 ""
+  "nn_loss.aux" 1668810699 3883 e3308d6d9743ea54ba9fed6c81845d98 "pdflatex"
+  "nn_loss.bib" 1668810321 3164 57178f3acc74814b6307a037414fcbe6 ""
   (generated)
   "nn_loss.bbl"
   "nn_loss.blg"
-["pdflatex"] 1668807461 "/Users/mattm/repos/cs_453/sv_term_project/proposal/nn_loss.tex" "nn_loss.pdf" "nn_loss" 1668807462
-  "/Users/mattm/repos/cs_453/sv_term_project/proposal/nn_loss.tex" 1668807459 10971 209df600cb5c18ac2514f6349a9d9c77 ""
+["pdflatex"] 1668810698 "/Users/mattm/repos/cs_453/sv_term_project/proposal/nn_loss.tex" "nn_loss.pdf" "nn_loss" 1668810699
+  "/Users/mattm/repos/cs_453/sv_term_project/proposal/nn_loss.tex" 1668810696 9979 375b156f02fff91070e481a61c734f4b ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
-  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/times/psyro.tfm" 1136768653 1544 23a042a74981a3e4b6ce2e350e390409 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm" 1136768653 4524 6bce29db5bc272ba5f332261583fee9c ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm" 1136768653 2124 2601a75482e9426d33db523edf23570a ""
@@ -26,8 +25,6 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/times/zptmcm7y.tfm" 1136768653 1520 ad7b3c1a480a03b3e41b5fbb13d938f2 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1246382020 908 2921f8a10601f252058503cc6570e581 ""
-  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
-  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmss10.tfm" 1136768653 1316 b636689f1933f24d1294acdf6041daaa ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmss12.tfm" 1136768653 1324 37b971caf729d7edd9cbb9f9b0ea76eb ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm" 1136768653 1272 e2d13f0df30bf3ad990bb9d028e37f34 ""
@@ -48,8 +45,6 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf" 1136768653 3556 8a9a6dcbcd146ef985683f677f4758a6 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/vf/adobe/times/ptmrc7t.vf" 1136768653 1948 7330aeef3af211edff3b35fb2c12a0fd ""
   "/usr/local/texlive/2022/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf" 1136768653 1384 a9d8adaf491ce34e5fba99dc7bbe5f39 ""
-  "/usr/local/texlive/2022/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf" 1136768653 1132 27520247d3fe18d4266a226b461885c2 ""
-  "/usr/local/texlive/2022/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf" 1136768653 1108 d271d6f9de4122c3f8d3b65666167fac ""
   "/usr/local/texlive/2022/texmf-dist/fonts/vf/adobe/times/zptmcm7y.vf" 1136768653 964 5673178ff30617b900214de28ab32b38 ""
   "/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2022/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -117,10 +112,10 @@
   "acmsiggraph.cls" 1668754245 17089 9fcce482b7b9b32d5dc0ee62888f6ad0 ""
   "images/scalar-field-teaser.png" 1668798105 826027 9fe619a9dd1ad57692d61356b984db8b ""
   "images/traj-plot-SGD.png" 1668807251 1138905 e35184e444aab7aa8ad5c4ffd9ae04c1 ""
-  "nn_loss.aux" 1668807462 3766 abd6fefc9f639c5b9f9a43c6fa94cf2f "pdflatex"
-  "nn_loss.bbl" 1668807461 497 a3f83208c726103805bd80ee8c805cbf "bibtex nn_loss"
-  "nn_loss.out" 1668807462 1148 82a3e6733cfd6b4a4fdcb8523e2e1321 "pdflatex"
-  "nn_loss.tex" 1668807459 10971 209df600cb5c18ac2514f6349a9d9c77 ""
+  "nn_loss.aux" 1668810699 3883 e3308d6d9743ea54ba9fed6c81845d98 "pdflatex"
+  "nn_loss.bbl" 1668810698 1895 cf7673ed0584dc58aadc598ddb232364 "bibtex nn_loss"
+  "nn_loss.out" 1668810699 1023 99e27f59b6c1438214d2c67e265f29dd "pdflatex"
+  "nn_loss.tex" 1668810696 9979 375b156f02fff91070e481a61c734f4b ""
   (generated)
   "nn_loss.aux"
   "nn_loss.log"

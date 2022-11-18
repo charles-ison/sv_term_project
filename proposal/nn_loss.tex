@@ -70,7 +70,7 @@ surfaces, topology.}
 			\includegraphics[width=5.50in]{/Users/mattm/repos/cs_453/sv_term_project/proposal/images/scalar-field-teaser.png}
 			\\
 		\end{array}$
-	\caption{Example of a loss landscape visualization from the paper: (a) without skip connections, (b) with skip connections. 
+	\caption{Example of two visualizations from the paper of interest: (a) the loss function of a neural network architecture without skip connections, and (b) with skip connections. 
 		We propose to implement these visualizations as the first step of our term project, then proceeding with creating other visualizations and enhancing them. } \label{fig:teaser} }
 
 %% The ``\maketitle'' command must be the first command after the
@@ -84,7 +84,7 @@ surfaces, topology.}
 
 	\copyrightspace
 
-	The abstract will be written in the final report...
+	The abstract will be written as part of the final write-up...
 
 \end{abstract}
 
@@ -111,19 +111,19 @@ surfaces, topology.}
 %% page of your paper.
 
 
-For our term project, we propose that the paper "Visualizing the Loss Landscape of Neural Nets" (\url{https://arxiv.org/pdf/1712.09913.pdf}) be used for Option 2 (implementing a published research paper). 
+For our term project, we propose to use the paper "Visualizing the Loss Landscape of Neural Nets" (\url{https://arxiv.org/pdf/1712.09913.pdf}) for Option 2 (implementing a published research paper). 
 In this paper, the authors create scalar field visualizations of various neural network architectures that they call “Loss Landscapes.” In these visualizations, the loss function’s results serve as the scalar value and a two dimensional reduction of the model’s weights serves the directional elements of the field. 
 The specific loss functions used in the original paper are cross entropy (\url{https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html}) and mean squared error (\url{https://pytorch.org/docs/stable/generated/torch.nn.MSELoss.html}). 
 The dimensionality reduction is done using two different approaches: principal component analysis and random vector selection. 
-For the later approach, two random vectors within the input space created by sampling a random Gaussian distribution. These vectors are used as the two dimensions of the scalar field input.
-The resulting loss landscapes generated can then provide insights about how certain architectural decisions can improve or worsen a network's trainability.
+For the later approach, two random vectors within the input space are created by sampling a random Gaussian distribution. These vectors are used as the two dimensions of the scalar field input.
+The resulting loss landscapes generated can then provide insights into how certain architectural decisions can improve or worsen a network's trainability.
 
 Just like the original authors, we will have to generate our own datasets by creating test models of multiple popular neural network architectures and recording their performance across a range of weights. 
 The original authors tested ResNet and VGG architectures with various permutations, which we can recreate and also potentially extend to newer architectures such as a Vision Transformer (\url{https://arxiv.org/pdf/2010.11929v2.pdf}). 
 To create our loss dataset, we will also use the CIFAR-10 dataset (\url{https://www.cs.toronto.edu/~kriz/cifar.html}) as input into our testing models like the original paper. 
 The models will be created in Python using PyTorch and then our results exported to PLY files which we will use to generate corresponding visualizations in OpenGL.
 
-To evaluate the correctness of our models we will use four separate criteria. 
+To evaluate the correctness of our models we will use four separate criteria:
 
 
 \begin{enumerate}
@@ -137,68 +137,6 @@ To evaluate the correctness of our models we will use four separate criteria.
 \end{enumerate}
 
 
-\section{Previous Work}
-\label{sec:previous_work}
-
-There has been a significant amount of work in the analysis and
-design of vector and tensor fields. In contrast, relatively little
-is known about $N$-RoSy fields when $N \ge 3$.
-
-	{\bf $N$-RoSy Analysis and Design:} To the best of our knowledge,
-Hertzmann and Zorin~\shortcite{Hertzmann:00} are the first to
-propose that hatches should follow a cross field ($4$-RoSy). They
-provide a smoothing operation on $4$-RoSy fields that is based on a
-non-linear optimization. Ray et al.~\shortcite{Ray:06} construct a
-periodic global parameterization that facilitates quad remeshing. At
-the heart of their approach is the use of $4$-RoSy fields, which
-allows more natural-shaped quads to be generated near singularities.
-They also develop a framework that allows the optimization to be
-performed on the sines and cosines of the parameterization, which
-turns a non-linear optimization into a linear one. They later
-provide the analysis of singularities on $N$-RoSy's by extending the
-Poincar\'e-Hopf theorem as well as describe an algorithm in which a
-field with a minimal number of singularities can be constructed
-based on user-specified constraints and the Euler characteristic of
-the underlying surface~\cite{ray:07}.
-
-{\bf Vector and Tensor Field Design:} There have been a number of
-vector field design systems for surfaces. Most of them are generated
-for a particular graphics application such as texture
-synthesis~\cite{Praun:00,Turk:01,Wei:01}, fluid
-simulation~\cite{Stam:03}, and vector field
-visualization~\cite{vanWijk:02,vanWijk:03}. These systems do not
-address topological control in the field. Systems providing
-topological control include~\cite{Theisel:02,Zhang:06}. The system
-of Zhang et al. has also been extended to create periodic
-orbits~\cite{Chen:07} and to design tensor fields~\cite{NEURIPS2018_a41b3bb3}.
-Our system is also reminiscent of the vector field design system of
-Zhang et al.~\shortcite{Zhang:06} in terms of the functionality.
-However, the implementation is rather different.
-
-	{\bf Vector and Tensor Field Analysis:} There has been much work in
-vector and tensor field analysis. To review all the work is beyond
-the scope of this paper. Here we refer to the most relevant work.
-Helman and Hesselink~\shortcite{Helman:91} propose vector field
-visualization techniques based on topological analysis. Delmarcelle
-and Hesselink provide analysis of second-order symmetric tensor
-fields~\shortcite{NEURIPS2018_a41b3bb3}.
-
-%Cabral and Leedom present a texture-based visualization for vector
-%fields, which they termed {\em LIC} (Line-integral
-%convolution)~\cite{Cabral:93}. This technique is of high quality.
-%Later, van Wijk~\shortcite{vanWijk:02,vanWijk:03} provides an
-%image-based flow visualization technique (IBFV) that is of similar
-%quality but much faster due to the use of graphics hardware. Zhang
-%et al.~\shortcite{Zhang:07} extend IBFV to symmetric second-order
-%tensor fields.
-
-\section{Vector-Based Representation}
-\label{sec:representation}
-
-TODO...
-
-
-
 \begin{figure}[t]
 	\begin{center}
 		$\begin{array}{@{\hspace{-0.00in}}c@{\hspace{0.05in}}c}
@@ -209,29 +147,53 @@ TODO...
 	\caption{ Plots from the original authors visualizing the model's convergence to a local minimum during gradient descent. } \label{fig:descent_trajectory}
 \end{figure}
 
-\section{Topological Analysis of $N$-RoSy Fields}
-\label{sec:analysis}
 
-In this section, TODO...
 
-\section{Design of $N$-RoSy Fields}
-\label{sec:design}
+\section{Related Work}
+\label{sec:previous_work}
 
-In this section, TODO\dots
+There have been a significant number of theoretical studies on the ability to optimize neural loss functions in order for neural networks to train faster and 
+perform better against a generalized task. Less work has been conducted on the relationship between sharpness/flatness of local minima and their
+generalization ability. However, one paper by ~\cite{hochreiter1997flat} defined “flatness” as the size of the connected
+region around the minimum where the training loss remains low which is visualized by this work.
+
+Since the paper was released in 2018, numerous other works have cited it. However, many of the citations are not from works attempting to advance the visualizations,
+but rather to learn from the visualizations in their research on developing more generalizable and accurate models. The visualizations have come in handy for researchers studying reinforcement learning models
+such as \cite{actor2020} and \cite{plaat2022deep}.
+
+There are some recent works which produce new visualizations of loss functions. One such by ~\cite{pmlr-v137-huang20a}, "Understanding Generalization Through Visualizations", use 
+visualization methods to make the mystery of neural network generalization more intuitive. They first visualize loss as a scalar field with height and color
+representing the output. But they also use a colored dot plot and a "Swissroll decision boundary" to show the difference in models that perform well versus
+models that perform poorly at generalizing.
+
+An interesting extension of this work by ~\cite{linse2022walk} visualizes large neural networks in virtual reality. The approach allows for 
+hgh interactivity, but requires a virtual reality headset and powerful computer to render.
+
+
+\section{Scalar Field Representation}
+\label{sec:representation}
+
+In the final paper, we will display and discuss our results here\dots
+
+\subsection{Extracting Critical Points}
+\label{sec:pen_and_ink}
+
+To be written in the final report.
+
+\subsection{Tracing Stochastic Gradient Descent}
+\label{sec:pen_and_ink}
+
+To be written in the final report.
 
 
 
 \section{Applications}
 \label{sec:application}
 
-We have applied our design system to pen-and-ink sketching and
-quad-dominant remeshing.
+The predominant application of visualizing loss functions is for scientists to better understand how loss function geometry affects generalization in neural nets. 
+We will continue this thought in the final report.
 
 
-\subsection{Example Subsection}
-\label{sec:pen_and_ink}
-
-Subsection, TODO\dots
 
 
 
