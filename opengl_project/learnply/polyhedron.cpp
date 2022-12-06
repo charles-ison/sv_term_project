@@ -14,6 +14,7 @@ The polygon data structure
 #include "icMatrix.H"
 #include "polyhedron.h"
 #include "ply_io.h"
+#include <iostream>
 
 static PlyFile* in_ply;
 
@@ -71,6 +72,8 @@ Polyhedron::Polyhedron(FILE *file)
 				vlist[j]->scalar = vert.s;
 
 				vlist[j]->other_props = vert.other_props;
+
+				//std::cout << vlist[j]->x << " " << vlist[j]->y << " " << vlist[j]->z << " " << std::endl;
 			}
 		}
 		else if (equal_strings("face", elem_name)) {

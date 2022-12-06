@@ -131,6 +131,7 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="gradient_descent.cpp" />
     <ClCompile Include="learnply.cpp" />
     <ClCompile Include="polyline.cpp" />
     <ClCompile Include="ply.cpp">
@@ -139,8 +140,8 @@
       <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
     </ClCompile>
     <ClCompile Include="polyhedron.cpp" />
-    <ClCompile Include="Project1.cpp" />
-    <ClCompile Include="Project2.cpp" />
+    <ClCompile Include="color_and_height_transform.cpp" />
+    <ClCompile Include="contour_and_crit_point.cpp" />
     <ClCompile Include="tmatrix.cpp">
       <Optimization Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Disabled</Optimization>
       <BasicRuntimeChecks Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">EnableFastChecks</BasicRuntimeChecks>
@@ -155,14 +156,15 @@
   <ItemGroup>
     <ClInclude Include="drawUtil.h" />
     <ClInclude Include="glError.h" />
+    <ClInclude Include="gradient_descent.h" />
     <ClInclude Include="icMatrix.H" />
     <ClInclude Include="icVector.H" />
     <ClInclude Include="ply_io.h" />
     <ClInclude Include="ply.h" />
     <ClInclude Include="polyhedron.h" />
     <ClInclude Include="polyline.h" />
-    <ClInclude Include="Project1.h" />
-    <ClInclude Include="Project2.h" />
+    <ClInclude Include="color_and_height_transform.h" />
+    <ClInclude Include="contour_and_crit_point.h" />
     <ClInclude Include="tmatrix.h" />
     <ClInclude Include="trackball.h" />
   </ItemGroup>

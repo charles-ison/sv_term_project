@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
-#include <string.h>
+#include <string>
 #include <fstream>
 #include <vector>
-
+#include  <iostream>
 #include "glError.h"
 #include "gl/glew.h"
 #include "gl/freeglut.h"
@@ -17,8 +17,9 @@
 
 #include "drawUtil.h"
 #include "polyline.h"
-#include "Project1.h"
-#include "Project2.h"
+#include "color_and_height_transform.h"
+#include "contour_and_crit_point.h"
+#include "gradient_descent.h"
 
 Polyhedron* poly;
 std::vector<PolyLine> lines;
@@ -26,6 +27,8 @@ std::vector<icVector3> points;
 
 std::vector<POLYLINE> polylines;
 std::vector<CRITICAL_POINT> critical_points;
+
+std::vector<icVector3> grad_descent_points;
 
 /*scene related variables*/
 const float zoomspeed = 0.9;
@@ -92,10 +95,15 @@ void display_polyhedron(Polyhedron* poly);
 Main program.
 ******************************************************************************/
 
+
+
 int main(int argc, char* argv[])
 {
+	/*load gradient descent data from csv file*/
+	grad_descent_points = load_grad_descent_points_from_csv();
+
 	/*load mesh from ply file*/
-	const char* filepath = "../data/loss_data/resnet_random_dirs.ply";
+	const char* filepath = "../data/loss_data/new_data_ResNet_Random_Directions_random.ply";
 	FILE* this_file = fopen(filepath, "r");
 	if (this_file == NULL) {
 		printf("Cannot find file %s\n", filepath);
@@ -494,7 +502,7 @@ void keyboard(unsigned char key, int x, int y) {
 	points.clear();
 
 	// clear out lines and points
-	polylines.clear();
+	//polylines.clear();
 	critical_points.clear();
 
 	switch (key) {
@@ -580,47 +588,47 @@ void keyboard(unsigned char key, int x, int y) {
 	case 'z': {
 		// This is step 2a in Project 2:
 		polylines.clear();
-		project2_pt2a();
+		generate_and_show_contours();
 
 	} break;
 
 	case 'x': {
 		// This is step 2b in Project 2:
 		polylines.clear();
-		project2_pt2b();
+		generate_and_show_colored_contours();
 
 	} break;
 
 	case 'c': {
 		// This is step 2c in Project 2:
 		polylines.clear();
-		project1_pt2();
-		project2_pt2a();
+		transform_and_show_height();
+		generate_and_show_contours();
 
 	} break;
 
 	case 'v': {
 		// This is step 2d in Project 2:
 		polylines.clear();
-		project1_pt2();
-		project2_pt2b();
+		transform_and_show_height();
+		generate_and_show_colored_contours();
 
 	} break;
 
 	case 'b': {
 		// This is step 3 in Project 2 with heights:
 		polylines.clear();
-		project1_pt2();
-		project2_pt2b();
-		project2_pt3a();
+		transform_and_show_height();
+		generate_and_show_colored_contours();
+		generate_and_show_critical_points();
 
 	} break;
 
 	case 'n': {
 		// This is step 3 in Project 2:
 		polylines.clear();
-		project2_pt2b();
-		project2_pt3a();
+		generate_and_show_colored_contours();
+		generate_and_show_critical_points();
 
 	} break;
 
@@ -634,36 +642,41 @@ void keyboard(unsigned char key, int x, int y) {
 		break;
 
 	case 't':
-		project1_pt1a();
+		transform_and_show_greyscale();
 		break;
 
 	case 'y':
-		project1_pt1b();
+		transform_and_show_bicolor();
 		break;
 
 	case 'u':
-		project1_pt1c();
+		transform_and_show_rainbow_colors();
 		break;
 
 	case 'i':
-		project1_pt2();
+		transform_and_show_height();
 		break;
 
 	case 'o':
-		project1_pt1a();
-		project1_pt2();
+		transform_and_show_greyscale();
+		transform_and_show_height();
 		break;
 
 	case 'p':
-		project1_pt1b();
-		project1_pt2();
+		transform_and_show_bicolor();
+		transform_and_show_height();
 		break;
 
 	case '[':
-		project1_pt1c();
-		project1_pt2();
+		transform_and_show_rainbow_colors();
+		transform_and_show_height();
 		break;
 
+	case 'g':
+		add_grad_descent_points_to_polylines(grad_descent_points, &polylines);
+		glutPostRedisplay();
+		break;
+		
 	}
 
 }

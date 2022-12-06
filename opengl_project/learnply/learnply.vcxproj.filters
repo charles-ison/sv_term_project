@@ -30,13 +30,16 @@
     <ClCompile Include="learnply.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Project1.cpp">
+    <ClCompile Include="color_and_height_transform.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Project2.cpp">
+    <ClCompile Include="contour_and_crit_point.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="polyline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gradient_descent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -71,10 +74,13 @@
     <ClInclude Include="drawUtil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Project1.h">
+    <ClInclude Include="color_and_height_transform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Project2.h">
+    <ClInclude Include="contour_and_crit_point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gradient_descent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
