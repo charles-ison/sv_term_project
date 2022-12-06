@@ -1,0 +1,4 @@
+﻿  Project2.cpp
+learnply.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  learnply.vcxproj -> \\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\Debug\learnply.exe
+  0 File(s) copied
