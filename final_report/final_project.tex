@@ -18,7 +18,7 @@
 
 \acmformat{cameraready}
 
-\title{CS 553 Term Project: Visualizing the Loss Landscape of Neural Nets}
+\title{CS 4/553 Term Project: Visualizing the Loss Landscape of Neural Nets}
 
 \author{Charles Ison\thanks{\small\texttt{e-mail: \{isonc|morgamat\}@eecs.oregonstate.edu}}\\ Oregon State University
 \and Matthew Morgan$^{\ast}$ \\
@@ -30,12 +30,14 @@ Oregon State University}
 
 \teaser{
 	%\centerline{\epsfig{file=images/teaser.eps,angle=0,width=\textwidth}}
-	$\begin{array}{@{\hspace{-0.00in}}c@{\hspace{0.05in}}c@{\hspace{0.05in}}c@{\hspace{0.05in}}c}
-			\includegraphics[width=5.50in]{images/scalar-field-teaser.png}
+	$\begin{array}{@{\hspace{-0.00in}}c@{\hspace{0.10in}}c@{\hspace{0.10in}}c@{\hspace{0.05in}}c}
+			\includegraphics[width=2.50in]{images/resnet_normalized_color.png}
+			&\includegraphics[width=2.50in]{images/vgg-normalized-color.png}
 			\\
+			(a)  &  (b)
 		\end{array}$
-	\caption{Two visualizations from the proposed paper: (a) the loss function of a neural network architecture without skip connections, and (b) with skip connections.
-		We propose to implement these visualizations as the first step of our term project, then proceeding with creating other visualizations and enhancing them. } \label{fig:teaser} }
+	\caption{The loss landscapes of two different models trained on the same dataset for the same number of epochs: 
+	(a) ResNet50, and (b) VGG11. } \label{fig:teaser} }
 
 \maketitle
 \keywordlist
@@ -45,6 +47,7 @@ Oregon State University}
 
 	\copyrightspace
 	
+	TODO:
 	Designing rotational symmetries on surfaces is a necessary task for
 	a wide variety of graphics applications, such as surface
 	parameterization and remeshing, painterly rendering and pen-and-ink
@@ -89,14 +92,27 @@ Oregon State University}
 \section{Introduction}
 \label{sec:intro}
 
-For our term project, we propose to use the paper "Visualizing the Loss Landscape of Neural Nets" (\url{https://arxiv.org/pdf/1712.09913.pdf}) for Option 2 (implementing a published research paper). In this paper, the authors create scalar field visualizations of various neural network architectures that they call “Loss Landscapes.” In these visualizations, the loss function’s results serve as the scalar value and a two dimensional reduction of the model’s weights serves the directional elements of the field. The specific loss functions used in the original paper are cross entropy (\url{https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html}) and mean squared error (\url{https://pytorch.org/docs/stable/generated/torch.nn.MSELoss.html}).
-The dimensionality reduction is done using two different approaches: principal component analysis and random vector selection. For the later approach, two random vectors within the input space are created by sampling a random Gaussian distribution. These vectors are used as the two dimensions of the scalar field input. The resulting loss landscapes generated can then provide insights into how certain architectural decisions can improve or worsen a network's trainability.
+Neural networks are machine learning models constructed from interconnected nodes. 
+Backpropagation through gradient descent is one commonly used algorithm for training neural networks.
+By visualizing neural network loss functions as scalar fields, can we better understand the impact of various network architectures on the model’s trainability.
+
+
+In this project, we implement the paper "Visualizing the Loss Landscape of Neural Nets" (\url{https://arxiv.org/pdf/1712.09913.pdf}) for Option 2 (implementing a published research paper). 
+By mapping the loss of a neural network across two dimensions, we create scalar field visualizations of various neural network architectures that the paper authors call “Loss Landscapes.” 
+In these visualizations, the loss function’s results serve as the scalar value and a two dimensional reduction of the model’s weights serves the directional elements of the field. 
+The specific loss functions used in the original paper are cross entropy (\url{https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html}) and mean squared error (\url{https://pytorch.org/docs/stable/generated/torch.nn.MSELoss.html}).
+The dimensionality reduction is done using two different approaches: principal component analysis and random vector selection. 
+For the later approach, two random vectors within the input space are created by sampling a random Gaussian distribution. 
+These vectors are used as the two dimensions of the scalar field input. 
+The resulting loss landscapes generated can then provide insights into how certain architectural decisions can improve or worsen a network's trainability.
 
 
 \section{Previous Work}
 \label{sec:previous_work}
 
-There have been numerous studies on the ability to optimize neural loss functions in order to improve training time and model performance. Less work has been conducted on visualizing the losses though to gain intuition about how certain architectural decisions impact the loss field's convexity. However, one paper by ~\cite{hochreiter1997flat} defined “flatness” as the size of the connected region around the minimum where the training loss remains low which is visualized by this work. Since the paper was released in 2018, numerous other works have cited it. However, many of the citations are not from works attempting to advance the visualizations, but rather to learn from the visualizations and develop more generalizable and accurate models. The visualizations have come in handy for researchers studying reinforcement learning models such as \cite{actor2020} and \cite{plaat2022deep}.
+There have been numerous studies on the ability to optimize neural loss functions in order to improve training time and model performance. 
+Less work has been conducted on visualizing the losses though to gain intuition about how certain architectural decisions impact the loss field's convexity. 
+However, one paper by ~\cite{hochreiter1997flat} defined “flatness” as the size of the connected region around the minimum where the training loss remains low which is visualized by this work. Since the paper was released in 2018, numerous other works have cited it. However, many of the citations are not from works attempting to advance the visualizations, but rather to learn from the visualizations and develop more generalizable and accurate models. The visualizations have come in handy for researchers studying reinforcement learning models such as \cite{actor2020} and \cite{plaat2022deep}.
 
 There are some recent works which produce new visualizations of loss functions. One such by ~\cite{pmlr-v137-huang20a}, "Understanding Generalization Through Visualizations", use
 visualization methods to give intuitions about why certain architectures generalize better than others. They first visualize loss as a scalar field with height and color representing the output. But they also use a colored dot plot and a "Swissroll decision boundary" to show the difference in models that perform well versus models that perform poorly at generalizing.
@@ -107,6 +123,7 @@ An interesting extension of this work by ~\cite{linse2022walk} visualizes large 
 \section{Background}
 \label{sec:intro}
 
+TODO:
 Magnam nulla non possimus est error aliquam non iste. Hic praesentium perspiciatis numquam. Necessitatibus aut mollitia porro quod. Libero voluptatum illo exercitationem incidunt voluptate. Vero ut sapiente quia nisi possimus non. Consequuntur molestiae voluptas eum illo ut quo qui.
 Et quod dolore maxime. Quo omnis ut a iure ut facere. Asperiores et explicabo aliquid omnis ratione laborum libero. Aperiam fuga facilis soluta non suscipit.
 Saepe velit ut iusto dolorum beatae quae expedita. Facere quia aut architecto velit quibusdam iste. Explicabo a provident debitis. Quia dolore numquam qui laboriosam consectetur necessitatibus.
@@ -117,6 +134,7 @@ Eos facilis aut id commodi quis id maiores. Labore distinctio nobis deserunt per
 \section{Results}
 \label{sec:intro}
 
+TODO:
 Magnam nulla non possimus est error aliquam non iste. Hic praesentium perspiciatis numquam. Necessitatibus aut mollitia porro quod. Libero voluptatum illo exercitationem incidunt voluptate. Vero ut sapiente quia nisi possimus non. Consequuntur molestiae voluptas eum illo ut quo qui.
 Et quod dolore maxime. Quo omnis ut a iure ut facere. Asperiores et explicabo aliquid omnis ratione laborum libero. Aperiam fuga facilis soluta non suscipit.
 Saepe velit ut iusto dolorum beatae quae expedita. Facere quia aut architecto velit quibusdam iste. Explicabo a provident debitis. Quia dolore numquam qui laboriosam consectetur necessitatibus.
@@ -127,6 +145,7 @@ Eos facilis aut id commodi quis id maiores. Labore distinctio nobis deserunt per
 \section{Evaluation}
 \label{sec:intro}
 
+TODO:
 Magnam nulla non possimus est error aliquam non iste. Hic praesentium perspiciatis numquam. Necessitatibus aut mollitia porro quod. Libero voluptatum illo exercitationem incidunt voluptate. Vero ut sapiente quia nisi possimus non. Consequuntur molestiae voluptas eum illo ut quo qui.
 Et quod dolore maxime. Quo omnis ut a iure ut facere. Asperiores et explicabo aliquid omnis ratione laborum libero. Aperiam fuga facilis soluta non suscipit.
 Saepe velit ut iusto dolorum beatae quae expedita. Facere quia aut architecto velit quibusdam iste. Explicabo a provident debitis. Quia dolore numquam qui laboriosam consectetur necessitatibus.
@@ -151,6 +170,7 @@ Charles also contributed to the OpenGL visualizations by extracting and showing 
 \section{Conclusions}
 \label{sec:intro}
 
+TODO:
 Magnam nulla non possimus est error aliquam non iste. Hic praesentium perspiciatis numquam. Necessitatibus aut mollitia porro quod. Libero voluptatum illo exercitationem incidunt voluptate. Vero ut sapiente quia nisi possimus non. Consequuntur molestiae voluptas eum illo ut quo qui.
 Et quod dolore maxime. Quo omnis ut a iure ut facere. Asperiores et explicabo aliquid omnis ratione laborum libero. Aperiam fuga facilis soluta non suscipit.
 Saepe velit ut iusto dolorum beatae quae expedita. Facere quia aut architecto velit quibusdam iste. Explicabo a provident debitis. Quia dolore numquam qui laboriosam consectetur necessitatibus.
