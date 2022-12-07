@@ -715,6 +715,13 @@ INPUT ./images/traj-plot-SGD.png
 INPUT images/traj-plot-SGD.png
 INPUT ./images/traj-plot-SGD.png
 INPUT ./images/traj-plot-SGD.png
+INPUT ./final_project.bbl
+INPUT final_project.bbl
+INPUT ./final_project.bbl
+INPUT final_project.bbl
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmrc7t.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/adobe/times/ptmrc7t.vf
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT final_project.aux
 INPUT ./final_project.out
 INPUT ./final_project.out

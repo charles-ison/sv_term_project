@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex final_project"] 1670451507 "final_project.aux" "final_project.bbl" "final_project" 1670451507
+["bibtex final_project"] 1670451935 "final_project.aux" "final_project.bbl" "final_project" 1670451936
   "./acmsiggraph.bst" 1670370624 23437 379793d86df76794fd7d06d3cc00dde1 ""
-  "final_project.aux" 1670451354 2833 11df708a947b3356f882529230b59b68 "pdflatex"
-  "nn_loss.bib" 0 -1 0 ""
+  "final_project.aux" 1670451936 3278 3a4557de0f1d28fa0bfaecf350650c43 "pdflatex"
+  "final_project_references.bib" 1670451879 3164 57178f3acc74814b6307a037414fcbe6 ""
   (generated)
   "final_project.bbl"
   "final_project.blg"
-["pdflatex"] 1670451353 "/Users/mattm/repos/cs_453/sv_term_project/final_report/final_project.tex" "final_project.pdf" "final_project" 1670451507
-  "/Users/mattm/repos/cs_453/sv_term_project/final_report/final_project.tex" 1670451505 12877 be5c48a28c305c86a4e9a89ee33603ca ""
+["pdflatex"] 1670451935 "/Users/mattm/repos/cs_453/sv_term_project/final_report/final_project.tex" "final_project.pdf" "final_project" 1670451936
+  "/Users/mattm/repos/cs_453/sv_term_project/final_report/final_project.tex" 1670451933 12894 454faec628c9bbccae828c758e106755 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -17,6 +17,7 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm" 1136768653 2124 2601a75482e9426d33db523edf23570a ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm" 1136768653 1352 fa28a7e6d323c65ce7d13d5342ff6be2 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm" 1136768653 4408 25b74d011a4c66b7f212c0cc3c90061b ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmrc7t.tfm" 1136768653 2680 312a2d12b1f1df8ee0212e7ba1962402 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm" 1136768653 2288 f478fc8fed18759effb59f3dad7f3084 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm" 1136768653 4640 532ca3305aad10cc01d769f3f91f1029 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/times/zptmcm7m.tfm" 1136768653 2232 db256afffc8202da192b4641df14d602 ""
@@ -44,6 +45,7 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf" 1136768653 1372 788387fea833ef5963f4c5bffe33eb89 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf" 1136768653 1380 0ea3a3370054be6da6acd929ec569f06 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf" 1136768653 3556 8a9a6dcbcd146ef985683f677f4758a6 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/vf/adobe/times/ptmrc7t.vf" 1136768653 1948 7330aeef3af211edff3b35fb2c12a0fd ""
   "/usr/local/texlive/2022/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf" 1136768653 1384 a9d8adaf491ce34e5fba99dc7bbe5f39 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf" 1136768653 1132 27520247d3fe18d4266a226b461885c2 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf" 1136768653 1108 d271d6f9de4122c3f8d3b65666167fac ""
@@ -112,10 +114,10 @@
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1668755082 2826450 f69859864132c6cf14889cf64d493e1f ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "acmsiggraph.cls" 1670370624 17089 9fcce482b7b9b32d5dc0ee62888f6ad0 ""
-  "final_project.aux" 1670451354 2833 11df708a947b3356f882529230b59b68 "pdflatex"
-  "final_project.bbl" 0 -1 0 "bibtex final_project"
-  "final_project.out" 1670451354 710 b6888c349fd94b0800f1fa9671dc77a3 "pdflatex"
-  "final_project.tex" 1670451505 12877 be5c48a28c305c86a4e9a89ee33603ca ""
+  "final_project.aux" 1670451936 3278 3a4557de0f1d28fa0bfaecf350650c43 "pdflatex"
+  "final_project.bbl" 1670451935 1895 cf7673ed0584dc58aadc598ddb232364 "bibtex final_project"
+  "final_project.out" 1670451936 710 b6888c349fd94b0800f1fa9671dc77a3 "pdflatex"
+  "final_project.tex" 1670451933 12894 454faec628c9bbccae828c758e106755 ""
   "images/resnet_normalized_color.png" 1670450727 611866 4cef4eba8f98d9f4cf3ad8345393d0ff ""
   "images/traj-plot-SGD.png" 1670370624 1138905 e35184e444aab7aa8ad5c4ffd9ae04c1 ""
   "images/vgg-normalized-color.png" 1670451134 685144 df45e45b7c5625fa846d72b0c55e7fc7 ""
