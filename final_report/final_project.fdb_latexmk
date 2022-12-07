@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex final_project"] 1670371226 "final_project.aux" "final_project.bbl" "final_project" 1670371287
+["bibtex final_project"] 1670372822 "final_project.aux" "final_project.bbl" "final_project" 1670373131
   "./acmsiggraph.bst" 1670370624 23437 379793d86df76794fd7d06d3cc00dde1 ""
-  "final_project.aux" 1670371287 3619 df37881c559f75189111f6c43a5ba927 "pdflatex"
+  "final_project.aux" 1670373131 3619 df37881c559f75189111f6c43a5ba927 "pdflatex"
   "nn_loss.bib" 0 -1 0 ""
   (generated)
   "final_project.bbl"
   "final_project.blg"
-["pdflatex"] 1670371286 "/Users/mattm/repos/cs_453/sv_term_project/final_report/final_project.tex" "final_project.pdf" "final_project" 1670371287
-  "/Users/mattm/repos/cs_453/sv_term_project/final_report/final_project.tex" 1670371286 12464 40b016f2f4431ba565df156d055492fd ""
+["pdflatex"] 1670373130 "/Users/mattm/repos/cs_453/sv_term_project/final_report/final_project.tex" "final_project.pdf" "final_project" 1670373131
+  "/Users/mattm/repos/cs_453/sv_term_project/final_report/final_project.tex" 1670373130 12535 2fbbb71098a4789ebcc3761ae5941a08 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -112,10 +112,10 @@
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1668755082 2826450 f69859864132c6cf14889cf64d493e1f ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "acmsiggraph.cls" 1670370624 17089 9fcce482b7b9b32d5dc0ee62888f6ad0 ""
-  "final_project.aux" 1670371287 3619 df37881c559f75189111f6c43a5ba927 "pdflatex"
+  "final_project.aux" 1670373131 3619 df37881c559f75189111f6c43a5ba927 "pdflatex"
   "final_project.bbl" 1670370722 1895 cf7673ed0584dc58aadc598ddb232364 "bibtex final_project"
-  "final_project.out" 1670371287 710 b6888c349fd94b0800f1fa9671dc77a3 "pdflatex"
-  "final_project.tex" 1670371286 12464 40b016f2f4431ba565df156d055492fd ""
+  "final_project.out" 1670373131 710 b6888c349fd94b0800f1fa9671dc77a3 "pdflatex"
+  "final_project.tex" 1670373130 12535 2fbbb71098a4789ebcc3761ae5941a08 ""
   "images/scalar-field-teaser.png" 1670370624 826027 9fe619a9dd1ad57692d61356b984db8b ""
   "images/traj-plot-SGD.png" 1670370624 1138905 e35184e444aab7aa8ad5c4ffd9ae04c1 ""
   (generated)

@@ -137,11 +137,15 @@ Eos facilis aut id commodi quis id maiores. Labore distinctio nobis deserunt per
 \section{Division of Tasks}
 \label{sec:intro}
 
-Magnam nulla non possimus est error aliquam non iste. Hic praesentium perspiciatis numquam. Necessitatibus aut mollitia porro quod. Libero voluptatum illo exercitationem incidunt voluptate. Vero ut sapiente quia nisi possimus non. Consequuntur molestiae voluptas eum illo ut quo qui.
-Et quod dolore maxime. Quo omnis ut a iure ut facere. Asperiores et explicabo aliquid omnis ratione laborum libero. Aperiam fuga facilis soluta non suscipit.
-Saepe velit ut iusto dolorum beatae quae expedita. Facere quia aut architecto velit quibusdam iste. Explicabo a provident debitis. Quia dolore numquam qui laboriosam consectetur necessitatibus.
-Quisquam officiis placeat vitae necessitatibus aut. Iure libero quae nostrum expedita quis voluptates harum. Delectus natus amet nihil voluptatem corporis maxime. Necessitatibus natus aut tempore aut et.
-Eos facilis aut id commodi quis id maiores. Labore distinctio nobis deserunt perferendis perferendis perferendis laborum temporibus. Dignissimos nostrum laudantium enim unde numquam temporibus ipsa. Qui ut officia enim est deserunt.
+Charles took responsibility for creating and training the ResNet and VGG models on CIFAR-10 dataset.
+He then implemented the dimensionality reduction techniques of principal component analysis and normalized random direction iteration.
+Next, by iteratively manipulate the models weights during training and testing, Charles constructed the loss landscape data as tensors from the PyTorch models.
+Matthew took responsibility for writing the code to export the loss landscape data from the PyTorch models to PLY files which could be visualized in OpenGL.
+Once in OpenGL, Matthew applied the techniques of mapping the landscape to color, visualizing the loss as height, and drawing contour lines across the scalar field.
+Additionally, Matthew took data from the model's training iterations and plotted the gradient descent of the model as a curve on the scalar field.
+Last, he compared and contrasted the different techniques to find the optimal combinations and discussed how they might be interpreted.
+Charles also contributed to the OpenGL visualizations by extracting and showing the critical points, as well as evaluating their correctness.
+
 
 
 \section{Conclusions}
