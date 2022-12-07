@@ -40,7 +40,6 @@ Oregon State University}
 	(a) ResNet50, and (b) VGG11. } \label{fig:teaser} }
 
 \maketitle
-\keywordlist
 
 
 \begin{abstract}
@@ -80,10 +79,6 @@ Oregon State University}
 	
 \end{abstract}
 
-\begin{CRcatlist}
-	\CRcat{I.3.5}{Computer Graphics}{Computational Geometry and
-	Object Modeling}{Geometric algorithms, languages, and systems};
-\end{CRcatlist}
 
 %% The ``\keywordlist'' command prints out the keywords.
 \keywordlist
@@ -112,7 +107,13 @@ The resulting loss landscapes generated can then provide insights into how certa
 
 There have been numerous studies on the ability to optimize neural loss functions in order to improve training time and model performance. 
 Less work has been conducted on visualizing the losses though to gain intuition about how certain architectural decisions impact the loss field's convexity. 
-However, one paper by ~\cite{hochreiter1997flat} defined “flatness” as the size of the connected region around the minimum where the training loss remains low which is visualized by this work. Since the paper was released in 2018, numerous other works have cited it. However, many of the citations are not from works attempting to advance the visualizations, but rather to learn from the visualizations and develop more generalizable and accurate models. The visualizations have come in handy for researchers studying reinforcement learning models such as \cite{actor2020} and \cite{plaat2022deep}.
+One of the original works in the space was published in 1997 by ~\cite{hochreiter1997flat}.
+The authors defined the “flatness” of a loss landscape as the size of the connected region around the minimum where the training loss remains low which is visualized by this work. 
+In the time since then, technology rapidly advanced and along with it the complexity of neural networks. The paper we are implementing, "Visualizing the Loss Landscape of Neural Nets",
+is one of the first to visualize the loss landscapes of modern architectures using both normalized random direction iteration and principal component analysis as dimensionality reduction techniques.
+Since the paper was released in 2018, numerous other works have cited it. 
+However, many of the citations are not from works attempting to advance the visualizations, but rather to learn from the visualizations and develop more generalizable and accurate models.
+The visualizations have come in handy for researchers studying reinforcement learning models such as \cite{actor2020} and \cite{plaat2022deep}.
 
 There are some recent works which produce new visualizations of loss functions. One such by ~\cite{pmlr-v137-huang20a}, "Understanding Generalization Through Visualizations", use
 visualization methods to give intuitions about why certain architectures generalize better than others. They first visualize loss as a scalar field with height and color representing the output. But they also use a colored dot plot and a "Swissroll decision boundary" to show the difference in models that perform well versus models that perform poorly at generalizing.
