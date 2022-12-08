@@ -6,8 +6,55 @@
 #include <string>
 #include <iostream>
 
+extern Polyhedron* poly;
+extern double HEIGHT_MULTIPLIER;
+
+bool insideQuad(const Quad* q, const icVector3& p) {
+	double v0x = q->verts[2]->x;
+	double v0y = q->verts[2]->y;
+	double v2x = q->verts[0]->x;
+	double v2y = q->verts[0]->y;
+	if (p.x <= v0x && p.x >= v2x && p.y <= v0y && p.y >= v2y)
+		return true;
+	else
+		return false;
+}
+
+
+Quad* findQuad(const icVector3& v) {
+	for (int i = 0; i < poly->nquads; i++) {
+		Quad* qtemp = poly->qlist[i];
+		if (insideQuad(qtemp, v))
+			return qtemp;
+	}
+
+	return nullptr;
+}
+
+double weighted_mean(Quad* q, icVector3& point) {
+	// Bilinear Interpolation / Weighted Mean
+	// https://en.wikipedia.org/wiki/Bilinear_interpolation#Weighted_mean
+
+	Vertex* v1 = q->verts[0]; // bottom-left
+	Vertex* v2 = q->verts[1]; // bottom-right
+	Vertex* v3 = q->verts[2]; // top-right
+	Vertex* v4 = q->verts[3]; // top-left
+	
+	double x1 = v1->x;
+	double y1 = v1->y;
+	double x2 = v3->x;
+	double y2 = v3->y;
+
+	double w_11 = (x2 - point.x) * (y2 - point.y) / ((x2 - x1) * (y2 - y1));
+	double w_12 = (x2 - point.x) * (point.y - y1) / ((x2 - x1) * (y2 - y1));
+	double w_21 = (point.x - x1) * (y2 - point.y) / ((x2 - x1) * (y2 - y1));
+	double w_22 = (point.x - x1) * (point.y - y1) / ((x2 - x1) * (y2 - y1));
+
+	return w_11 * v1->scalar + w_12 * v2->scalar + w_21 * v3->scalar + w_22 * v4->scalar;
+}
+
 std::vector<icVector3> load_grad_descent_points_from_csv() {
-	const char* csv_filepath = "../../jupyter_notebooks/runs/12_epochs_from_-10_to_12_with_2ss-19_0_12_7_2022/gradient_descent_results_PCA.csv";
+	const char* csv_filepath = "../../jupyter_notebooks/runs/PCA/VGG_PCA_gradient_descent_results.csv";
 	std::ifstream csv_filestream;
 	csv_filestream.open(csv_filepath);
 	if (!csv_filestream) {
@@ -16,31 +63,22 @@ std::vector<icVector3> load_grad_descent_points_from_csv() {
 	}
 	std::string x_string;
 	std::string y_string;
-	std::string z_string;
 
 	std::vector<icVector3> grad_descent_points;
 	double x;
 	double y;
-	double z;
 	while (getline(csv_filestream, x_string, ',')) {
 		x = stod(x_string);
 
-		getline(csv_filestream, y_string, ',');
+		getline(csv_filestream, y_string);
 		y = stod(y_string);
 
-		getline(csv_filestream, z_string);
-		z = stod(z_string);
+		icVector3 point(x, y, 0.0);
 
-		icVector3 vec(x, y, z);
-		grad_descent_points.push_back(vec);
+		Quad* q = findQuad(point);
+		point.z = weighted_mean(q, point) * HEIGHT_MULTIPLIER;
+		grad_descent_points.push_back(point);
 	}
-
-	// For debugging:
-	/*for (auto& vec : grad_descent_points) {
-		std::cout << "x: " << vec.x << " ";
-		std::cout << "y: " << vec.y << " ";
-		std::cout << "z: " << vec.z << "\n";
-	}*/
 
 	return grad_descent_points;
 }

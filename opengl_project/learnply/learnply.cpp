@@ -21,7 +21,7 @@
 #include "contour_and_crit_point.h"
 #include "gradient_descent.h"
 
-int NUM_CONTOURS = 20;
+int NUM_CONTOURS = 100;
 double HEIGHT_MULTIPLIER = 10;
 double CAP_HEIGHT = 1;
 bool APPLY_NORM = false;
@@ -102,14 +102,11 @@ Main program.
 ******************************************************************************/
 
 
-
 int main(int argc, char* argv[])
 {
-	/*load gradient descent data from csv file*/
-	grad_descent_points = load_grad_descent_points_from_csv();
 
 	/*load mesh from ply file*/
-	const char* filepath = "../../jupyter_notebooks/runs/12_epochs_from_-10_to_12_with_2ss-19_0_12_7_2022/new_data_VGG_PCA_pca.ply";
+	const char* filepath = "../../jupyter_notebooks/runs/PCA/VGG_PCA.ply";
 	FILE* this_file = fopen(filepath, "r");
 	if (this_file == NULL) {
 		printf("Cannot find file %s\n", filepath);
@@ -124,13 +121,16 @@ int main(int argc, char* argv[])
 	poly->write_info();
 
 
+	/*load gradient descent data from csv file*/
+	grad_descent_points = load_grad_descent_points_from_csv();
+	
+
 	/*init glut and create window*/
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
 	glutInitWindowPosition(20, 20);
 	glutInitWindowSize(win_width, win_height);
 	glutCreateWindow("Scientific Visualization");
-
 
 	/*initialize openGL*/
 	init();
@@ -509,7 +509,7 @@ void keyboard(unsigned char key, int x, int y) {
 
 	// clear out lines and points
 	//polylines.clear();
-	critical_points.clear();
+	//critical_points.clear();
 
 	switch (key) {
 	case 27:	// set excape key to exit program
@@ -644,6 +644,7 @@ void keyboard(unsigned char key, int x, int y) {
 		translation[0] = 0;
 		translation[1] = 0;
 		zoom = 1.0;
+		critical_points.clear();
 		glutPostRedisplay();
 		break;
 
@@ -680,14 +681,6 @@ void keyboard(unsigned char key, int x, int y) {
 
 	case 'g':
 		
-		//drawDot(0, 0, 0, 0.15, 1.0, 0.0, 0.0);
-
-		/*for (auto& polyline : polylines) {
-			for (auto it = polyline.m_vertices.begin(); it != polyline.m_vertices.end(); it++) {
-				drawDot(it->entry[0], it->entry[1], it->entry[2]);
-			}
-		}*/
-
 		add_grad_descent_points_to_polylines(grad_descent_points, &polylines);
 
 		glutPostRedisplay();
@@ -698,6 +691,15 @@ void keyboard(unsigned char key, int x, int y) {
 			auto& vertex = poly->vlist[i];
 			vertex->z = 5000;
 		}
+
+		// Matt: draw points
+		for (int k = 0; k < critical_points.size(); k++)
+		{
+			icVector3 point = critical_points[k].m_coord;
+			icVector3 rgb_color = critical_points[k].m_rgb;
+			drawDot(point.x, point.y, point.z, 0.01, rgb_color.x, rgb_color.y, rgb_color.z);
+		}
+
 		glutPostRedisplay();
 		break;
 
@@ -859,6 +861,8 @@ void mouse(int button, int state, int x, int y) {
 				hits = glRenderMode(GL_RENDER);
 				poly->selected_vertex = processHits(hits, selectBuf);
 				printf("Selected vert id = %d\n", poly->selected_vertex);
+				Vertex* temp_v = poly->vlist[poly->selected_vertex];
+				std::cout << "at: " << temp_v->x << " " << temp_v->y << " " << temp_v->z << std::endl;
 				glutPostRedisplay();
 
 			}
@@ -1055,7 +1059,7 @@ void display(void)
 	{
 		icVector3 point = critical_points[k].m_coord;
 		icVector3 rgb_color = critical_points[k].m_rgb;
-		drawDot(point.x, point.y, point.z, 0.15, rgb_color.x, rgb_color.y, rgb_color.z);
+		drawDot(point.x, point.y, point.z, 0.01, rgb_color.x, rgb_color.y, rgb_color.z);
 	}
 
 	glFlush();

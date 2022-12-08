@@ -108,7 +108,6 @@ void lookUpTable(
 	const Vertex& v3,
 	const double& iso_val) {
 
-	// TODO: currently at 1 hour, 12 minutes in lecture.
 	r.reserve(2);
 	int id = 0;
 	if (v0.scalar <= iso_val + EPSILON) {

@@ -225,15 +225,6 @@ void transform_and_show_height() {
 
 		vertex->z *= HEIGHT_MULTIPLIER;
 	}
-	
-	// Scale the height for each polyline
-	for (auto& line : polylines) {
-		auto& verts = line.m_vertices;
-		for (auto& vert : verts) {
-			vert.z *= HEIGHT_MULTIPLIER;
-		}
-	}
 
 	glutPostRedisplay();
-
 }
