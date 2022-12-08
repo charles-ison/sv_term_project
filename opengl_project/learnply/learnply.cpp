@@ -27,6 +27,8 @@ double CAP_HEIGHT = 1;
 bool APPLY_NORM = false;
 bool APPLY_LOG = false;
 
+bool draw_descent_dots = false;
+
 Polyhedron* poly;
 std::vector<PolyLine> lines;
 std::vector<icVector3> points;
@@ -645,6 +647,7 @@ void keyboard(unsigned char key, int x, int y) {
 		translation[1] = 0;
 		zoom = 1.0;
 		critical_points.clear();
+		draw_descent_dots = false;
 		glutPostRedisplay();
 		break;
 
@@ -680,8 +683,14 @@ void keyboard(unsigned char key, int x, int y) {
 		break;
 
 	case 'g':
-		
 		add_grad_descent_points_to_polylines(grad_descent_points, &polylines);
+		draw_descent_dots = true;
+
+		/*icVector3 color_1(1.0, 1.0, 0.0);
+		icVector3 color_2(0.0, 1.0, 1.0);
+		icVector3 start_point = grad_descent_points.front();
+		icVector3 end_point = grad_descent_points.back();*/
+
 
 		glutPostRedisplay();
 		break;
@@ -692,12 +701,21 @@ void keyboard(unsigned char key, int x, int y) {
 			vertex->z = 5000;
 		}
 
-		// Matt: draw points
+		// Draw critical points:
 		for (int k = 0; k < critical_points.size(); k++)
 		{
 			icVector3 point = critical_points[k].m_coord;
 			icVector3 rgb_color = critical_points[k].m_rgb;
 			drawDot(point.x, point.y, point.z, 0.15, rgb_color.x, rgb_color.y, rgb_color.z);
+		}
+
+		glutPostRedisplay();
+		break;
+
+	case ',':
+		for (int i = 0; i < poly->nverts; i++) {
+			auto& vertex = poly->vlist[i];
+			vertex->z = 0;
 		}
 
 		glutPostRedisplay();
@@ -1060,6 +1078,11 @@ void display(void)
 		icVector3 point = critical_points[k].m_coord;
 		icVector3 rgb_color = critical_points[k].m_rgb;
 		drawDot(point.x, point.y, point.z, 0.15, rgb_color.x, rgb_color.y, rgb_color.z);
+	}
+
+	if (draw_descent_dots) {
+		drawDot(grad_descent_points.front().x, grad_descent_points.front().y, grad_descent_points.front().z, 0.15, 1.0, 1.0, 0.0);
+		drawDot(grad_descent_points.back().x, grad_descent_points.back().y, grad_descent_points.back().z, 0.15, 0.0, 1.0, 1.0);
 	}
 
 	glFlush();

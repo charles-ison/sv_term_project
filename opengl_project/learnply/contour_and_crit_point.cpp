@@ -1,3 +1,5 @@
+#pragma once
+
 #include "contour_and_crit_point.h"
 #include "color_and_height_transform.h"
 #include "polyhedron.h"

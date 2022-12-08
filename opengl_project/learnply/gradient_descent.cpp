@@ -1,3 +1,5 @@
+#pragma once
+
 #include "gradient_descent.h"
 
 #include "polyline.h"
@@ -87,13 +89,16 @@ void add_grad_descent_points_to_polylines(std::vector<icVector3>& grad_descent_p
 	
 	bool use_solid_color = false;
 
-	// Create a gradient of color for the descent line from the top to the bottom of the line.
-	double min_height = grad_descent_points.back().z;
-	double max_height = grad_descent_points.front().z;
-
 	// Define two rgb colors
-	icVector3 color_1(1.0, 0.0, 0.0);
-	icVector3 color_2(0.0, 0.0, 1.0);
+	icVector3 color_1(1.0, 1.0, 0.0);
+	icVector3 color_2(0.0, 1.0, 1.0);
+
+	icVector3 start_point = grad_descent_points.front();
+	icVector3 end_point = grad_descent_points.back();
+
+	// Create a gradient of color for the descent line from the top to the bottom of the line.
+	double min_height = end_point.z;
+	double max_height = start_point.z;
 
 	for (int i = 1; i < grad_descent_points.size(); i++) {
 		icVector3 point_a = grad_descent_points[i - 1];
@@ -113,7 +118,7 @@ void add_grad_descent_points_to_polylines(std::vector<icVector3>& grad_descent_p
 		else {
 			line.m_rgb = icVector3(color.x, color.y, color.z);
 		}
-		line.m_weight = 2;
+		line.m_weight = 4;
 		polylines->push_back(line);
 	}
 }

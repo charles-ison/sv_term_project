@@ -1,3 +1,6 @@
+#pragma once
+
+
 #include "color_and_height_transform.h"
 #include "polyhedron.h"
 #include "GL/freeglut.h"
