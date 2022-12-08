@@ -27,7 +27,7 @@ RANDOM_STEP_SIZE = 0.04
 NUM_EPOCHS = 12
 time_now = datetime.now()
 
-OUTPUT_DIR = f"runs/{NUM_EPOCHS}_epochs_from_{START_PCA_RANGE}_to_{END_PCA_RANGE}_with_{PCA_STEP_SIZE}ss-{time_now.hour}_{time_now.minute}_{time_now.month}_{time_now.day}_{time_now.year}"
+OUTPUT_DIR = f"runs/{NUM_EPOCHS}_epochs-{time_now.hour}h_{time_now.minute}m_{time_now.month}_{time_now.day}_{time_now.year}"
 os.mkdir(OUTPUT_DIR)
 
 
@@ -266,11 +266,11 @@ def get_random_direction_losses(model, training_loader, testing_loader, criterio
     
     weights = get_weights(model)
 
-    random_x_directions = get_random_directions(weights, device);
-    random_y_directions = get_random_directions(weights, device);
+    random_x_directions = get_random_directions(weights, device)
+    random_y_directions = get_random_directions(weights, device)
 
-    normalize_directions(random_x_directions, weights);
-    normalize_directions(random_y_directions, weights);
+    normalize_directions(random_x_directions, weights)
+    normalize_directions(random_y_directions, weights)
 
     x_coordinates = np.arange(START_RANDOM_RANGE, END_RANDOM_RANGE, RANDOM_STEP_SIZE)   
     y_coordinates = np.arange(START_RANDOM_RANGE, END_RANDOM_RANGE, RANDOM_STEP_SIZE)   
@@ -363,8 +363,8 @@ def create_random_direction_loss_landscape(model, training_loader, testing_loade
     plot_figure(X, Y, Z, title)
     output_ply(f"{title}_random", X, Y, Z)
 
-def create_pca_loss_landscape(model, training_loader, criterion, device, historical_weights, historical_losses, title):
-    X, Y, Z = get_pca_losses(model, training_loader, criterion, device, historical_weights, historical_losses, title)
+def create_pca_loss_landscape(model, training_loader, criterion, device, historical_weights, title):
+    X, Y, Z = get_pca_losses(model, training_loader, criterion, device, historical_weights, title)
     plot_figure(X, Y, Z, title)
     output_ply(f"{title}_pca", X, Y, Z)
 
@@ -373,7 +373,7 @@ def create_loss_landscapes(model, training_loader, testing_loader, device, graph
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.SGD(model.parameters(), lr=0.001, momentum=0.9)
     historical_weights, historical_losses = pre_train_and_test(model, training_loader, testing_loader, criterion, optimizer)
-    create_pca_loss_landscape(model, training_loader, testing_loader, criterion, device, optimizer, historical_weights, historical_losses, graph_title + "_PCA")
+    create_pca_loss_landscape(model, training_loader, criterion, device, historical_weights, graph_title + "_PCA")
     create_random_direction_loss_landscape(model, training_loader, testing_loader, criterion, device, graph_title + "_Random_Directions")
 
 def create_VGG_loss_landscapes(training_loader, testing_loader, device):
