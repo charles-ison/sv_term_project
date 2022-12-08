@@ -7,7 +7,7 @@
 #include <iostream>
 
 std::vector<icVector3> load_grad_descent_points_from_csv() {
-	const char* csv_filepath = "../data/loss_data/gradient_descent_results.csv";
+	const char* csv_filepath = "../../jupyter_notebooks/runs/12_epochs_from_-10_to_12_with_2ss-19_0_12_7_2022/gradient_descent_results_PCA.csv";
 	std::ifstream csv_filestream;
 	csv_filestream.open(csv_filepath);
 	if (!csv_filestream) {
@@ -36,11 +36,11 @@ std::vector<icVector3> load_grad_descent_points_from_csv() {
 	}
 
 	// For debugging:
-	/* for (auto& vec : sgd_points) {
+	/*for (auto& vec : grad_descent_points) {
 		std::cout << "x: " << vec.x << " ";
 		std::cout << "y: " << vec.y << " ";
 		std::cout << "z: " << vec.z << "\n";
-	} */
+	}*/
 
 	return grad_descent_points;
 }

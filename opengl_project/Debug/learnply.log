@@ -44,27 +44,27 @@
 \\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(489,33): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
 \\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(489,22): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
 \\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(505,6): warning C4101: 'i': unreferenced local variable
-\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(707,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(708,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(756,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(757,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(953,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(954,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1011,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1011,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1045,20): warning C4018: '<': signed/unsigned mismatch
-\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1049,79): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1049,66): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1049,53): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1083,51): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
-\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1137,43): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1137,32): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1137,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1152,51): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
-\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1170,21): warning C4018: '<': signed/unsigned mismatch
-\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1176,21): warning C4018: '<': signed/unsigned mismatch
-\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1065,18): warning C4101: 'j': unreferenced local variable
-\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1065,15): warning C4101: 'i': unreferenced local variable
+\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(717,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(718,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(766,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(767,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(963,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(964,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1021,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1021,17): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1055,20): warning C4018: '<': signed/unsigned mismatch
+\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1059,79): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1059,66): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1059,53): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1093,51): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1147,43): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1147,32): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1147,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1162,51): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1180,21): warning C4018: '<': signed/unsigned mismatch
+\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1186,21): warning C4018: '<': signed/unsigned mismatch
+\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1075,18): warning C4101: 'j': unreferenced local variable
+\\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\learnply\learnply.cpp(1075,15): warning C4101: 'i': unreferenced local variable
 gradient_descent.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
   learnply.vcxproj -> \\depot.engr.oregonstate.edu\users\morgamat\Windows.Documents\Desktop\sv_term_project\opengl_project\Debug\learnply.exe
   0 File(s) copied

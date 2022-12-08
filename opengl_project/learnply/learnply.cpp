@@ -21,11 +21,10 @@
 #include "contour_and_crit_point.h"
 #include "gradient_descent.h"
 
-// Sets how many contours there are and the range of countour values:
 int NUM_CONTOURS = 20;
-double HEIGHT_MULTIPLIER = 500;
+double HEIGHT_MULTIPLIER = 10;
 double CAP_HEIGHT = 1;
-bool APPLY_NORM = true;
+bool APPLY_NORM = false;
 bool APPLY_LOG = false;
 
 Polyhedron* poly;
@@ -110,7 +109,7 @@ int main(int argc, char* argv[])
 	grad_descent_points = load_grad_descent_points_from_csv();
 
 	/*load mesh from ply file*/
-	const char* filepath = "../../jupyter_notebooks/runs/12_epochs_18_35_12_7_2022/new_data_VGG_PCA_pca.ply";
+	const char* filepath = "../../jupyter_notebooks/runs/12_epochs_from_-10_to_12_with_2ss-19_0_12_7_2022/new_data_VGG_PCA_pca.ply";
 	FILE* this_file = fopen(filepath, "r");
 	if (this_file == NULL) {
 		printf("Cannot find file %s\n", filepath);
@@ -680,14 +679,24 @@ void keyboard(unsigned char key, int x, int y) {
 		break;
 
 	case 'g':
+		
+		//drawDot(0, 0, 0, 0.15, 1.0, 0.0, 0.0);
+
+		/*for (auto& polyline : polylines) {
+			for (auto it = polyline.m_vertices.begin(); it != polyline.m_vertices.end(); it++) {
+				drawDot(it->entry[0], it->entry[1], it->entry[2]);
+			}
+		}*/
+
 		add_grad_descent_points_to_polylines(grad_descent_points, &polylines);
+
 		glutPostRedisplay();
 		break;
 		
 	case 'm':
 		for (int i = 0; i < poly->nverts; i++) {
 			auto& vertex = poly->vlist[i];
-			vertex->z = -100;
+			vertex->z = 5000;
 		}
 		glutPostRedisplay();
 		break;

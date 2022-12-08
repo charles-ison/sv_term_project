@@ -60,11 +60,8 @@ Polyhedron::Polyhedron(FILE *file)
 				Vertex_io vert;
 				get_element_ply(in_ply, (void *)&vert);
 
-
-				double scale_verts = 100;
-
 				/* copy info from the "vert" structure */
-				vlist[j] = new Vertex(vert.x * scale_verts, vert.y * scale_verts, vert.z * scale_verts);
+				vlist[j] = new Vertex(vert.x, vert.y, vert.z);
 				vlist[j]->vx = vert.vx;
 				vlist[j]->vy = vert.vy;
 				vlist[j]->vz = vert.vz;
