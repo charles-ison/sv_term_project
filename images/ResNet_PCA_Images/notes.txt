@@ -1,3 +1,0 @@
-From -9 to 10 with step size of 0.75
-took 30 minutes to run
-height scaled by a factor of 10, no other changes tranformations.

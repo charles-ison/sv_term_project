@@ -1,5 +1,0 @@
-Here are the parameters used to create the visualizations:
-int NUM_CONTOURS = 100;
-double HEIGHT_MULTIPLIER = 1;
-bool APPLY_NORM = false;
-bool APPLY_LOG = false;
