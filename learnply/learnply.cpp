@@ -21,15 +21,18 @@
 #include "contour_and_crit_point.h"
 #include "gradient_descent.h"
 
-int NUM_CONTOURS = 60;
 
-// Each of these parameters manipulates the height of the vertices:
-double CAP_HEIGHT = 1;	// Sets anything above a height of CAP_HEIGHT to CAP_HEIGHT.
+// User-Input Parameters:
+char* ply_filepath = "../jupyter_notebooks/runs/PCA/ResNet_PCA.ply";
+char* csv_filepath = "../jupyter_notebooks/runs/PCA/ResNet_PCA_gradient_descent_results.csv";
+bool is_pca = true;
+
+double CAP_HEIGHT = 1;
+double HEIGHT_MULTIPLIER = 10;
 bool APPLY_NORM = false;
 bool APPLY_LOG = false;
-double HEIGHT_MULTIPLIER = 10;
+int NUM_CONTOURS = 60;
 
-bool is_pca = true;
 
 Polyhedron* poly;
 std::vector<PolyLine> lines;
@@ -108,12 +111,10 @@ Main program.
 
 int main(int argc, char* argv[])
 {
-
 	/*load mesh from ply file*/
-	const char* filepath = "../jupyter_notebooks/runs/PCA/ResNet_PCA.ply";
-	FILE* this_file = fopen(filepath, "r");
+	FILE* this_file = fopen(ply_filepath, "r");
 	if (this_file == NULL) {
-		printf("Cannot find file %s\n", filepath);
+		printf("Cannot find file %s\n", ply_filepath);
 		return 1;
 	}
 
@@ -147,6 +148,9 @@ int main(int argc, char* argv[])
 	glutMotionFunc(motion);
 	glutMouseFunc(mouse);
 	glutMouseWheelFunc(mousewheel);
+
+	/*apply height transformations initially*/
+	transform_and_show_height();
 	
 	/*event processing loop*/
 	glutMainLoop();
@@ -628,7 +632,6 @@ void keyboard(unsigned char key, int x, int y) {
 
 	case 'b': {
 		// This is step 3 in Project 2 with heights:
-		polylines.clear();
 		transform_and_show_height();
 		generate_and_show_colored_contours();
 		generate_and_show_critical_points();
@@ -666,21 +669,21 @@ void keyboard(unsigned char key, int x, int y) {
 		transform_and_show_rainbow_colors();
 		break;
 
-	case 'i':
+	case 'a':
 		transform_and_show_height();
 		break;
 
-	case 'o':
+	case 'i':
 		transform_and_show_greyscale();
 		transform_and_show_height();
 		break;
 
-	case 'p':
+	case 'o':
 		transform_and_show_bicolor();
 		transform_and_show_height();
 		break;
 
-	case '[':
+	case 'p':
 		transform_and_show_rainbow_colors();
 		transform_and_show_height();
 		break;
@@ -695,7 +698,7 @@ void keyboard(unsigned char key, int x, int y) {
 		glutPostRedisplay();
 		break;
 		
-	case 'm':
+	case 'd':
 		for (int i = 0; i < poly->nverts; i++) {
 			auto& vertex = poly->vlist[i];
 			vertex->z = 5000;
@@ -712,7 +715,7 @@ void keyboard(unsigned char key, int x, int y) {
 		glutPostRedisplay();
 		break;
 
-	case ',':
+	case 's':
 		for (int i = 0; i < poly->nverts; i++) {
 			auto& vertex = poly->vlist[i];
 			vertex->z = 0;
@@ -1077,7 +1080,7 @@ void display(void)
 	{
 		icVector3 point = critical_points[k].m_coord;
 		icVector3 rgb_color = critical_points[k].m_rgb;
-		drawDot(point.x, point.y, point.z, 0.01, rgb_color.x, rgb_color.y, rgb_color.z);
+		drawDot(point.x, point.y, point.z, 0.012 * HEIGHT_MULTIPLIER, rgb_color.x, rgb_color.y, rgb_color.z);
 	}
 
 	/*display dots at the start and end of the gradient descent curve*/

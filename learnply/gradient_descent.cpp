@@ -7,6 +7,7 @@
 #include <iostream>
 
 extern Polyhedron* poly;
+extern char* csv_filepath;
 extern double HEIGHT_MULTIPLIER;
 
 bool insideQuad(const Quad* q, const icVector3& p) {
@@ -54,7 +55,6 @@ double interpolate_height_of_point_in_quad(Quad* q, icVector3& point) {
 }
 
 std::vector<icVector3> load_grad_descent_points_from_csv() {
-	const char* csv_filepath = "../jupyter_notebooks/runs/PCA/ResNet_PCA_gradient_descent_results.csv";
 	std::ifstream csv_filestream;
 	csv_filestream.open(csv_filepath);
 	if (!csv_filestream) {
