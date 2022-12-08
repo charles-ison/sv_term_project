@@ -1,0 +1,2783 @@
+getting data
+Files already downloaded and verified
+Files already downloaded and verified
+training VGG
+epoch: 0
+Train Loss: 0.3300, Train Acc: 0.10
+Test Loss: 0.2381, Test Acc: 0.17
+epoch: 1
+Train Loss: 0.2179, Train Acc: 0.22
+Test Loss: 0.1834, Test Acc: 0.33
+epoch: 2
+Train Loss: 0.1862, Train Acc: 0.33
+Test Loss: 0.1375, Test Acc: 0.50
+epoch: 3
+Train Loss: 0.1606, Train Acc: 0.42
+Test Loss: 0.1373, Test Acc: 0.49
+epoch: 4
+Train Loss: 0.1361, Train Acc: 0.50
+Test Loss: 0.1216, Test Acc: 0.57
+epoch: 5
+Train Loss: 0.1172, Train Acc: 0.58
+Test Loss: 0.1222, Test Acc: 0.56
+epoch: 6
+Train Loss: 0.1100, Train Acc: 0.60
+Test Loss: 0.0951, Test Acc: 0.67
+epoch: 7
+Train Loss: 0.0910, Train Acc: 0.70
+Test Loss: 0.0817, Test Acc: 0.72
+epoch: 8
+Train Loss: 0.0894, Train Acc: 0.69
+Test Loss: 0.0783, Test Acc: 0.74
+epoch: 9
+Train Loss: 0.0782, Train Acc: 0.73
+Test Loss: 0.0751, Test Acc: 0.74
+epoch: 10
+Train Loss: 0.0776, Train Acc: 0.72
+Test Loss: 0.0813, Test Acc: 0.71
+epoch: 11
+Train Loss: 0.0743, Train Acc: 0.74
+Test Loss: 0.0696, Test Acc: 0.75
+X: -9.0, Y: -9.0
+Training Loss: 4.1214
+X: -8.25, Y: -9.0
+Training Loss: 2.7300
+X: -7.5, Y: -9.0
+Training Loss: 1.9576
+X: -6.75, Y: -9.0
+Training Loss: 1.2969
+X: -6.0, Y: -9.0
+Training Loss: 0.9674
+X: -5.25, Y: -9.0
+Training Loss: 0.8058
+X: -4.5, Y: -9.0
+Training Loss: 0.6593
+X: -3.75, Y: -9.0
+Training Loss: 0.5701
+X: -3.0, Y: -9.0
+Training Loss: 0.4725
+X: -2.25, Y: -9.0
+Training Loss: 0.4306
+X: -1.5, Y: -9.0
+Training Loss: 0.4093
+X: -0.75, Y: -9.0
+Training Loss: 0.4382
+X: 0.0, Y: -9.0
+Training Loss: 0.5057
+X: 0.75, Y: -9.0
+Training Loss: 0.5992
+X: 1.5, Y: -9.0
+Training Loss: 0.7553
+X: 2.25, Y: -9.0
+Training Loss: 0.9878
+X: 3.0, Y: -9.0
+Training Loss: 1.2937
+X: 3.75, Y: -9.0
+Training Loss: 1.6633
+X: 4.5, Y: -9.0
+Training Loss: 2.4726
+X: 5.25, Y: -9.0
+Training Loss: 3.7254
+X: 6.0, Y: -9.0
+Training Loss: 5.4155
+X: 6.75, Y: -9.0
+Training Loss: 7.9607
+X: 7.5, Y: -9.0
+Training Loss: 11.9361
+X: 8.25, Y: -9.0
+Training Loss: 18.5027
+X: 9.0, Y: -9.0
+Training Loss: 30.4416
+X: 9.75, Y: -9.0
+Training Loss: 48.5338
+X: -9.0, Y: -8.25
+Training Loss: 4.4153
+X: -8.25, Y: -8.25
+Training Loss: 2.8120
+X: -7.5, Y: -8.25
+Training Loss: 1.8400
+X: -6.75, Y: -8.25
+Training Loss: 1.2680
+X: -6.0, Y: -8.25
+Training Loss: 0.9200
+X: -5.25, Y: -8.25
+Training Loss: 0.6710
+X: -4.5, Y: -8.25
+Training Loss: 0.5689
+X: -3.75, Y: -8.25
+Training Loss: 0.4934
+X: -3.0, Y: -8.25
+Training Loss: 0.4296
+X: -2.25, Y: -8.25
+Training Loss: 0.3882
+X: -1.5, Y: -8.25
+Training Loss: 0.3799
+X: -0.75, Y: -8.25
+Training Loss: 0.3853
+X: 0.0, Y: -8.25
+Training Loss: 0.4229
+X: 0.75, Y: -8.25
+Training Loss: 0.5207
+X: 1.5, Y: -8.25
+Training Loss: 0.6103
+X: 2.25, Y: -8.25
+Training Loss: 0.7208
+X: 3.0, Y: -8.25
+Training Loss: 0.8845
+X: 3.75, Y: -8.25
+Training Loss: 1.1464
+X: 4.5, Y: -8.25
+Training Loss: 1.5257
+X: 5.25, Y: -8.25
+Training Loss: 2.2032
+X: 6.0, Y: -8.25
+Training Loss: 3.3093
+X: 6.75, Y: -8.25
+Training Loss: 4.8018
+X: 7.5, Y: -8.25
+Training Loss: 7.4308
+X: 8.25, Y: -8.25
+Training Loss: 11.2602
+X: 9.0, Y: -8.25
+Training Loss: 18.5316
+X: 9.75, Y: -8.25
+Training Loss: 31.1502
+X: -9.0, Y: -7.5
+Training Loss: 4.4360
+X: -8.25, Y: -7.5
+Training Loss: 3.0755
+X: -7.5, Y: -7.5
+Training Loss: 1.9477
+X: -6.75, Y: -7.5
+Training Loss: 1.2503
+X: -6.0, Y: -7.5
+Training Loss: 0.8558
+X: -5.25, Y: -7.5
+Training Loss: 0.6256
+X: -4.5, Y: -7.5
+Training Loss: 0.5117
+X: -3.75, Y: -7.5
+Training Loss: 0.4371
+X: -3.0, Y: -7.5
+Training Loss: 0.3683
+X: -2.25, Y: -7.5
+Training Loss: 0.3383
+X: -1.5, Y: -7.5
+Training Loss: 0.3399
+X: -0.75, Y: -7.5
+Training Loss: 0.3479
+X: 0.0, Y: -7.5
+Training Loss: 0.3701
+X: 0.75, Y: -7.5
+Training Loss: 0.4197
+X: 1.5, Y: -7.5
+Training Loss: 0.4805
+X: 2.25, Y: -7.5
+Training Loss: 0.5481
+X: 3.0, Y: -7.5
+Training Loss: 0.6649
+X: 3.75, Y: -7.5
+Training Loss: 0.7712
+X: 4.5, Y: -7.5
+Training Loss: 0.9536
+X: 5.25, Y: -7.5
+Training Loss: 1.3678
+X: 6.0, Y: -7.5
+Training Loss: 1.9394
+X: 6.75, Y: -7.5
+Training Loss: 2.8946
+X: 7.5, Y: -7.5
+Training Loss: 4.4358
+X: 8.25, Y: -7.5
+Training Loss: 6.9268
+X: 9.0, Y: -7.5
+Training Loss: 11.8182
+X: 9.75, Y: -7.5
+Training Loss: 19.8034
+X: -9.0, Y: -6.75
+Training Loss: 4.3869
+X: -8.25, Y: -6.75
+Training Loss: 3.0285
+X: -7.5, Y: -6.75
+Training Loss: 2.0704
+X: -6.75, Y: -6.75
+Training Loss: 1.3424
+X: -6.0, Y: -6.75
+Training Loss: 0.8755
+X: -5.25, Y: -6.75
+Training Loss: 0.5930
+X: -4.5, Y: -6.75
+Training Loss: 0.4270
+X: -3.75, Y: -6.75
+Training Loss: 0.3628
+X: -3.0, Y: -6.75
+Training Loss: 0.3119
+X: -2.25, Y: -6.75
+Training Loss: 0.2996
+X: -1.5, Y: -6.75
+Training Loss: 0.2886
+X: -0.75, Y: -6.75
+Training Loss: 0.3071
+X: 0.0, Y: -6.75
+Training Loss: 0.3326
+X: 0.75, Y: -6.75
+Training Loss: 0.3585
+X: 1.5, Y: -6.75
+Training Loss: 0.3978
+X: 2.25, Y: -6.75
+Training Loss: 0.4423
+X: 3.0, Y: -6.75
+Training Loss: 0.4986
+X: 3.75, Y: -6.75
+Training Loss: 0.5692
+X: 4.5, Y: -6.75
+Training Loss: 0.6464
+X: 5.25, Y: -6.75
+Training Loss: 0.8016
+X: 6.0, Y: -6.75
+Training Loss: 1.1511
+X: 6.75, Y: -6.75
+Training Loss: 1.6460
+X: 7.5, Y: -6.75
+Training Loss: 2.5603
+X: 8.25, Y: -6.75
+Training Loss: 4.2891
+X: 9.0, Y: -6.75
+Training Loss: 7.3654
+X: 9.75, Y: -6.75
+Training Loss: 12.0807
+X: -9.0, Y: -6.0
+Training Loss: 4.5210
+X: -8.25, Y: -6.0
+Training Loss: 3.3323
+X: -7.5, Y: -6.0
+Training Loss: 2.1310
+X: -6.75, Y: -6.0
+Training Loss: 1.3395
+X: -6.0, Y: -6.0
+Training Loss: 0.8729
+X: -5.25, Y: -6.0
+Training Loss: 0.5479
+X: -4.5, Y: -6.0
+Training Loss: 0.3721
+X: -3.75, Y: -6.0
+Training Loss: 0.3285
+X: -3.0, Y: -6.0
+Training Loss: 0.2517
+X: -2.25, Y: -6.0
+Training Loss: 0.2416
+X: -1.5, Y: -6.0
+Training Loss: 0.2532
+X: -0.75, Y: -6.0
+Training Loss: 0.2766
+X: 0.0, Y: -6.0
+Training Loss: 0.3022
+X: 0.75, Y: -6.0
+Training Loss: 0.3299
+X: 1.5, Y: -6.0
+Training Loss: 0.3438
+X: 2.25, Y: -6.0
+Training Loss: 0.3617
+X: 3.0, Y: -6.0
+Training Loss: 0.3793
+X: 3.75, Y: -6.0
+Training Loss: 0.4147
+X: 4.5, Y: -6.0
+Training Loss: 0.4472
+X: 5.25, Y: -6.0
+Training Loss: 0.5456
+X: 6.0, Y: -6.0
+Training Loss: 0.7016
+X: 6.75, Y: -6.0
+Training Loss: 0.9959
+X: 7.5, Y: -6.0
+Training Loss: 1.5137
+X: 8.25, Y: -6.0
+Training Loss: 2.5397
+X: 9.0, Y: -6.0
+Training Loss: 4.6572
+X: 9.75, Y: -6.0
+Training Loss: 7.6402
+X: -9.0, Y: -5.25
+Training Loss: 4.4555
+X: -8.25, Y: -5.25
+Training Loss: 3.1806
+X: -7.5, Y: -5.25
+Training Loss: 2.1534
+X: -6.75, Y: -5.25
+Training Loss: 1.3200
+X: -6.0, Y: -5.25
+Training Loss: 0.9474
+X: -5.25, Y: -5.25
+Training Loss: 0.5711
+X: -4.5, Y: -5.25
+Training Loss: 0.3337
+X: -3.75, Y: -5.25
+Training Loss: 0.2736
+X: -3.0, Y: -5.25
+Training Loss: 0.2174
+X: -2.25, Y: -5.25
+Training Loss: 0.1864
+X: -1.5, Y: -5.25
+Training Loss: 0.1989
+X: -0.75, Y: -5.25
+Training Loss: 0.2334
+X: 0.0, Y: -5.25
+Training Loss: 0.2758
+X: 0.75, Y: -5.25
+Training Loss: 0.2999
+X: 1.5, Y: -5.25
+Training Loss: 0.3069
+X: 2.25, Y: -5.25
+Training Loss: 0.3181
+X: 3.0, Y: -5.25
+Training Loss: 0.3181
+X: 3.75, Y: -5.25
+Training Loss: 0.3175
+X: 4.5, Y: -5.25
+Training Loss: 0.3414
+X: 5.25, Y: -5.25
+Training Loss: 0.3763
+X: 6.0, Y: -5.25
+Training Loss: 0.4580
+X: 6.75, Y: -5.25
+Training Loss: 0.6015
+X: 7.5, Y: -5.25
+Training Loss: 0.9786
+X: 8.25, Y: -5.25
+Training Loss: 1.6086
+X: 9.0, Y: -5.25
+Training Loss: 2.7976
+X: 9.75, Y: -5.25
+Training Loss: 4.7686
+X: -9.0, Y: -4.5
+Training Loss: 4.3674
+X: -8.25, Y: -4.5
+Training Loss: 3.3910
+X: -7.5, Y: -4.5
+Training Loss: 2.1593
+X: -6.75, Y: -4.5
+Training Loss: 1.5159
+X: -6.0, Y: -4.5
+Training Loss: 0.9574
+X: -5.25, Y: -4.5
+Training Loss: 0.6267
+X: -4.5, Y: -4.5
+Training Loss: 0.3880
+X: -3.75, Y: -4.5
+Training Loss: 0.2516
+X: -3.0, Y: -4.5
+Training Loss: 0.1981
+X: -2.25, Y: -4.5
+Training Loss: 0.1596
+X: -1.5, Y: -4.5
+Training Loss: 0.1589
+X: -0.75, Y: -4.5
+Training Loss: 0.1912
+X: 0.0, Y: -4.5
+Training Loss: 0.2430
+X: 0.75, Y: -4.5
+Training Loss: 0.2806
+X: 1.5, Y: -4.5
+Training Loss: 0.2881
+X: 2.25, Y: -4.5
+Training Loss: 0.2857
+X: 3.0, Y: -4.5
+Training Loss: 0.2814
+X: 3.75, Y: -4.5
+Training Loss: 0.2846
+X: 4.5, Y: -4.5
+Training Loss: 0.2828
+X: 5.25, Y: -4.5
+Training Loss: 0.2932
+X: 6.0, Y: -4.5
+Training Loss: 0.3531
+X: 6.75, Y: -4.5
+Training Loss: 0.4434
+X: 7.5, Y: -4.5
+Training Loss: 0.6426
+X: 8.25, Y: -4.5
+Training Loss: 0.9798
+X: 9.0, Y: -4.5
+Training Loss: 1.6504
+X: 9.75, Y: -4.5
+Training Loss: 2.8832
+X: -9.0, Y: -3.75
+Training Loss: 4.6712
+X: -8.25, Y: -3.75
+Training Loss: 2.9622
+X: -7.5, Y: -3.75
+Training Loss: 2.0999
+X: -6.75, Y: -3.75
+Training Loss: 1.4272
+X: -6.0, Y: -3.75
+Training Loss: 0.9444
+X: -5.25, Y: -3.75
+Training Loss: 0.6036
+X: -4.5, Y: -3.75
+Training Loss: 0.3659
+X: -3.75, Y: -3.75
+Training Loss: 0.2225
+X: -3.0, Y: -3.75
+Training Loss: 0.1661
+X: -2.25, Y: -3.75
+Training Loss: 0.1285
+X: -1.5, Y: -3.75
+Training Loss: 0.1288
+X: -0.75, Y: -3.75
+Training Loss: 0.1470
+X: 0.0, Y: -3.75
+Training Loss: 0.2003
+X: 0.75, Y: -3.75
+Training Loss: 0.2522
+X: 1.5, Y: -3.75
+Training Loss: 0.2717
+X: 2.25, Y: -3.75
+Training Loss: 0.2749
+X: 3.0, Y: -3.75
+Training Loss: 0.2632
+X: 3.75, Y: -3.75
+Training Loss: 0.2524
+X: 4.5, Y: -3.75
+Training Loss: 0.2606
+X: 5.25, Y: -3.75
+Training Loss: 0.2648
+X: 6.0, Y: -3.75
+Training Loss: 0.2937
+X: 6.75, Y: -3.75
+Training Loss: 0.3579
+X: 7.5, Y: -3.75
+Training Loss: 0.4685
+X: 8.25, Y: -3.75
+Training Loss: 0.6963
+X: 9.0, Y: -3.75
+Training Loss: 1.0660
+X: 9.75, Y: -3.75
+Training Loss: 1.8001
+X: -9.0, Y: -3.0
+Training Loss: 4.3418
+X: -8.25, Y: -3.0
+Training Loss: 3.2706
+X: -7.5, Y: -3.0
+Training Loss: 2.2325
+X: -6.75, Y: -3.0
+Training Loss: 1.5089
+X: -6.0, Y: -3.0
+Training Loss: 0.9865
+X: -5.25, Y: -3.0
+Training Loss: 0.6191
+X: -4.5, Y: -3.0
+Training Loss: 0.4254
+X: -3.75, Y: -3.0
+Training Loss: 0.2216
+X: -3.0, Y: -3.0
+Training Loss: 0.1530
+X: -2.25, Y: -3.0
+Training Loss: 0.1158
+X: -1.5, Y: -3.0
+Training Loss: 0.0951
+X: -0.75, Y: -3.0
+Training Loss: 0.1079
+X: 0.0, Y: -3.0
+Training Loss: 0.1586
+X: 0.75, Y: -3.0
+Training Loss: 0.2170
+X: 1.5, Y: -3.0
+Training Loss: 0.2467
+X: 2.25, Y: -3.0
+Training Loss: 0.2539
+X: 3.0, Y: -3.0
+Training Loss: 0.2532
+X: 3.75, Y: -3.0
+Training Loss: 0.2458
+X: 4.5, Y: -3.0
+Training Loss: 0.2424
+X: 5.25, Y: -3.0
+Training Loss: 0.2525
+X: 6.0, Y: -3.0
+Training Loss: 0.2673
+X: 6.75, Y: -3.0
+Training Loss: 0.3163
+X: 7.5, Y: -3.0
+Training Loss: 0.4019
+X: 8.25, Y: -3.0
+Training Loss: 0.5242
+X: 9.0, Y: -3.0
+Training Loss: 0.7732
+X: 9.75, Y: -3.0
+Training Loss: 1.2202
+X: -9.0, Y: -2.25
+Training Loss: 4.4826
+X: -8.25, Y: -2.25
+Training Loss: 3.3022
+X: -7.5, Y: -2.25
+Training Loss: 2.1672
+X: -6.75, Y: -2.25
+Training Loss: 1.4586
+X: -6.0, Y: -2.25
+Training Loss: 1.0157
+X: -5.25, Y: -2.25
+Training Loss: 0.6393
+X: -4.5, Y: -2.25
+Training Loss: 0.3825
+X: -3.75, Y: -2.25
+Training Loss: 0.2315
+X: -3.0, Y: -2.25
+Training Loss: 0.1533
+X: -2.25, Y: -2.25
+Training Loss: 0.0976
+X: -1.5, Y: -2.25
+Training Loss: 0.0780
+X: -0.75, Y: -2.25
+Training Loss: 0.0842
+X: 0.0, Y: -2.25
+Training Loss: 0.1108
+X: 0.75, Y: -2.25
+Training Loss: 0.1579
+X: 1.5, Y: -2.25
+Training Loss: 0.2101
+X: 2.25, Y: -2.25
+Training Loss: 0.2356
+X: 3.0, Y: -2.25
+Training Loss: 0.2402
+X: 3.75, Y: -2.25
+Training Loss: 0.2347
+X: 4.5, Y: -2.25
+Training Loss: 0.2342
+X: 5.25, Y: -2.25
+Training Loss: 0.2438
+X: 6.0, Y: -2.25
+Training Loss: 0.2574
+X: 6.75, Y: -2.25
+Training Loss: 0.2952
+X: 7.5, Y: -2.25
+Training Loss: 0.3431
+X: 8.25, Y: -2.25
+Training Loss: 0.4460
+X: 9.0, Y: -2.25
+Training Loss: 0.6161
+X: 9.75, Y: -2.25
+Training Loss: 0.9188
+X: -9.0, Y: -1.5
+Training Loss: 4.4380
+X: -8.25, Y: -1.5
+Training Loss: 3.4247
+X: -7.5, Y: -1.5
+Training Loss: 2.2677
+X: -6.75, Y: -1.5
+Training Loss: 1.5389
+X: -6.0, Y: -1.5
+Training Loss: 1.0813
+X: -5.25, Y: -1.5
+Training Loss: 0.6678
+X: -4.5, Y: -1.5
+Training Loss: 0.4002
+X: -3.75, Y: -1.5
+Training Loss: 0.2351
+X: -3.0, Y: -1.5
+Training Loss: 0.1426
+X: -2.25, Y: -1.5
+Training Loss: 0.1040
+X: -1.5, Y: -1.5
+Training Loss: 0.0781
+X: -0.75, Y: -1.5
+Training Loss: 0.0665
+X: 0.0, Y: -1.5
+Training Loss: 0.0847
+X: 0.75, Y: -1.5
+Training Loss: 0.1211
+X: 1.5, Y: -1.5
+Training Loss: 0.1730
+X: 2.25, Y: -1.5
+Training Loss: 0.2070
+X: 3.0, Y: -1.5
+Training Loss: 0.2220
+X: 3.75, Y: -1.5
+Training Loss: 0.2247
+X: 4.5, Y: -1.5
+Training Loss: 0.2239
+X: 5.25, Y: -1.5
+Training Loss: 0.2339
+X: 6.0, Y: -1.5
+Training Loss: 0.2520
+X: 6.75, Y: -1.5
+Training Loss: 0.2798
+X: 7.5, Y: -1.5
+Training Loss: 0.3206
+X: 8.25, Y: -1.5
+Training Loss: 0.3902
+X: 9.0, Y: -1.5
+Training Loss: 0.5167
+X: 9.75, Y: -1.5
+Training Loss: 0.6980
+X: -9.0, Y: -0.75
+Training Loss: 4.5860
+X: -8.25, Y: -0.75
+Training Loss: 3.2444
+X: -7.5, Y: -0.75
+Training Loss: 2.4279
+X: -6.75, Y: -0.75
+Training Loss: 1.6377
+X: -6.0, Y: -0.75
+Training Loss: 1.1343
+X: -5.25, Y: -0.75
+Training Loss: 0.6880
+X: -4.5, Y: -0.75
+Training Loss: 0.3850
+X: -3.75, Y: -0.75
+Training Loss: 0.2514
+X: -3.0, Y: -0.75
+Training Loss: 0.1483
+X: -2.25, Y: -0.75
+Training Loss: 0.1072
+X: -1.5, Y: -0.75
+Training Loss: 0.0734
+X: -0.75, Y: -0.75
+Training Loss: 0.0654
+X: 0.0, Y: -0.75
+Training Loss: 0.0732
+X: 0.75, Y: -0.75
+Training Loss: 0.0935
+X: 1.5, Y: -0.75
+Training Loss: 0.1298
+X: 2.25, Y: -0.75
+Training Loss: 0.1756
+X: 3.0, Y: -0.75
+Training Loss: 0.1985
+X: 3.75, Y: -0.75
+Training Loss: 0.2065
+X: 4.5, Y: -0.75
+Training Loss: 0.2195
+X: 5.25, Y: -0.75
+Training Loss: 0.2320
+X: 6.0, Y: -0.75
+Training Loss: 0.2529
+X: 6.75, Y: -0.75
+Training Loss: 0.2799
+X: 7.5, Y: -0.75
+Training Loss: 0.3111
+X: 8.25, Y: -0.75
+Training Loss: 0.3595
+X: 9.0, Y: -0.75
+Training Loss: 0.4469
+X: 9.75, Y: -0.75
+Training Loss: 0.5886
+X: -9.0, Y: 0.0
+Training Loss: 4.7760
+X: -8.25, Y: 0.0
+Training Loss: 3.3725
+X: -7.5, Y: 0.0
+Training Loss: 2.3598
+X: -6.75, Y: 0.0
+Training Loss: 1.6000
+X: -6.0, Y: 0.0
+Training Loss: 1.1914
+X: -5.25, Y: 0.0
+Training Loss: 0.7922
+X: -4.5, Y: 0.0
+Training Loss: 0.4846
+X: -3.75, Y: 0.0
+Training Loss: 0.2898
+X: -3.0, Y: 0.0
+Training Loss: 0.1643
+X: -2.25, Y: 0.0
+Training Loss: 0.1102
+X: -1.5, Y: 0.0
+Training Loss: 0.0844
+X: -0.75, Y: 0.0
+Training Loss: 0.0662
+X: 0.0, Y: 0.0
+Training Loss: 0.0675
+X: 0.75, Y: 0.0
+Training Loss: 0.0753
+X: 1.5, Y: 0.0
+Training Loss: 0.1064
+X: 2.25, Y: 0.0
+Training Loss: 0.1362
+X: 3.0, Y: 0.0
+Training Loss: 0.1755
+X: 3.75, Y: 0.0
+Training Loss: 0.1898
+X: 4.5, Y: 0.0
+Training Loss: 0.2073
+X: 5.25, Y: 0.0
+Training Loss: 0.2228
+X: 6.0, Y: 0.0
+Training Loss: 0.2463
+X: 6.75, Y: 0.0
+Training Loss: 0.2813
+X: 7.5, Y: 0.0
+Training Loss: 0.3013
+X: 8.25, Y: 0.0
+Training Loss: 0.3501
+X: 9.0, Y: 0.0
+Training Loss: 0.4151
+X: 9.75, Y: 0.0
+Training Loss: 0.5231
+X: -9.0, Y: 0.75
+Training Loss: 4.9976
+X: -8.25, Y: 0.75
+Training Loss: 3.6658
+X: -7.5, Y: 0.75
+Training Loss: 2.5379
+X: -6.75, Y: 0.75
+Training Loss: 1.7947
+X: -6.0, Y: 0.75
+Training Loss: 1.2070
+X: -5.25, Y: 0.75
+Training Loss: 0.8657
+X: -4.5, Y: 0.75
+Training Loss: 0.5470
+X: -3.75, Y: 0.75
+Training Loss: 0.3000
+X: -3.0, Y: 0.75
+Training Loss: 0.1816
+X: -2.25, Y: 0.75
+Training Loss: 0.1281
+X: -1.5, Y: 0.75
+Training Loss: 0.0991
+X: -0.75, Y: 0.75
+Training Loss: 0.0757
+X: 0.0, Y: 0.75
+Training Loss: 0.0761
+X: 0.75, Y: 0.75
+Training Loss: 0.0781
+X: 1.5, Y: 0.75
+Training Loss: 0.0933
+X: 2.25, Y: 0.75
+Training Loss: 0.1170
+X: 3.0, Y: 0.75
+Training Loss: 0.1452
+X: 3.75, Y: 0.75
+Training Loss: 0.1682
+X: 4.5, Y: 0.75
+Training Loss: 0.1967
+X: 5.25, Y: 0.75
+Training Loss: 0.2208
+X: 6.0, Y: 0.75
+Training Loss: 0.2482
+X: 6.75, Y: 0.75
+Training Loss: 0.2852
+X: 7.5, Y: 0.75
+Training Loss: 0.3142
+X: 8.25, Y: 0.75
+Training Loss: 0.3695
+X: 9.0, Y: 0.75
+Training Loss: 0.4174
+X: 9.75, Y: 0.75
+Training Loss: 0.5094
+X: -9.0, Y: 1.5
+Training Loss: 5.2923
+X: -8.25, Y: 1.5
+Training Loss: 3.8208
+X: -7.5, Y: 1.5
+Training Loss: 2.6741
+X: -6.75, Y: 1.5
+Training Loss: 1.9677
+X: -6.0, Y: 1.5
+Training Loss: 1.4272
+X: -5.25, Y: 1.5
+Training Loss: 1.0118
+X: -4.5, Y: 1.5
+Training Loss: 0.6475
+X: -3.75, Y: 1.5
+Training Loss: 0.4017
+X: -3.0, Y: 1.5
+Training Loss: 0.2656
+X: -2.25, Y: 1.5
+Training Loss: 0.1630
+X: -1.5, Y: 1.5
+Training Loss: 0.1286
+X: -0.75, Y: 1.5
+Training Loss: 0.0882
+X: 0.0, Y: 1.5
+Training Loss: 0.0915
+X: 0.75, Y: 1.5
+Training Loss: 0.0936
+X: 1.5, Y: 1.5
+Training Loss: 0.0970
+X: 2.25, Y: 1.5
+Training Loss: 0.1140
+X: 3.0, Y: 1.5
+Training Loss: 0.1363
+X: 3.75, Y: 1.5
+Training Loss: 0.1568
+X: 4.5, Y: 1.5
+Training Loss: 0.1849
+X: 5.25, Y: 1.5
+Training Loss: 0.2162
+X: 6.0, Y: 1.5
+Training Loss: 0.2483
+X: 6.75, Y: 1.5
+Training Loss: 0.2909
+X: 7.5, Y: 1.5
+Training Loss: 0.3289
+X: 8.25, Y: 1.5
+Training Loss: 0.3852
+X: 9.0, Y: 1.5
+Training Loss: 0.4535
+X: 9.75, Y: 1.5
+Training Loss: 0.5266
+X: -9.0, Y: 2.25
+Training Loss: 5.7271
+X: -8.25, Y: 2.25
+Training Loss: 3.8940
+X: -7.5, Y: 2.25
+Training Loss: 3.0847
+X: -6.75, Y: 2.25
+Training Loss: 2.1944
+X: -6.0, Y: 2.25
+Training Loss: 1.6859
+X: -5.25, Y: 2.25
+Training Loss: 1.1247
+X: -4.5, Y: 2.25
+Training Loss: 0.8453
+X: -3.75, Y: 2.25
+Training Loss: 0.5343
+X: -3.0, Y: 2.25
+Training Loss: 0.3415
+X: -2.25, Y: 2.25
+Training Loss: 0.2284
+X: -1.5, Y: 2.25
+Training Loss: 0.1706
+X: -0.75, Y: 2.25
+Training Loss: 0.1308
+X: 0.0, Y: 2.25
+Training Loss: 0.1120
+X: 0.75, Y: 2.25
+Training Loss: 0.1149
+X: 1.5, Y: 2.25
+Training Loss: 0.1202
+X: 2.25, Y: 2.25
+Training Loss: 0.1286
+X: 3.0, Y: 2.25
+Training Loss: 0.1467
+X: 3.75, Y: 2.25
+Training Loss: 0.1611
+X: 4.5, Y: 2.25
+Training Loss: 0.1852
+X: 5.25, Y: 2.25
+Training Loss: 0.2091
+X: 6.0, Y: 2.25
+Training Loss: 0.2508
+X: 6.75, Y: 2.25
+Training Loss: 0.2997
+X: 7.5, Y: 2.25
+Training Loss: 0.3685
+X: 8.25, Y: 2.25
+Training Loss: 0.4245
+X: 9.0, Y: 2.25
+Training Loss: 0.5128
+X: 9.75, Y: 2.25
+Training Loss: 0.5698
+X: -9.0, Y: 3.0
+Training Loss: 5.7035
+X: -8.25, Y: 3.0
+Training Loss: 4.6025
+X: -7.5, Y: 3.0
+Training Loss: 3.4668
+X: -6.75, Y: 3.0
+Training Loss: 2.7259
+X: -6.0, Y: 3.0
+Training Loss: 2.0069
+X: -5.25, Y: 3.0
+Training Loss: 1.3687
+X: -4.5, Y: 3.0
+Training Loss: 1.0628
+X: -3.75, Y: 3.0
+Training Loss: 0.6951
+X: -3.0, Y: 3.0
+Training Loss: 0.4866
+X: -2.25, Y: 3.0
+Training Loss: 0.3297
+X: -1.5, Y: 3.0
+Training Loss: 0.2171
+X: -0.75, Y: 3.0
+Training Loss: 0.1752
+X: 0.0, Y: 3.0
+Training Loss: 0.1626
+X: 0.75, Y: 3.0
+Training Loss: 0.1511
+X: 1.5, Y: 3.0
+Training Loss: 0.1532
+X: 2.25, Y: 3.0
+Training Loss: 0.1565
+X: 3.0, Y: 3.0
+Training Loss: 0.1664
+X: 3.75, Y: 3.0
+Training Loss: 0.1937
+X: 4.5, Y: 3.0
+Training Loss: 0.2005
+X: 5.25, Y: 3.0
+Training Loss: 0.2413
+X: 6.0, Y: 3.0
+Training Loss: 0.2739
+X: 6.75, Y: 3.0
+Training Loss: 0.3274
+X: 7.5, Y: 3.0
+Training Loss: 0.3814
+X: 8.25, Y: 3.0
+Training Loss: 0.4751
+X: 9.0, Y: 3.0
+Training Loss: 0.5503
+X: 9.75, Y: 3.0
+Training Loss: 0.6635
+X: -9.0, Y: 3.75
+Training Loss: 6.6488
+X: -8.25, Y: 3.75
+Training Loss: 5.1036
+X: -7.5, Y: 3.75
+Training Loss: 4.0836
+X: -6.75, Y: 3.75
+Training Loss: 3.1131
+X: -6.0, Y: 3.75
+Training Loss: 2.2110
+X: -5.25, Y: 3.75
+Training Loss: 1.7818
+X: -4.5, Y: 3.75
+Training Loss: 1.2886
+X: -3.75, Y: 3.75
+Training Loss: 0.9751
+X: -3.0, Y: 3.75
+Training Loss: 0.7297
+X: -2.25, Y: 3.75
+Training Loss: 0.4674
+X: -1.5, Y: 3.75
+Training Loss: 0.3488
+X: -0.75, Y: 3.75
+Training Loss: 0.2648
+X: 0.0, Y: 3.75
+Training Loss: 0.2147
+X: 0.75, Y: 3.75
+Training Loss: 0.2105
+X: 1.5, Y: 3.75
+Training Loss: 0.1901
+X: 2.25, Y: 3.75
+Training Loss: 0.2101
+X: 3.0, Y: 3.75
+Training Loss: 0.2166
+X: 3.75, Y: 3.75
+Training Loss: 0.2243
+X: 4.5, Y: 3.75
+Training Loss: 0.2534
+X: 5.25, Y: 3.75
+Training Loss: 0.2652
+X: 6.0, Y: 3.75
+Training Loss: 0.3048
+X: 6.75, Y: 3.75
+Training Loss: 0.3689
+X: 7.5, Y: 3.75
+Training Loss: 0.4409
+X: 8.25, Y: 3.75
+Training Loss: 0.5197
+X: 9.0, Y: 3.75
+Training Loss: 0.6400
+X: 9.75, Y: 3.75
+Training Loss: 0.7737
+X: -9.0, Y: 4.5
+Training Loss: 7.4778
+X: -8.25, Y: 4.5
+Training Loss: 5.9178
+X: -7.5, Y: 4.5
+Training Loss: 4.5144
+X: -6.75, Y: 4.5
+Training Loss: 3.7755
+X: -6.0, Y: 4.5
+Training Loss: 2.8719
+X: -5.25, Y: 4.5
+Training Loss: 2.1690
+X: -4.5, Y: 4.5
+Training Loss: 1.7123
+X: -3.75, Y: 4.5
+Training Loss: 1.3062
+X: -3.0, Y: 4.5
+Training Loss: 0.9655
+X: -2.25, Y: 4.5
+Training Loss: 0.7387
+X: -1.5, Y: 4.5
+Training Loss: 0.4736
+X: -0.75, Y: 4.5
+Training Loss: 0.4099
+X: 0.0, Y: 4.5
+Training Loss: 0.3173
+X: 0.75, Y: 4.5
+Training Loss: 0.3051
+X: 1.5, Y: 4.5
+Training Loss: 0.2674
+X: 2.25, Y: 4.5
+Training Loss: 0.2515
+X: 3.0, Y: 4.5
+Training Loss: 0.2669
+X: 3.75, Y: 4.5
+Training Loss: 0.2727
+X: 4.5, Y: 4.5
+Training Loss: 0.3083
+X: 5.25, Y: 4.5
+Training Loss: 0.3307
+X: 6.0, Y: 4.5
+Training Loss: 0.3519
+X: 6.75, Y: 4.5
+Training Loss: 0.4166
+X: 7.5, Y: 4.5
+Training Loss: 0.4795
+X: 8.25, Y: 4.5
+Training Loss: 0.6076
+X: 9.0, Y: 4.5
+Training Loss: 0.7240
+X: 9.75, Y: 4.5
+Training Loss: 0.8854
+X: -9.0, Y: 5.25
+Training Loss: 8.8864
+X: -8.25, Y: 5.25
+Training Loss: 6.8100
+X: -7.5, Y: 5.25
+Training Loss: 5.7943
+X: -6.75, Y: 5.25
+Training Loss: 4.5686
+X: -6.0, Y: 5.25
+Training Loss: 3.5516
+X: -5.25, Y: 5.25
+Training Loss: 2.7943
+X: -4.5, Y: 5.25
+Training Loss: 2.2349
+X: -3.75, Y: 5.25
+Training Loss: 1.6747
+X: -3.0, Y: 5.25
+Training Loss: 1.4095
+X: -2.25, Y: 5.25
+Training Loss: 0.9728
+X: -1.5, Y: 5.25
+Training Loss: 0.7818
+X: -0.75, Y: 5.25
+Training Loss: 0.5592
+X: 0.0, Y: 5.25
+Training Loss: 0.4697
+X: 0.75, Y: 5.25
+Training Loss: 0.4186
+X: 1.5, Y: 5.25
+Training Loss: 0.4060
+X: 2.25, Y: 5.25
+Training Loss: 0.3777
+X: 3.0, Y: 5.25
+Training Loss: 0.3748
+X: 3.75, Y: 5.25
+Training Loss: 0.3806
+X: 4.5, Y: 5.25
+Training Loss: 0.3917
+X: 5.25, Y: 5.25
+Training Loss: 0.4078
+X: 6.0, Y: 5.25
+Training Loss: 0.4632
+X: 6.75, Y: 5.25
+Training Loss: 0.4784
+X: 7.5, Y: 5.25
+Training Loss: 0.5777
+X: 8.25, Y: 5.25
+Training Loss: 0.6694
+X: 9.0, Y: 5.25
+Training Loss: 0.7813
+X: 9.75, Y: 5.25
+Training Loss: 1.0465
+X: -9.0, Y: 6.0
+Training Loss: 10.2371
+X: -8.25, Y: 6.0
+Training Loss: 8.1006
+X: -7.5, Y: 6.0
+Training Loss: 6.5807
+X: -6.75, Y: 6.0
+Training Loss: 5.5960
+X: -6.0, Y: 6.0
+Training Loss: 4.4198
+X: -5.25, Y: 6.0
+Training Loss: 3.6863
+X: -4.5, Y: 6.0
+Training Loss: 2.8959
+X: -3.75, Y: 6.0
+Training Loss: 2.2798
+X: -3.0, Y: 6.0
+Training Loss: 1.7755
+X: -2.25, Y: 6.0
+Training Loss: 1.3933
+X: -1.5, Y: 6.0
+Training Loss: 1.0097
+X: -0.75, Y: 6.0
+Training Loss: 0.8260
+X: 0.0, Y: 6.0
+Training Loss: 0.7016
+X: 0.75, Y: 6.0
+Training Loss: 0.5836
+X: 1.5, Y: 6.0
+Training Loss: 0.5424
+X: 2.25, Y: 6.0
+Training Loss: 0.5202
+X: 3.0, Y: 6.0
+Training Loss: 0.4725
+X: 3.75, Y: 6.0
+Training Loss: 0.5153
+X: 4.5, Y: 6.0
+Training Loss: 0.5439
+X: 5.25, Y: 6.0
+Training Loss: 0.5648
+X: 6.0, Y: 6.0
+Training Loss: 0.5958
+X: 6.75, Y: 6.0
+Training Loss: 0.6183
+X: 7.5, Y: 6.0
+Training Loss: 0.7016
+X: 8.25, Y: 6.0
+Training Loss: 0.7809
+X: 9.0, Y: 6.0
+Training Loss: 0.9137
+X: 9.75, Y: 6.0
+Training Loss: 1.1679
+X: -9.0, Y: 6.75
+Training Loss: 11.9465
+X: -8.25, Y: 6.75
+Training Loss: 9.7121
+X: -7.5, Y: 6.75
+Training Loss: 8.1642
+X: -6.75, Y: 6.75
+Training Loss: 6.7668
+X: -6.0, Y: 6.75
+Training Loss: 5.4591
+X: -5.25, Y: 6.75
+Training Loss: 4.6618
+X: -4.5, Y: 6.75
+Training Loss: 3.6415
+X: -3.75, Y: 6.75
+Training Loss: 3.1180
+X: -3.0, Y: 6.75
+Training Loss: 2.2899
+X: -2.25, Y: 6.75
+Training Loss: 1.8569
+X: -1.5, Y: 6.75
+Training Loss: 1.4678
+X: -0.75, Y: 6.75
+Training Loss: 1.1709
+X: 0.0, Y: 6.75
+Training Loss: 0.9813
+X: 0.75, Y: 6.75
+Training Loss: 0.8571
+X: 1.5, Y: 6.75
+Training Loss: 0.7769
+X: 2.25, Y: 6.75
+Training Loss: 0.7119
+X: 3.0, Y: 6.75
+Training Loss: 0.7002
+X: 3.75, Y: 6.75
+Training Loss: 0.6845
+X: 4.5, Y: 6.75
+Training Loss: 0.7403
+X: 5.25, Y: 6.75
+Training Loss: 0.7703
+X: 6.0, Y: 6.75
+Training Loss: 0.8176
+X: 6.75, Y: 6.75
+Training Loss: 0.8514
+X: 7.5, Y: 6.75
+Training Loss: 0.9351
+X: 8.25, Y: 6.75
+Training Loss: 0.9328
+X: 9.0, Y: 6.75
+Training Loss: 1.0655
+X: 9.75, Y: 6.75
+Training Loss: 1.3010
+X: -9.0, Y: 7.5
+Training Loss: 14.4500
+X: -8.25, Y: 7.5
+Training Loss: 11.8002
+X: -7.5, Y: 7.5
+Training Loss: 10.0762
+X: -6.75, Y: 7.5
+Training Loss: 8.5323
+X: -6.0, Y: 7.5
+Training Loss: 7.2211
+X: -5.25, Y: 7.5
+Training Loss: 5.8946
+X: -4.5, Y: 7.5
+Training Loss: 4.9926
+X: -3.75, Y: 7.5
+Training Loss: 3.9435
+X: -3.0, Y: 7.5
+Training Loss: 3.2139
+X: -2.25, Y: 7.5
+Training Loss: 2.7049
+X: -1.5, Y: 7.5
+Training Loss: 2.0185
+X: -0.75, Y: 7.5
+Training Loss: 1.7189
+X: 0.0, Y: 7.5
+Training Loss: 1.3806
+X: 0.75, Y: 7.5
+Training Loss: 1.1671
+X: 1.5, Y: 7.5
+Training Loss: 1.0525
+X: 2.25, Y: 7.5
+Training Loss: 0.9955
+X: 3.0, Y: 7.5
+Training Loss: 1.0096
+X: 3.75, Y: 7.5
+Training Loss: 0.9500
+X: 4.5, Y: 7.5
+Training Loss: 0.9904
+X: 5.25, Y: 7.5
+Training Loss: 0.9765
+X: 6.0, Y: 7.5
+Training Loss: 1.0793
+X: 6.75, Y: 7.5
+Training Loss: 1.1366
+X: 7.5, Y: 7.5
+Training Loss: 1.1263
+X: 8.25, Y: 7.5
+Training Loss: 1.2526
+X: 9.0, Y: 7.5
+Training Loss: 1.4133
+X: 9.75, Y: 7.5
+Training Loss: 1.5100
+X: -9.0, Y: 8.25
+Training Loss: 17.3381
+X: -8.25, Y: 8.25
+Training Loss: 15.1922
+X: -7.5, Y: 8.25
+Training Loss: 12.8857
+X: -6.75, Y: 8.25
+Training Loss: 10.8131
+X: -6.0, Y: 8.25
+Training Loss: 9.2438
+X: -5.25, Y: 8.25
+Training Loss: 7.5822
+X: -4.5, Y: 8.25
+Training Loss: 6.2599
+X: -3.75, Y: 8.25
+Training Loss: 5.1612
+X: -3.0, Y: 8.25
+Training Loss: 4.1334
+X: -2.25, Y: 8.25
+Training Loss: 3.5247
+X: -1.5, Y: 8.25
+Training Loss: 2.8030
+X: -0.75, Y: 8.25
+Training Loss: 2.3230
+X: 0.0, Y: 8.25
+Training Loss: 1.9928
+X: 0.75, Y: 8.25
+Training Loss: 1.7509
+X: 1.5, Y: 8.25
+Training Loss: 1.5271
+X: 2.25, Y: 8.25
+Training Loss: 1.4297
+X: 3.0, Y: 8.25
+Training Loss: 1.3704
+X: 3.75, Y: 8.25
+Training Loss: 1.3570
+X: 4.5, Y: 8.25
+Training Loss: 1.3883
+X: 5.25, Y: 8.25
+Training Loss: 1.3969
+X: 6.0, Y: 8.25
+Training Loss: 1.4798
+X: 6.75, Y: 8.25
+Training Loss: 1.5623
+X: 7.5, Y: 8.25
+Training Loss: 1.6152
+X: 8.25, Y: 8.25
+Training Loss: 1.7615
+X: 9.0, Y: 8.25
+Training Loss: 1.7817
+X: 9.75, Y: 8.25
+Training Loss: 1.9747
+X: -9.0, Y: 9.0
+Training Loss: 22.0478
+X: -8.25, Y: 9.0
+Training Loss: 18.7296
+X: -7.5, Y: 9.0
+Training Loss: 16.3516
+X: -6.75, Y: 9.0
+Training Loss: 13.6025
+X: -6.0, Y: 9.0
+Training Loss: 12.0022
+X: -5.25, Y: 9.0
+Training Loss: 9.8782
+X: -4.5, Y: 9.0
+Training Loss: 8.1478
+X: -3.75, Y: 9.0
+Training Loss: 7.2221
+X: -3.0, Y: 9.0
+Training Loss: 5.9586
+X: -2.25, Y: 9.0
+Training Loss: 5.0620
+X: -1.5, Y: 9.0
+Training Loss: 3.9495
+X: -0.75, Y: 9.0
+Training Loss: 3.3715
+X: 0.0, Y: 9.0
+Training Loss: 2.7201
+X: 0.75, Y: 9.0
+Training Loss: 2.4556
+X: 1.5, Y: 9.0
+Training Loss: 2.2238
+X: 2.25, Y: 9.0
+Training Loss: 2.1102
+X: 3.0, Y: 9.0
+Training Loss: 2.0856
+X: 3.75, Y: 9.0
+Training Loss: 2.1066
+X: 4.5, Y: 9.0
+Training Loss: 1.9316
+X: 5.25, Y: 9.0
+Training Loss: 1.9722
+X: 6.0, Y: 9.0
+Training Loss: 2.0137
+X: 6.75, Y: 9.0
+Training Loss: 2.0996
+X: 7.5, Y: 9.0
+Training Loss: 2.2779
+X: 8.25, Y: 9.0
+Training Loss: 2.2386
+X: 9.0, Y: 9.0
+Training Loss: 2.5123
+X: 9.75, Y: 9.0
+Training Loss: 2.6304
+X: -9.0, Y: 9.75
+Training Loss: 27.9170
+X: -8.25, Y: 9.75
+Training Loss: 22.8168
+X: -7.5, Y: 9.75
+Training Loss: 20.8878
+X: -6.75, Y: 9.75
+Training Loss: 17.5049
+X: -6.0, Y: 9.75
+Training Loss: 15.5043
+X: -5.25, Y: 9.75
+Training Loss: 12.9818
+X: -4.5, Y: 9.75
+Training Loss: 11.2283
+X: -3.75, Y: 9.75
+Training Loss: 9.4895
+X: -3.0, Y: 9.75
+Training Loss: 7.9588
+X: -2.25, Y: 9.75
+Training Loss: 6.7370
+X: -1.5, Y: 9.75
+Training Loss: 5.4600
+X: -0.75, Y: 9.75
+Training Loss: 4.5618
+X: 0.0, Y: 9.75
+Training Loss: 3.9968
+X: 0.75, Y: 9.75
+Training Loss: 3.3881
+X: 1.5, Y: 9.75
+Training Loss: 3.1014
+X: 2.25, Y: 9.75
+Training Loss: 3.0124
+X: 3.0, Y: 9.75
+Training Loss: 2.8602
+X: 3.75, Y: 9.75
+Training Loss: 2.7647
+X: 4.5, Y: 9.75
+Training Loss: 2.8125
+X: 5.25, Y: 9.75
+Training Loss: 2.7923
+X: 6.0, Y: 9.75
+Training Loss: 3.0125
+X: 6.75, Y: 9.75
+Training Loss: 2.9942
+X: 7.5, Y: 9.75
+Training Loss: 3.1056
+X: 8.25, Y: 9.75
+Training Loss: 3.3247
+X: 9.0, Y: 9.75
+Training Loss: 3.4495
+X: 9.75, Y: 9.75
+Training Loss: 3.5495
+Saved to runs/12_epochs_from_-9_to_10_with_0.75ss-20_39_12_7_2022/new_data_VGG_PCA_pca.ply
+training ResNet
+epoch: 0
+Train Loss: 0.4869, Train Acc: 0.15
+Test Loss: 0.2519, Test Acc: 0.32
+epoch: 1
+Train Loss: 0.1616, Train Acc: 0.47
+Test Loss: 0.1194, Test Acc: 0.63
+epoch: 2
+Train Loss: 0.1100, Train Acc: 0.64
+Test Loss: 0.0813, Test Acc: 0.75
+epoch: 3
+Train Loss: 0.0810, Train Acc: 0.73
+Test Loss: 0.0597, Test Acc: 0.82
+epoch: 4
+Train Loss: 0.0763, Train Acc: 0.75
+Test Loss: 0.0556, Test Acc: 0.82
+epoch: 5
+Train Loss: 0.0643, Train Acc: 0.80
+Test Loss: 0.0552, Test Acc: 0.82
+epoch: 6
+Train Loss: 0.0558, Train Acc: 0.81
+Test Loss: 0.0449, Test Acc: 0.86
+epoch: 7
+Train Loss: 0.0543, Train Acc: 0.82
+Test Loss: 0.0394, Test Acc: 0.87
+epoch: 8
+Train Loss: 0.0531, Train Acc: 0.83
+Test Loss: 0.0378, Test Acc: 0.88
+epoch: 9
+Train Loss: 0.0525, Train Acc: 0.82
+Test Loss: 0.0372, Test Acc: 0.88
+epoch: 10
+Train Loss: 0.0510, Train Acc: 0.83
+Test Loss: 0.0336, Test Acc: 0.89
+epoch: 11
+Train Loss: 0.0440, Train Acc: 0.85
+Test Loss: 0.0376, Test Acc: 0.88
+X: -9.0, Y: -9.0
+Training Loss: 847.2077
+X: -8.25, Y: -9.0
+Training Loss: 832.4260
+X: -7.5, Y: -9.0
+Training Loss: 768.7847
+X: -6.75, Y: -9.0
+Training Loss: 664.4094
+X: -6.0, Y: -9.0
+Training Loss: 530.3240
+X: -5.25, Y: -9.0
+Training Loss: 521.2382
+X: -4.5, Y: -9.0
+Training Loss: 430.5824
+X: -3.75, Y: -9.0
+Training Loss: 330.0097
+X: -3.0, Y: -9.0
+Training Loss: 278.2264
+X: -2.25, Y: -9.0
+Training Loss: 208.1533
+X: -1.5, Y: -9.0
+Training Loss: 152.8134
+X: -0.75, Y: -9.0
+Training Loss: 132.7282
+X: 0.0, Y: -9.0
+Training Loss: 87.9254
+X: 0.75, Y: -9.0
+Training Loss: 57.6116
+X: 1.5, Y: -9.0
+Training Loss: 37.0017
+X: 2.25, Y: -9.0
+Training Loss: 22.3555
+X: 3.0, Y: -9.0
+Training Loss: 11.8702
+X: 3.75, Y: -9.0
+Training Loss: 7.7502
+X: 4.5, Y: -9.0
+Training Loss: 5.1782
+X: 5.25, Y: -9.0
+Training Loss: 3.9035
+X: 6.0, Y: -9.0
+Training Loss: 3.1065
+X: 6.75, Y: -9.0
+Training Loss: 3.1781
+X: 7.5, Y: -9.0
+Training Loss: 3.1470
+X: 8.25, Y: -9.0
+Training Loss: 2.9126
+X: 9.0, Y: -9.0
+Training Loss: 2.4690
+X: 9.75, Y: -9.0
+Training Loss: 2.7272
+X: -9.0, Y: -8.25
+Training Loss: 345.6501
+X: -8.25, Y: -8.25
+Training Loss: 355.3641
+X: -7.5, Y: -8.25
+Training Loss: 408.7837
+X: -6.75, Y: -8.25
+Training Loss: 343.6163
+X: -6.0, Y: -8.25
+Training Loss: 352.6035
+X: -5.25, Y: -8.25
+Training Loss: 308.6975
+X: -4.5, Y: -8.25
+Training Loss: 275.8743
+X: -3.75, Y: -8.25
+Training Loss: 221.6738
+X: -3.0, Y: -8.25
+Training Loss: 174.8212
+X: -2.25, Y: -8.25
+Training Loss: 136.3787
+X: -1.5, Y: -8.25
+Training Loss: 121.1091
+X: -0.75, Y: -8.25
+Training Loss: 84.3248
+X: 0.0, Y: -8.25
+Training Loss: 54.6716
+X: 0.75, Y: -8.25
+Training Loss: 40.2754
+X: 1.5, Y: -8.25
+Training Loss: 26.7571
+X: 2.25, Y: -8.25
+Training Loss: 15.5303
+X: 3.0, Y: -8.25
+Training Loss: 8.8956
+X: 3.75, Y: -8.25
+Training Loss: 5.3104
+X: 4.5, Y: -8.25
+Training Loss: 3.4242
+X: 5.25, Y: -8.25
+Training Loss: 2.5041
+X: 6.0, Y: -8.25
+Training Loss: 2.0902
+X: 6.75, Y: -8.25
+Training Loss: 1.9837
+X: 7.5, Y: -8.25
+Training Loss: 1.9708
+X: 8.25, Y: -8.25
+Training Loss: 2.0914
+X: 9.0, Y: -8.25
+Training Loss: 1.8384
+X: 9.75, Y: -8.25
+Training Loss: 1.9943
+X: -9.0, Y: -7.5
+Training Loss: 147.5389
+X: -8.25, Y: -7.5
+Training Loss: 147.3042
+X: -7.5, Y: -7.5
+Training Loss: 160.4830
+X: -6.75, Y: -7.5
+Training Loss: 142.2441
+X: -6.0, Y: -7.5
+Training Loss: 149.3439
+X: -5.25, Y: -7.5
+Training Loss: 154.7383
+X: -4.5, Y: -7.5
+Training Loss: 135.1180
+X: -3.75, Y: -7.5
+Training Loss: 122.5397
+X: -3.0, Y: -7.5
+Training Loss: 104.5079
+X: -2.25, Y: -7.5
+Training Loss: 87.7271
+X: -1.5, Y: -7.5
+Training Loss: 72.0583
+X: -0.75, Y: -7.5
+Training Loss: 55.5100
+X: 0.0, Y: -7.5
+Training Loss: 38.9801
+X: 0.75, Y: -7.5
+Training Loss: 25.5720
+X: 1.5, Y: -7.5
+Training Loss: 16.2848
+X: 2.25, Y: -7.5
+Training Loss: 9.9058
+X: 3.0, Y: -7.5
+Training Loss: 5.7825
+X: 3.75, Y: -7.5
+Training Loss: 3.3639
+X: 4.5, Y: -7.5
+Training Loss: 2.0417
+X: 5.25, Y: -7.5
+Training Loss: 1.3760
+X: 6.0, Y: -7.5
+Training Loss: 1.3218
+X: 6.75, Y: -7.5
+Training Loss: 1.3723
+X: 7.5, Y: -7.5
+Training Loss: 1.2688
+X: 8.25, Y: -7.5
+Training Loss: 1.2966
+X: 9.0, Y: -7.5
+Training Loss: 1.3136
+X: 9.75, Y: -7.5
+Training Loss: 1.7622
+X: -9.0, Y: -6.75
+Training Loss: 105.2285
+X: -8.25, Y: -6.75
+Training Loss: 77.2866
+X: -7.5, Y: -6.75
+Training Loss: 58.2539
+X: -6.75, Y: -6.75
+Training Loss: 51.3362
+X: -6.0, Y: -6.75
+Training Loss: 56.7400
+X: -5.25, Y: -6.75
+Training Loss: 62.6427
+X: -4.5, Y: -6.75
+Training Loss: 61.4380
+X: -3.75, Y: -6.75
+Training Loss: 57.0984
+X: -3.0, Y: -6.75
+Training Loss: 53.4819
+X: -2.25, Y: -6.75
+Training Loss: 49.3664
+X: -1.5, Y: -6.75
+Training Loss: 41.6421
+X: -0.75, Y: -6.75
+Training Loss: 29.3751
+X: 0.0, Y: -6.75
+Training Loss: 21.9579
+X: 0.75, Y: -6.75
+Training Loss: 14.6713
+X: 1.5, Y: -6.75
+Training Loss: 9.4816
+X: 2.25, Y: -6.75
+Training Loss: 5.6724
+X: 3.0, Y: -6.75
+Training Loss: 3.1877
+X: 3.75, Y: -6.75
+Training Loss: 1.8412
+X: 4.5, Y: -6.75
+Training Loss: 1.0533
+X: 5.25, Y: -6.75
+Training Loss: 0.9167
+X: 6.0, Y: -6.75
+Training Loss: 0.7739
+X: 6.75, Y: -6.75
+Training Loss: 0.8145
+X: 7.5, Y: -6.75
+Training Loss: 0.8392
+X: 8.25, Y: -6.75
+Training Loss: 0.7346
+X: 9.0, Y: -6.75
+Training Loss: 1.0857
+X: 9.75, Y: -6.75
+Training Loss: 2.2188
+X: -9.0, Y: -6.0
+Training Loss: 72.6895
+X: -8.25, Y: -6.0
+Training Loss: 52.1698
+X: -7.5, Y: -6.0
+Training Loss: 37.7445
+X: -6.75, Y: -6.0
+Training Loss: 25.9795
+X: -6.0, Y: -6.0
+Training Loss: 20.6318
+X: -5.25, Y: -6.0
+Training Loss: 17.5724
+X: -4.5, Y: -6.0
+Training Loss: 19.3005
+X: -3.75, Y: -6.0
+Training Loss: 22.9535
+X: -3.0, Y: -6.0
+Training Loss: 24.0239
+X: -2.25, Y: -6.0
+Training Loss: 16.9517
+X: -1.5, Y: -6.0
+Training Loss: 18.1423
+X: -0.75, Y: -6.0
+Training Loss: 13.3053
+X: 0.0, Y: -6.0
+Training Loss: 9.7816
+X: 0.75, Y: -6.0
+Training Loss: 7.2075
+X: 1.5, Y: -6.0
+Training Loss: 5.0817
+X: 2.25, Y: -6.0
+Training Loss: 2.8960
+X: 3.0, Y: -6.0
+Training Loss: 1.6137
+X: 3.75, Y: -6.0
+Training Loss: 0.9484
+X: 4.5, Y: -6.0
+Training Loss: 0.6526
+X: 5.25, Y: -6.0
+Training Loss: 0.6146
+X: 6.0, Y: -6.0
+Training Loss: 0.4997
+X: 6.75, Y: -6.0
+Training Loss: 0.4711
+X: 7.5, Y: -6.0
+Training Loss: 0.5074
+X: 8.25, Y: -6.0
+Training Loss: 0.5754
+X: 9.0, Y: -6.0
+Training Loss: 0.8250
+X: 9.75, Y: -6.0
+Training Loss: 2.9303
+X: -9.0, Y: -5.25
+Training Loss: 54.2116
+X: -8.25, Y: -5.25
+Training Loss: 34.3061
+X: -7.5, Y: -5.25
+Training Loss: 21.3238
+X: -6.75, Y: -5.25
+Training Loss: 15.2025
+X: -6.0, Y: -5.25
+Training Loss: 9.0664
+X: -5.25, Y: -5.25
+Training Loss: 7.7021
+X: -4.5, Y: -5.25
+Training Loss: 4.7620
+X: -3.75, Y: -5.25
+Training Loss: 5.3993
+X: -3.0, Y: -5.25
+Training Loss: 5.9312
+X: -2.25, Y: -5.25
+Training Loss: 7.1347
+X: -1.5, Y: -5.25
+Training Loss: 5.8118
+X: -0.75, Y: -5.25
+Training Loss: 4.9122
+X: 0.0, Y: -5.25
+Training Loss: 3.6368
+X: 0.75, Y: -5.25
+Training Loss: 2.6839
+X: 1.5, Y: -5.25
+Training Loss: 1.8282
+X: 2.25, Y: -5.25
+Training Loss: 1.1968
+X: 3.0, Y: -5.25
+Training Loss: 0.6818
+X: 3.75, Y: -5.25
+Training Loss: 0.4727
+X: 4.5, Y: -5.25
+Training Loss: 0.4084
+X: 5.25, Y: -5.25
+Training Loss: 0.3752
+X: 6.0, Y: -5.25
+Training Loss: 0.3849
+X: 6.75, Y: -5.25
+Training Loss: 0.3641
+X: 7.5, Y: -5.25
+Training Loss: 0.4262
+X: 8.25, Y: -5.25
+Training Loss: 0.4856
+X: 9.0, Y: -5.25
+Training Loss: 1.0420
+X: 9.75, Y: -5.25
+Training Loss: 3.5069
+X: -9.0, Y: -4.5
+Training Loss: 43.4483
+X: -8.25, Y: -4.5
+Training Loss: 26.0415
+X: -7.5, Y: -4.5
+Training Loss: 12.2647
+X: -6.75, Y: -4.5
+Training Loss: 7.4802
+X: -6.0, Y: -4.5
+Training Loss: 5.0233
+X: -5.25, Y: -4.5
+Training Loss: 3.7801
+X: -4.5, Y: -4.5
+Training Loss: 2.3602
+X: -3.75, Y: -4.5
+Training Loss: 1.6898
+X: -3.0, Y: -4.5
+Training Loss: 1.2605
+X: -2.25, Y: -4.5
+Training Loss: 1.2150
+X: -1.5, Y: -4.5
+Training Loss: 1.0447
+X: -0.75, Y: -4.5
+Training Loss: 0.8901
+X: 0.0, Y: -4.5
+Training Loss: 0.6733
+X: 0.75, Y: -4.5
+Training Loss: 0.5588
+X: 1.5, Y: -4.5
+Training Loss: 0.5330
+X: 2.25, Y: -4.5
+Training Loss: 0.3743
+X: 3.0, Y: -4.5
+Training Loss: 0.3090
+X: 3.75, Y: -4.5
+Training Loss: 0.2932
+X: 4.5, Y: -4.5
+Training Loss: 0.2889
+X: 5.25, Y: -4.5
+Training Loss: 0.2809
+X: 6.0, Y: -4.5
+Training Loss: 0.2989
+X: 6.75, Y: -4.5
+Training Loss: 0.3204
+X: 7.5, Y: -4.5
+Training Loss: 0.3737
+X: 8.25, Y: -4.5
+Training Loss: 0.4950
+X: 9.0, Y: -4.5
+Training Loss: 1.4555
+X: 9.75, Y: -4.5
+Training Loss: 4.0603
+X: -9.0, Y: -3.75
+Training Loss: 39.0273
+X: -8.25, Y: -3.75
+Training Loss: 21.8229
+X: -7.5, Y: -3.75
+Training Loss: 9.3319
+X: -6.75, Y: -3.75
+Training Loss: 3.8738
+X: -6.0, Y: -3.75
+Training Loss: 2.3212
+X: -5.25, Y: -3.75
+Training Loss: 1.2170
+X: -4.5, Y: -3.75
+Training Loss: 0.8129
+X: -3.75, Y: -3.75
+Training Loss: 0.6035
+X: -3.0, Y: -3.75
+Training Loss: 0.4144
+X: -2.25, Y: -3.75
+Training Loss: 0.2856
+X: -1.5, Y: -3.75
+Training Loss: 0.2363
+X: -0.75, Y: -3.75
+Training Loss: 0.1704
+X: 0.0, Y: -3.75
+Training Loss: 0.1547
+X: 0.75, Y: -3.75
+Training Loss: 0.1594
+X: 1.5, Y: -3.75
+Training Loss: 0.1693
+X: 2.25, Y: -3.75
+Training Loss: 0.1868
+X: 3.0, Y: -3.75
+Training Loss: 0.2007
+X: 3.75, Y: -3.75
+Training Loss: 0.2064
+X: 4.5, Y: -3.75
+Training Loss: 0.2206
+X: 5.25, Y: -3.75
+Training Loss: 0.2471
+X: 6.0, Y: -3.75
+Training Loss: 0.2709
+X: 6.75, Y: -3.75
+Training Loss: 0.3195
+X: 7.5, Y: -3.75
+Training Loss: 0.3971
+X: 8.25, Y: -3.75
+Training Loss: 0.7036
+X: 9.0, Y: -3.75
+Training Loss: 2.1158
+X: 9.75, Y: -3.75
+Training Loss: 5.6415
+X: -9.0, Y: -3.0
+Training Loss: 34.4306
+X: -8.25, Y: -3.0
+Training Loss: 19.3990
+X: -7.5, Y: -3.0
+Training Loss: 9.1793
+X: -6.75, Y: -3.0
+Training Loss: 3.5056
+X: -6.0, Y: -3.0
+Training Loss: 1.2150
+X: -5.25, Y: -3.0
+Training Loss: 0.7104
+X: -4.5, Y: -3.0
+Training Loss: 0.4417
+X: -3.75, Y: -3.0
+Training Loss: 0.2716
+X: -3.0, Y: -3.0
+Training Loss: 0.2068
+X: -2.25, Y: -3.0
+Training Loss: 0.1421
+X: -1.5, Y: -3.0
+Training Loss: 0.1182
+X: -0.75, Y: -3.0
+Training Loss: 0.1075
+X: 0.0, Y: -3.0
+Training Loss: 0.1032
+X: 0.75, Y: -3.0
+Training Loss: 0.0967
+X: 1.5, Y: -3.0
+Training Loss: 0.1190
+X: 2.25, Y: -3.0
+Training Loss: 0.1304
+X: 3.0, Y: -3.0
+Training Loss: 0.1521
+X: 3.75, Y: -3.0
+Training Loss: 0.1651
+X: 4.5, Y: -3.0
+Training Loss: 0.1906
+X: 5.25, Y: -3.0
+Training Loss: 0.2235
+X: 6.0, Y: -3.0
+Training Loss: 0.2745
+X: 6.75, Y: -3.0
+Training Loss: 0.3351
+X: 7.5, Y: -3.0
+Training Loss: 0.4467
+X: 8.25, Y: -3.0
+Training Loss: 1.1140
+X: 9.0, Y: -3.0
+Training Loss: 3.0496
+X: 9.75, Y: -3.0
+Training Loss: 6.9403
+X: -9.0, Y: -2.25
+Training Loss: 31.5200
+X: -8.25, Y: -2.25
+Training Loss: 16.5640
+X: -7.5, Y: -2.25
+Training Loss: 7.6747
+X: -6.75, Y: -2.25
+Training Loss: 3.2190
+X: -6.0, Y: -2.25
+Training Loss: 1.1985
+X: -5.25, Y: -2.25
+Training Loss: 0.5636
+X: -4.5, Y: -2.25
+Training Loss: 0.3500
+X: -3.75, Y: -2.25
+Training Loss: 0.2293
+X: -3.0, Y: -2.25
+Training Loss: 0.1540
+X: -2.25, Y: -2.25
+Training Loss: 0.0971
+X: -1.5, Y: -2.25
+Training Loss: 0.0769
+X: -0.75, Y: -2.25
+Training Loss: 0.0574
+X: 0.0, Y: -2.25
+Training Loss: 0.0564
+X: 0.75, Y: -2.25
+Training Loss: 0.0631
+X: 1.5, Y: -2.25
+Training Loss: 0.0763
+X: 2.25, Y: -2.25
+Training Loss: 0.0947
+X: 3.0, Y: -2.25
+Training Loss: 0.1224
+X: 3.75, Y: -2.25
+Training Loss: 0.1395
+X: 4.5, Y: -2.25
+Training Loss: 0.1829
+X: 5.25, Y: -2.25
+Training Loss: 0.2324
+X: 6.0, Y: -2.25
+Training Loss: 0.2882
+X: 6.75, Y: -2.25
+Training Loss: 0.3690
+X: 7.5, Y: -2.25
+Training Loss: 0.5293
+X: 8.25, Y: -2.25
+Training Loss: 1.5630
+X: 9.0, Y: -2.25
+Training Loss: 3.8376
+X: 9.75, Y: -2.25
+Training Loss: 7.5732
+X: -9.0, Y: -1.5
+Training Loss: 26.3378
+X: -8.25, Y: -1.5
+Training Loss: 15.8739
+X: -7.5, Y: -1.5
+Training Loss: 7.3615
+X: -6.75, Y: -1.5
+Training Loss: 3.5723
+X: -6.0, Y: -1.5
+Training Loss: 1.5948
+X: -5.25, Y: -1.5
+Training Loss: 0.6419
+X: -4.5, Y: -1.5
+Training Loss: 0.3444
+X: -3.75, Y: -1.5
+Training Loss: 0.1885
+X: -3.0, Y: -1.5
+Training Loss: 0.1233
+X: -2.25, Y: -1.5
+Training Loss: 0.0813
+X: -1.5, Y: -1.5
+Training Loss: 0.0508
+X: -0.75, Y: -1.5
+Training Loss: 0.0381
+X: 0.0, Y: -1.5
+Training Loss: 0.0375
+X: 0.75, Y: -1.5
+Training Loss: 0.0476
+X: 1.5, Y: -1.5
+Training Loss: 0.0520
+X: 2.25, Y: -1.5
+Training Loss: 0.0689
+X: 3.0, Y: -1.5
+Training Loss: 0.1037
+X: 3.75, Y: -1.5
+Training Loss: 0.1314
+X: 4.5, Y: -1.5
+Training Loss: 0.1787
+X: 5.25, Y: -1.5
+Training Loss: 0.2535
+X: 6.0, Y: -1.5
+Training Loss: 0.3208
+X: 6.75, Y: -1.5
+Training Loss: 0.4173
+X: 7.5, Y: -1.5
+Training Loss: 0.6912
+X: 8.25, Y: -1.5
+Training Loss: 1.7029
+X: 9.0, Y: -1.5
+Training Loss: 4.3610
+X: 9.75, Y: -1.5
+Training Loss: 8.1956
+X: -9.0, Y: -0.75
+Training Loss: 20.5814
+X: -8.25, Y: -0.75
+Training Loss: 13.9096
+X: -7.5, Y: -0.75
+Training Loss: 8.1585
+X: -6.75, Y: -0.75
+Training Loss: 4.8111
+X: -6.0, Y: -0.75
+Training Loss: 2.5755
+X: -5.25, Y: -0.75
+Training Loss: 0.9412
+X: -4.5, Y: -0.75
+Training Loss: 0.4510
+X: -3.75, Y: -0.75
+Training Loss: 0.1785
+X: -3.0, Y: -0.75
+Training Loss: 0.1101
+X: -2.25, Y: -0.75
+Training Loss: 0.0704
+X: -1.5, Y: -0.75
+Training Loss: 0.0433
+X: -0.75, Y: -0.75
+Training Loss: 0.0337
+X: 0.0, Y: -0.75
+Training Loss: 0.0311
+X: 0.75, Y: -0.75
+Training Loss: 0.0376
+X: 1.5, Y: -0.75
+Training Loss: 0.0429
+X: 2.25, Y: -0.75
+Training Loss: 0.0629
+X: 3.0, Y: -0.75
+Training Loss: 0.0922
+X: 3.75, Y: -0.75
+Training Loss: 0.1315
+X: 4.5, Y: -0.75
+Training Loss: 0.1956
+X: 5.25, Y: -0.75
+Training Loss: 0.2723
+X: 6.0, Y: -0.75
+Training Loss: 0.3619
+X: 6.75, Y: -0.75
+Training Loss: 0.4815
+X: 7.5, Y: -0.75
+Training Loss: 1.0824
+X: 8.25, Y: -0.75
+Training Loss: 2.4423
+X: 9.0, Y: -0.75
+Training Loss: 5.2835
+X: 9.75, Y: -0.75
+Training Loss: 10.2309
+X: -9.0, Y: 0.0
+Training Loss: 18.0309
+X: -8.25, Y: 0.0
+Training Loss: 13.6366
+X: -7.5, Y: 0.0
+Training Loss: 9.7667
+X: -6.75, Y: 0.0
+Training Loss: 6.4307
+X: -6.0, Y: 0.0
+Training Loss: 3.1870
+X: -5.25, Y: 0.0
+Training Loss: 1.5010
+X: -4.5, Y: 0.0
+Training Loss: 0.7148
+X: -3.75, Y: 0.0
+Training Loss: 0.2752
+X: -3.0, Y: 0.0
+Training Loss: 0.1157
+X: -2.25, Y: 0.0
+Training Loss: 0.0609
+X: -1.5, Y: 0.0
+Training Loss: 0.0398
+X: -0.75, Y: 0.0
+Training Loss: 0.0294
+X: 0.0, Y: 0.0
+Training Loss: 0.0286
+X: 0.75, Y: 0.0
+Training Loss: 0.0371
+X: 1.5, Y: 0.0
+Training Loss: 0.0446
+X: 2.25, Y: 0.0
+Training Loss: 0.0671
+X: 3.0, Y: 0.0
+Training Loss: 0.1090
+X: 3.75, Y: 0.0
+Training Loss: 0.1554
+X: 4.5, Y: 0.0
+Training Loss: 0.2366
+X: 5.25, Y: 0.0
+Training Loss: 0.3198
+X: 6.0, Y: 0.0
+Training Loss: 0.4143
+X: 6.75, Y: 0.0
+Training Loss: 0.6623
+X: 7.5, Y: 0.0
+Training Loss: 1.2776
+X: 8.25, Y: 0.0
+Training Loss: 2.8997
+X: 9.0, Y: 0.0
+Training Loss: 7.0464
+X: 9.75, Y: 0.0
+Training Loss: 14.3213
+X: -9.0, Y: 0.75
+Training Loss: 15.3640
+X: -8.25, Y: 0.75
+Training Loss: 13.8573
+X: -7.5, Y: 0.75
+Training Loss: 9.5730
+X: -6.75, Y: 0.75
+Training Loss: 7.0810
+X: -6.0, Y: 0.75
+Training Loss: 4.2979
+X: -5.25, Y: 0.75
+Training Loss: 2.4994
+X: -4.5, Y: 0.75
+Training Loss: 0.9531
+X: -3.75, Y: 0.75
+Training Loss: 0.4425
+X: -3.0, Y: 0.75
+Training Loss: 0.1592
+X: -2.25, Y: 0.75
+Training Loss: 0.0748
+X: -1.5, Y: 0.75
+Training Loss: 0.0464
+X: -0.75, Y: 0.75
+Training Loss: 0.0386
+X: 0.0, Y: 0.75
+Training Loss: 0.0350
+X: 0.75, Y: 0.75
+Training Loss: 0.0408
+X: 1.5, Y: 0.75
+Training Loss: 0.0530
+X: 2.25, Y: 0.75
+Training Loss: 0.0892
+X: 3.0, Y: 0.75
+Training Loss: 0.1396
+X: 3.75, Y: 0.75
+Training Loss: 0.2069
+X: 4.5, Y: 0.75
+Training Loss: 0.2808
+X: 5.25, Y: 0.75
+Training Loss: 0.3719
+X: 6.0, Y: 0.75
+Training Loss: 0.5043
+X: 6.75, Y: 0.75
+Training Loss: 0.9242
+X: 7.5, Y: 0.75
+Training Loss: 1.4667
+X: 8.25, Y: 0.75
+Training Loss: 3.2880
+X: 9.0, Y: 0.75
+Training Loss: 7.1233
+X: 9.75, Y: 0.75
+Training Loss: 15.1355
+X: -9.0, Y: 1.5
+Training Loss: 12.5145
+X: -8.25, Y: 1.5
+Training Loss: 10.6450
+X: -7.5, Y: 1.5
+Training Loss: 8.6295
+X: -6.75, Y: 1.5
+Training Loss: 5.7911
+X: -6.0, Y: 1.5
+Training Loss: 4.0983
+X: -5.25, Y: 1.5
+Training Loss: 2.4759
+X: -4.5, Y: 1.5
+Training Loss: 1.3378
+X: -3.75, Y: 1.5
+Training Loss: 0.5714
+X: -3.0, Y: 1.5
+Training Loss: 0.2570
+X: -2.25, Y: 1.5
+Training Loss: 0.1101
+X: -1.5, Y: 1.5
+Training Loss: 0.0595
+X: -0.75, Y: 1.5
+Training Loss: 0.0469
+X: 0.0, Y: 1.5
+Training Loss: 0.0520
+X: 0.75, Y: 1.5
+Training Loss: 0.0658
+X: 1.5, Y: 1.5
+Training Loss: 0.0947
+X: 2.25, Y: 1.5
+Training Loss: 0.1363
+X: 3.0, Y: 1.5
+Training Loss: 0.2054
+X: 3.75, Y: 1.5
+Training Loss: 0.3134
+X: 4.5, Y: 1.5
+Training Loss: 0.3952
+X: 5.25, Y: 1.5
+Training Loss: 0.4900
+X: 6.0, Y: 1.5
+Training Loss: 0.6198
+X: 6.75, Y: 1.5
+Training Loss: 1.0188
+X: 7.5, Y: 1.5
+Training Loss: 1.9856
+X: 8.25, Y: 1.5
+Training Loss: 3.4725
+X: 9.0, Y: 1.5
+Training Loss: 7.3203
+X: 9.75, Y: 1.5
+Training Loss: 14.7277
+X: -9.0, Y: 2.25
+Training Loss: 9.9127
+X: -8.25, Y: 2.25
+Training Loss: 8.4914
+X: -7.5, Y: 2.25
+Training Loss: 6.9335
+X: -6.75, Y: 2.25
+Training Loss: 4.9693
+X: -6.0, Y: 2.25
+Training Loss: 3.5427
+X: -5.25, Y: 2.25
+Training Loss: 2.1627
+X: -4.5, Y: 2.25
+Training Loss: 1.3384
+X: -3.75, Y: 2.25
+Training Loss: 0.6417
+X: -3.0, Y: 2.25
+Training Loss: 0.3025
+X: -2.25, Y: 2.25
+Training Loss: 0.1531
+X: -1.5, Y: 2.25
+Training Loss: 0.0823
+X: -0.75, Y: 2.25
+Training Loss: 0.0784
+X: 0.0, Y: 2.25
+Training Loss: 0.0760
+X: 0.75, Y: 2.25
+Training Loss: 0.1170
+X: 1.5, Y: 2.25
+Training Loss: 0.1548
+X: 2.25, Y: 2.25
+Training Loss: 0.2070
+X: 3.0, Y: 2.25
+Training Loss: 0.2748
+X: 3.75, Y: 2.25
+Training Loss: 0.3777
+X: 4.5, Y: 2.25
+Training Loss: 0.4654
+X: 5.25, Y: 2.25
+Training Loss: 0.5512
+X: 6.0, Y: 2.25
+Training Loss: 0.6758
+X: 6.75, Y: 2.25
+Training Loss: 1.1043
+X: 7.5, Y: 2.25
+Training Loss: 2.2252
+X: 8.25, Y: 2.25
+Training Loss: 3.9737
+X: 9.0, Y: 2.25
+Training Loss: 7.8288
+X: 9.75, Y: 2.25
+Training Loss: 14.2888
+X: -9.0, Y: 3.0
+Training Loss: 8.6675
+X: -8.25, Y: 3.0
+Training Loss: 6.8609
+X: -7.5, Y: 3.0
+Training Loss: 5.5989
+X: -6.75, Y: 3.0
+Training Loss: 4.0019
+X: -6.0, Y: 3.0
+Training Loss: 2.7313
+X: -5.25, Y: 3.0
+Training Loss: 1.7743
+X: -4.5, Y: 3.0
+Training Loss: 1.0904
+X: -3.75, Y: 3.0
+Training Loss: 0.5707
+X: -3.0, Y: 3.0
+Training Loss: 0.2862
+X: -2.25, Y: 3.0
+Training Loss: 0.1586
+X: -1.5, Y: 3.0
+Training Loss: 0.1092
+X: -0.75, Y: 3.0
+Training Loss: 0.1114
+X: 0.0, Y: 3.0
+Training Loss: 0.1332
+X: 0.75, Y: 3.0
+Training Loss: 0.2231
+X: 1.5, Y: 3.0
+Training Loss: 0.2375
+X: 2.25, Y: 3.0
+Training Loss: 0.2850
+X: 3.0, Y: 3.0
+Training Loss: 0.3474
+X: 3.75, Y: 3.0
+Training Loss: 0.4321
+X: 4.5, Y: 3.0
+Training Loss: 0.4844
+X: 5.25, Y: 3.0
+Training Loss: 0.5773
+X: 6.0, Y: 3.0
+Training Loss: 0.8429
+X: 6.75, Y: 3.0
+Training Loss: 1.2471
+X: 7.5, Y: 3.0
+Training Loss: 2.4506
+X: 8.25, Y: 3.0
+Training Loss: 4.4127
+X: 9.0, Y: 3.0
+Training Loss: 8.1008
+X: 9.75, Y: 3.0
+Training Loss: 15.7539
+X: -9.0, Y: 3.75
+Training Loss: 8.3726
+X: -8.25, Y: 3.75
+Training Loss: 6.5762
+X: -7.5, Y: 3.75
+Training Loss: 5.0522
+X: -6.75, Y: 3.75
+Training Loss: 3.5159
+X: -6.0, Y: 3.75
+Training Loss: 2.5412
+X: -5.25, Y: 3.75
+Training Loss: 1.5762
+X: -4.5, Y: 3.75
+Training Loss: 1.0406
+X: -3.75, Y: 3.75
+Training Loss: 0.6176
+X: -3.0, Y: 3.75
+Training Loss: 0.3300
+X: -2.25, Y: 3.75
+Training Loss: 0.1846
+X: -1.5, Y: 3.75
+Training Loss: 0.1671
+X: -0.75, Y: 3.75
+Training Loss: 0.1687
+X: 0.0, Y: 3.75
+Training Loss: 0.2105
+X: 0.75, Y: 3.75
+Training Loss: 0.3226
+X: 1.5, Y: 3.75
+Training Loss: 0.3750
+X: 2.25, Y: 3.75
+Training Loss: 0.4148
+X: 3.0, Y: 3.75
+Training Loss: 0.4482
+X: 3.75, Y: 3.75
+Training Loss: 0.5284
+X: 4.5, Y: 3.75
+Training Loss: 0.6012
+X: 5.25, Y: 3.75
+Training Loss: 0.7262
+X: 6.0, Y: 3.75
+Training Loss: 0.9564
+X: 6.75, Y: 3.75
+Training Loss: 1.5758
+X: 7.5, Y: 3.75
+Training Loss: 3.0917
+X: 8.25, Y: 3.75
+Training Loss: 5.4916
+X: 9.0, Y: 3.75
+Training Loss: 9.3792
+X: 9.75, Y: 3.75
+Training Loss: 16.6154
+X: -9.0, Y: 4.5
+Training Loss: 8.8535
+X: -8.25, Y: 4.5
+Training Loss: 6.2891
+X: -7.5, Y: 4.5
+Training Loss: 4.7216
+X: -6.75, Y: 4.5
+Training Loss: 3.3849
+X: -6.0, Y: 4.5
+Training Loss: 2.3906
+X: -5.25, Y: 4.5
+Training Loss: 1.4795
+X: -4.5, Y: 4.5
+Training Loss: 1.0327
+X: -3.75, Y: 4.5
+Training Loss: 0.6614
+X: -3.0, Y: 4.5
+Training Loss: 0.3650
+X: -2.25, Y: 4.5
+Training Loss: 0.2425
+X: -1.5, Y: 4.5
+Training Loss: 0.2271
+X: -0.75, Y: 4.5
+Training Loss: 0.2406
+X: 0.0, Y: 4.5
+Training Loss: 0.3150
+X: 0.75, Y: 4.5
+Training Loss: 0.4252
+X: 1.5, Y: 4.5
+Training Loss: 0.4886
+X: 2.25, Y: 4.5
+Training Loss: 0.5182
+X: 3.0, Y: 4.5
+Training Loss: 0.5230
+X: 3.75, Y: 4.5
+Training Loss: 0.5943
+X: 4.5, Y: 4.5
+Training Loss: 0.6696
+X: 5.25, Y: 4.5
+Training Loss: 0.8055
+X: 6.0, Y: 4.5
+Training Loss: 1.2496
+X: 6.75, Y: 4.5
+Training Loss: 2.2660
+X: 7.5, Y: 4.5
+Training Loss: 3.7550
+X: 8.25, Y: 4.5
+Training Loss: 6.3420
+X: 9.0, Y: 4.5
+Training Loss: 10.2831
+X: 9.75, Y: 4.5
+Training Loss: 18.8223
+X: -9.0, Y: 5.25
+Training Loss: 9.4494
+X: -8.25, Y: 5.25
+Training Loss: 6.5965
+X: -7.5, Y: 5.25
+Training Loss: 4.9835
+X: -6.75, Y: 5.25
+Training Loss: 3.4143
+X: -6.0, Y: 5.25
+Training Loss: 2.3218
+X: -5.25, Y: 5.25
+Training Loss: 1.6842
+X: -4.5, Y: 5.25
+Training Loss: 1.0041
+X: -3.75, Y: 5.25
+Training Loss: 0.6888
+X: -3.0, Y: 5.25
+Training Loss: 0.4238
+X: -2.25, Y: 5.25
+Training Loss: 0.3046
+X: -1.5, Y: 5.25
+Training Loss: 0.2960
+X: -0.75, Y: 5.25
+Training Loss: 0.3169
+X: 0.0, Y: 5.25
+Training Loss: 0.3603
+X: 0.75, Y: 5.25
+Training Loss: 0.4119
+X: 1.5, Y: 5.25
+Training Loss: 0.4867
+X: 2.25, Y: 5.25
+Training Loss: 0.5270
+X: 3.0, Y: 5.25
+Training Loss: 0.5688
+X: 3.75, Y: 5.25
+Training Loss: 0.5931
+X: 4.5, Y: 5.25
+Training Loss: 0.7053
+X: 5.25, Y: 5.25
+Training Loss: 0.8658
+X: 6.0, Y: 5.25
+Training Loss: 1.5074
+X: 6.75, Y: 5.25
+Training Loss: 3.3363
+X: 7.5, Y: 5.25
+Training Loss: 5.9594
+X: 8.25, Y: 5.25
+Training Loss: 8.4733
+X: 9.0, Y: 5.25
+Training Loss: 14.0226
+X: 9.75, Y: 5.25
+Training Loss: 21.4377
+X: -9.0, Y: 6.0
+Training Loss: 10.4540
+X: -8.25, Y: 6.0
+Training Loss: 7.9511
+X: -7.5, Y: 6.0
+Training Loss: 5.2241
+X: -6.75, Y: 6.0
+Training Loss: 4.0097
+X: -6.0, Y: 6.0
+Training Loss: 2.5316
+X: -5.25, Y: 6.0
+Training Loss: 1.7303
+X: -4.5, Y: 6.0
+Training Loss: 1.0293
+X: -3.75, Y: 6.0
+Training Loss: 0.6817
+X: -3.0, Y: 6.0
+Training Loss: 0.4384
+X: -2.25, Y: 6.0
+Training Loss: 0.3460
+X: -1.5, Y: 6.0
+Training Loss: 0.3507
+X: -0.75, Y: 6.0
+Training Loss: 0.3838
+X: 0.0, Y: 6.0
+Training Loss: 0.4381
+X: 0.75, Y: 6.0
+Training Loss: 0.4834
+X: 1.5, Y: 6.0
+Training Loss: 0.5341
+X: 2.25, Y: 6.0
+Training Loss: 0.5637
+X: 3.0, Y: 6.0
+Training Loss: 0.5916
+X: 3.75, Y: 6.0
+Training Loss: 0.6121
+X: 4.5, Y: 6.0
+Training Loss: 0.7190
+X: 5.25, Y: 6.0
+Training Loss: 0.9463
+X: 6.0, Y: 6.0
+Training Loss: 1.6474
+X: 6.75, Y: 6.0
+Training Loss: 4.2143
+X: 7.5, Y: 6.0
+Training Loss: 7.1424
+X: 8.25, Y: 6.0
+Training Loss: 12.2625
+X: 9.0, Y: 6.0
+Training Loss: 19.7800
+X: 9.75, Y: 6.0
+Training Loss: 30.0992
+X: -9.0, Y: 6.75
+Training Loss: 11.1492
+X: -8.25, Y: 6.75
+Training Loss: 8.4364
+X: -7.5, Y: 6.75
+Training Loss: 5.2449
+X: -6.75, Y: 6.75
+Training Loss: 3.8021
+X: -6.0, Y: 6.75
+Training Loss: 2.6370
+X: -5.25, Y: 6.75
+Training Loss: 1.8796
+X: -4.5, Y: 6.75
+Training Loss: 1.0212
+X: -3.75, Y: 6.75
+Training Loss: 0.6965
+X: -3.0, Y: 6.75
+Training Loss: 0.4512
+X: -2.25, Y: 6.75
+Training Loss: 0.3959
+X: -1.5, Y: 6.75
+Training Loss: 0.4160
+X: -0.75, Y: 6.75
+Training Loss: 0.4604
+X: 0.0, Y: 6.75
+Training Loss: 0.5084
+X: 0.75, Y: 6.75
+Training Loss: 0.5394
+X: 1.5, Y: 6.75
+Training Loss: 0.5725
+X: 2.25, Y: 6.75
+Training Loss: 0.6027
+X: 3.0, Y: 6.75
+Training Loss: 0.6212
+X: 3.75, Y: 6.75
+Training Loss: 0.6354
+X: 4.5, Y: 6.75
+Training Loss: 0.6722
+X: 5.25, Y: 6.75
+Training Loss: 1.0616
+X: 6.0, Y: 6.75
+Training Loss: 1.8002
+X: 6.75, Y: 6.75
+Training Loss: 4.8814
+X: 7.5, Y: 6.75
+Training Loss: 9.4177
+X: 8.25, Y: 6.75
+Training Loss: 17.2730
+X: 9.0, Y: 6.75
+Training Loss: 28.7966
+X: 9.75, Y: 6.75
+Training Loss: 47.7600
+X: -9.0, Y: 7.5
+Training Loss: 11.9393
+X: -8.25, Y: 7.5
+Training Loss: 8.5529
+X: -7.5, Y: 7.5
+Training Loss: 6.6025
+X: -6.75, Y: 7.5
+Training Loss: 4.3720
+X: -6.0, Y: 7.5
+Training Loss: 3.0206
+X: -5.25, Y: 7.5
+Training Loss: 1.7113
+X: -4.5, Y: 7.5
+Training Loss: 1.0577
+X: -3.75, Y: 7.5
+Training Loss: 0.6490
+X: -3.0, Y: 7.5
+Training Loss: 0.5011
+X: -2.25, Y: 7.5
+Training Loss: 0.4548
+X: -1.5, Y: 7.5
+Training Loss: 0.4785
+X: -0.75, Y: 7.5
+Training Loss: 0.5131
+X: 0.0, Y: 7.5
+Training Loss: 0.5502
+X: 0.75, Y: 7.5
+Training Loss: 0.5826
+X: 1.5, Y: 7.5
+Training Loss: 0.6112
+X: 2.25, Y: 7.5
+Training Loss: 0.6290
+X: 3.0, Y: 7.5
+Training Loss: 0.6424
+X: 3.75, Y: 7.5
+Training Loss: 0.6510
+X: 4.5, Y: 7.5
+Training Loss: 0.6725
+X: 5.25, Y: 7.5
+Training Loss: 0.9328
+X: 6.0, Y: 7.5
+Training Loss: 1.8705
+X: 6.75, Y: 7.5
+Training Loss: 4.3553
+X: 7.5, Y: 7.5
+Training Loss: 11.6382
+X: 8.25, Y: 7.5
+Training Loss: 21.7196
+X: 9.0, Y: 7.5
+Training Loss: 37.7795
+X: 9.75, Y: 7.5
+Training Loss: 66.0942
+X: -9.0, Y: 8.25
+Training Loss: 13.1674
+X: -8.25, Y: 8.25
+Training Loss: 9.1053
+X: -7.5, Y: 8.25
+Training Loss: 6.6120
+X: -6.75, Y: 8.25
+Training Loss: 3.8703
+X: -6.0, Y: 8.25
+Training Loss: 2.7110
+X: -5.25, Y: 8.25
+Training Loss: 1.7623
+X: -4.5, Y: 8.25
+Training Loss: 1.0382
+X: -3.75, Y: 8.25
+Training Loss: 0.6705
+X: -3.0, Y: 8.25
+Training Loss: 0.4961
+X: -2.25, Y: 8.25
+Training Loss: 0.4965
+X: -1.5, Y: 8.25
+Training Loss: 0.5317
+X: -0.75, Y: 8.25
+Training Loss: 0.5567
+X: 0.0, Y: 8.25
+Training Loss: 0.5904
+X: 0.75, Y: 8.25
+Training Loss: 0.6182
+X: 1.5, Y: 8.25
+Training Loss: 0.6323
+X: 2.25, Y: 8.25
+Training Loss: 0.6429
+X: 3.0, Y: 8.25
+Training Loss: 0.6552
+X: 3.75, Y: 8.25
+Training Loss: 0.6639
+X: 4.5, Y: 8.25
+Training Loss: 0.6944
+X: 5.25, Y: 8.25
+Training Loss: 0.8747
+X: 6.0, Y: 8.25
+Training Loss: 1.9938
+X: 6.75, Y: 8.25
+Training Loss: 3.9436
+X: 7.5, Y: 8.25
+Training Loss: 10.3594
+X: 8.25, Y: 8.25
+Training Loss: 25.0906
+X: 9.0, Y: 8.25
+Training Loss: 50.0818
+X: 9.75, Y: 8.25
+Training Loss: 88.2490
+X: -9.0, Y: 9.0
+Training Loss: 12.7396
+X: -8.25, Y: 9.0
+Training Loss: 8.8219
+X: -7.5, Y: 9.0
+Training Loss: 6.3168
+X: -6.75, Y: 9.0
+Training Loss: 4.0679
+X: -6.0, Y: 9.0
+Training Loss: 2.5921
+X: -5.25, Y: 9.0
+Training Loss: 1.5965
+X: -4.5, Y: 9.0
+Training Loss: 0.8771
+X: -3.75, Y: 9.0
+Training Loss: 0.6079
+X: -3.0, Y: 9.0
+Training Loss: 0.5308
+X: -2.25, Y: 9.0
+Training Loss: 0.5436
+X: -1.5, Y: 9.0
+Training Loss: 0.5701
+X: -0.75, Y: 9.0
+Training Loss: 0.5976
+X: 0.0, Y: 9.0
+Training Loss: 0.6230
+X: 0.75, Y: 9.0
+Training Loss: 0.6387
+X: 1.5, Y: 9.0
+Training Loss: 0.6494
+X: 2.25, Y: 9.0
+Training Loss: 0.6611
+X: 3.0, Y: 9.0
+Training Loss: 0.6651
+X: 3.75, Y: 9.0
+Training Loss: 0.6751
+X: 4.5, Y: 9.0
+Training Loss: 0.6982
+X: 5.25, Y: 9.0
+Training Loss: 0.9089
+X: 6.0, Y: 9.0
+Training Loss: 2.1246
+X: 6.75, Y: 9.0
+Training Loss: 3.5277
+X: 7.5, Y: 9.0
+Training Loss: 11.0688
+X: 8.25, Y: 9.0
+Training Loss: 27.1225
+X: 9.0, Y: 9.0
+Training Loss: 60.0658
+X: 9.75, Y: 9.0
+Training Loss: 102.6801
+X: -9.0, Y: 9.75
+Training Loss: 12.2770
+X: -8.25, Y: 9.75
+Training Loss: 8.0619
+X: -7.5, Y: 9.75
+Training Loss: 5.5330
+X: -6.75, Y: 9.75
+Training Loss: 3.3711
+X: -6.0, Y: 9.75
+Training Loss: 1.9582
+X: -5.25, Y: 9.75
+Training Loss: 1.2147
+X: -4.5, Y: 9.75
+Training Loss: 0.7477
+X: -3.75, Y: 9.75
+Training Loss: 0.5866
+X: -3.0, Y: 9.75
+Training Loss: 0.5482
+X: -2.25, Y: 9.75
+Training Loss: 0.5828
+X: -1.5, Y: 9.75
+Training Loss: 0.6028
+X: -0.75, Y: 9.75
+Training Loss: 0.6268
+X: 0.0, Y: 9.75
+Training Loss: 0.6351
+X: 0.75, Y: 9.75
+Training Loss: 0.6535
+X: 1.5, Y: 9.75
+Training Loss: 0.6649
+X: 2.25, Y: 9.75
+Training Loss: 0.6713
+X: 3.0, Y: 9.75
+Training Loss: 0.6745
+X: 3.75, Y: 9.75
+Training Loss: 0.6828
+X: 4.5, Y: 9.75
+Training Loss: 0.7103
+X: 5.25, Y: 9.75
+Training Loss: 0.9170
+X: 6.0, Y: 9.75
+Training Loss: 1.6753
+X: 6.75, Y: 9.75
+Training Loss: 3.7231
+X: 7.5, Y: 9.75
+Training Loss: 10.4536
+X: 8.25, Y: 9.75
+Training Loss: 29.2044
+X: 9.0, Y: 9.75
+Training Loss: 70.4991
+X: 9.75, Y: 9.75
+Training Loss: 125.1425
+Saved to runs/12_epochs_from_-9_to_10_with_0.75ss-20_39_12_7_2022/new_data_ResNet_PCA_pca.ply
