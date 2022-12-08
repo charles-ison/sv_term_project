@@ -160,7 +160,6 @@ void RGBtoHSV(icVector3& hsv, const icVector3& rgb) {
 }
 
 
-// NOTE: I am in CS 453 (400-level), so this is not graded, I just wanted to do it for practice.
 void transform_and_show_rainbow_colors() {
 	std::cout << "Displaying scalar values as rainbow map." << std::endl;
 
@@ -215,7 +214,7 @@ void transform_and_show_height() {
 	double max = -min;
 	findMinMax(min, max);
 
-	// Scale the height value for each vertex
+	// Scale the height value for each vertex depending on our preset constant parameters
 	for (int i = 0; i < poly->nverts; i++) {
 		auto& vertex = poly->vlist[i];
 		vertex->z = vertex->scalar;

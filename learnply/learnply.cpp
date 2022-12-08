@@ -22,13 +22,14 @@
 #include "gradient_descent.h"
 
 int NUM_CONTOURS = 60;
-double HEIGHT_MULTIPLIER = 0.7;
-double CAP_HEIGHT = 6;
-bool APPLY_NORM = true;
-bool APPLY_LOG = false;
 
-bool is_pca = false;
-bool draw_descent_dots = false;
+// Each of these parameters manipulates the height of the vertices:
+double CAP_HEIGHT = 1;	// Sets anything above a height of CAP_HEIGHT to CAP_HEIGHT.
+bool APPLY_NORM = false;
+bool APPLY_LOG = false;
+double HEIGHT_MULTIPLIER = 10;
+
+bool is_pca = true;
 
 Polyhedron* poly;
 std::vector<PolyLine> lines;
@@ -36,7 +37,6 @@ std::vector<icVector3> points;
 
 std::vector<POLYLINE> polylines;
 std::vector<CRITICAL_POINT> critical_points;
-
 std::vector<icVector3> grad_descent_points;
 
 /*scene related variables*/
@@ -46,6 +46,7 @@ int win_height = 1024;
 float aspectRatio = win_width / win_height;
 const int view_mode = 0;		// 0 = othogonal, 1=perspective
 const double radius_factor = 0.9;
+bool draw_descent_dots = false;
 
 /*
 Use keys 1 to 0 to switch among different display modes.
@@ -109,7 +110,7 @@ int main(int argc, char* argv[])
 {
 
 	/*load mesh from ply file*/
-	const char* filepath = "../../jupyter_notebooks/runs/Random/ResNet_Random.ply";
+	const char* filepath = "../jupyter_notebooks/runs/PCA/ResNet_PCA.ply";
 	FILE* this_file = fopen(filepath, "r");
 	if (this_file == NULL) {
 		printf("Cannot find file %s\n", filepath);

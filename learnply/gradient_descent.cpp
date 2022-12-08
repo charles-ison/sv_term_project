@@ -31,7 +31,7 @@ Quad* findQuad(const icVector3& v) {
 	return nullptr;
 }
 
-double weighted_mean(Quad* q, icVector3& point) {
+double interpolate_height_of_point_in_quad(Quad* q, icVector3& point) {
 	// Bilinear Interpolation / Weighted Mean
 	// https://en.wikipedia.org/wiki/Bilinear_interpolation#Weighted_mean
 
@@ -54,7 +54,7 @@ double weighted_mean(Quad* q, icVector3& point) {
 }
 
 std::vector<icVector3> load_grad_descent_points_from_csv() {
-	const char* csv_filepath = "../../jupyter_notebooks/runs/PCA/ResNet_PCA_gradient_descent_results.csv";
+	const char* csv_filepath = "../jupyter_notebooks/runs/PCA/ResNet_PCA_gradient_descent_results.csv";
 	std::ifstream csv_filestream;
 	csv_filestream.open(csv_filepath);
 	if (!csv_filestream) {
@@ -74,9 +74,8 @@ std::vector<icVector3> load_grad_descent_points_from_csv() {
 		y = stod(y_string);
 
 		icVector3 point(x, y, 0.0);
-
 		Quad* q = findQuad(point);
-		point.z = weighted_mean(q, point) * HEIGHT_MULTIPLIER + 0.01;
+		point.z = interpolate_height_of_point_in_quad(q, point) * HEIGHT_MULTIPLIER + 0.01;
 		grad_descent_points.push_back(point);
 	}
 
@@ -87,7 +86,7 @@ void add_grad_descent_points_to_polylines(std::vector<icVector3>& grad_descent_p
 	
 	bool use_solid_color = false;
 
-	// Define two rgb colors
+	// Define two rgb colors to use for the gradient.
 	icVector3 color_1(1.0, 1.0, 0.0);
 	icVector3 color_2(0.0, 1.0, 1.0);
 
@@ -117,6 +116,7 @@ void add_grad_descent_points_to_polylines(std::vector<icVector3>& grad_descent_p
 			line.m_rgb = icVector3(color.x, color.y, color.z);
 		}
 		line.m_weight = 4;
+
 		polylines->push_back(line);
 	}
 }
