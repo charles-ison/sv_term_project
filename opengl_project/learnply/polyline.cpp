@@ -2,7 +2,7 @@
 #include "GL/glew.h"
 #include <iostream>
 #define EPSILON 1.0e-5
-#define CRIT_EPSILON 0.01
+#define CRIT_EPSILON 0.000001 // sets epsilon for finding non-min-max critical points
 
 bool POLYLINE::isNeighbor(const POLYLINE& line) {
 	// If the start or end of a polyline is close enough (EPSILON) to the start or end of another polyline, they are neighbors.

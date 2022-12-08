@@ -21,6 +21,13 @@
 #include "contour_and_crit_point.h"
 #include "gradient_descent.h"
 
+// Sets how many contours there are and the range of countour values:
+int NUM_CONTOURS = 20;
+double HEIGHT_MULTIPLIER = 500;
+double CAP_HEIGHT = 1;
+bool APPLY_NORM = true;
+bool APPLY_LOG = false;
+
 Polyhedron* poly;
 std::vector<PolyLine> lines;
 std::vector<icVector3> points;
@@ -103,7 +110,7 @@ int main(int argc, char* argv[])
 	grad_descent_points = load_grad_descent_points_from_csv();
 
 	/*load mesh from ply file*/
-	const char* filepath = "../data/loss_data/new_data_ResNet_Random_Directions_random.ply";
+	const char* filepath = "../../jupyter_notebooks/runs/12_epochs_18_35_12_7_2022/new_data_VGG_PCA_pca.ply";
 	FILE* this_file = fopen(filepath, "r");
 	if (this_file == NULL) {
 		printf("Cannot find file %s\n", filepath);
@@ -677,6 +684,14 @@ void keyboard(unsigned char key, int x, int y) {
 		glutPostRedisplay();
 		break;
 		
+	case 'm':
+		for (int i = 0; i < poly->nverts; i++) {
+			auto& vertex = poly->vlist[i];
+			vertex->z = -100;
+		}
+		glutPostRedisplay();
+		break;
+
 	}
 
 }

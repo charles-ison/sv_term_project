@@ -6,12 +6,10 @@
 #include <iostream>
 #include <algorithm>
 
+extern int NUM_CONTOURS;
 extern Polyhedron* poly;
 extern std::vector<POLYLINE> polylines;
 extern std::vector<CRITICAL_POINT> critical_points;
-
-// Sets how many contours there are and the range of countour values:
-int NUM_CONTOURS = 10; 
 
 void generate_and_show_contours() {
 	double min_iso_val = INFINITY;
@@ -38,6 +36,7 @@ void generate_and_show_contours() {
 		makePolylineFromEdges(polylinei, edgei);
 		for (auto& polyline_ : polylinei) {
 			polyline_.m_rgb = contour_color; // We color based on the index of the # line it is.
+			polyline_.m_weight = 2;
 			polylines.push_back(polyline_);
 		}
 
@@ -83,6 +82,7 @@ void generate_and_show_colored_contours() {
 		makePolylineFromEdges(polylinei, edgei);
 		for (auto& polyline_ : polylinei) {
 			polyline_.m_rgb = icVector3(contour_color.x, contour_color.y, contour_color.z); // We color based on the index of the # line it is.
+			polyline_.m_weight = 2;
 			polylines.push_back(polyline_);
 		}
 

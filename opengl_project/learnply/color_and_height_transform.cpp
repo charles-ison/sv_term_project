@@ -5,9 +5,14 @@
 #include <algorithm>
 #include <vector>
 #include "polyline.h"
+#include <cmath>
 
 extern Polyhedron* poly;
 extern std::vector<POLYLINE> polylines;
+extern double HEIGHT_MULTIPLIER;
+extern double CAP_HEIGHT;
+extern bool APPLY_NORM;
+extern bool APPLY_LOG;
 
 void findMinMax(double& min, double& max) {
 	// Set min and max scalar for the poly's verticies
@@ -195,9 +200,16 @@ void transform_and_show_rainbow_colors() {
 
 
 void transform_and_show_height() {
+	
+	std::cout << "Displaying scalar values as height. Height multiplier = " << HEIGHT_MULTIPLIER << std::endl;
 
-	int height_multiplier = 1;
-	std::cout << "Displaying scalar values as height. Height multiplier = " << height_multiplier << std::endl;
+	for (int i = 0; i < poly->nverts; i++) {
+		auto& vertex = poly->vlist[i];
+		vertex->scalar = vertex->scalar;
+
+		if (vertex->scalar > CAP_HEIGHT)
+			vertex->scalar = CAP_HEIGHT;
+	}
 
 	double min = INFINITY;
 	double max = -min;
@@ -206,16 +218,19 @@ void transform_and_show_height() {
 	// Scale the height value for each vertex
 	for (int i = 0; i < poly->nverts; i++) {
 		auto& vertex = poly->vlist[i];
-		double scalar_value = vertex->scalar;
-		//double norm_height = (scalar_value - min) / (max - min);
-		vertex->z = scalar_value * height_multiplier;
+		vertex->z = vertex->scalar;
+
+		vertex->z = APPLY_LOG ? log(vertex->z) : vertex->z;
+		vertex->z = APPLY_NORM ? (vertex->z - min) / (max - min) : vertex->z;
+
+		vertex->z *= HEIGHT_MULTIPLIER;
 	}
 	
 	// Scale the height for each polyline
 	for (auto& line : polylines) {
 		auto& verts = line.m_vertices;
 		for (auto& vert : verts) {
-			vert.z *= height_multiplier;
+			vert.z *= HEIGHT_MULTIPLIER;
 		}
 	}
 
