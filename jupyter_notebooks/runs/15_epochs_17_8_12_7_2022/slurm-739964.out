@@ -1,0 +1,148 @@
+getting data
+Files already downloaded and verified
+Files already downloaded and verified
+training ResNet
+epoch: 0
+Train Loss: 0.4436, Train Acc: 0.17
+Test Loss: 0.1947, Test Acc: 0.40
+epoch: 1
+Train Loss: 0.1540, Train Acc: 0.49
+Test Loss: 0.1273, Test Acc: 0.60
+epoch: 2
+Train Loss: 0.1095, Train Acc: 0.62
+Test Loss: 0.0842, Test Acc: 0.73
+epoch: 3
+Train Loss: 0.0798, Train Acc: 0.73
+Test Loss: 0.0668, Test Acc: 0.79
+epoch: 4
+Train Loss: 0.0750, Train Acc: 0.74
+Test Loss: 0.0600, Test Acc: 0.80
+epoch: 5
+Train Loss: 0.0705, Train Acc: 0.76
+Test Loss: 0.0501, Test Acc: 0.83
+epoch: 6
+Train Loss: 0.0579, Train Acc: 0.80
+Test Loss: 0.0492, Test Acc: 0.85
+epoch: 7
+Train Loss: 0.0553, Train Acc: 0.80
+Test Loss: 0.0421, Test Acc: 0.87
+epoch: 8
+Train Loss: 0.0524, Train Acc: 0.83
+Test Loss: 0.0351, Test Acc: 0.89
+epoch: 9
+Train Loss: 0.0509, Train Acc: 0.83
+Test Loss: 0.0379, Test Acc: 0.88
+epoch: 10
+Train Loss: 0.0540, Train Acc: 0.81
+Test Loss: 0.0314, Test Acc: 0.89
+epoch: 11
+Train Loss: 0.0455, Train Acc: 0.84
+Test Loss: 0.0334, Test Acc: 0.89
+epoch: 12
+Train Loss: 0.0472, Train Acc: 0.84
+Test Loss: 0.0351, Test Acc: 0.89
+epoch: 13
+Train Loss: 0.0362, Train Acc: 0.88
+Test Loss: 0.0319, Test Acc: 0.89
+epoch: 14
+Train Loss: 0.0411, Train Acc: 0.86
+Test Loss: 0.0308, Test Acc: 0.90
+X: -0.3, Y: -0.3
+Training Loss: 0.0234
+X: -0.19999999999999998, Y: -0.3
+Training Loss: 0.0229
+X: -0.09999999999999998, Y: -0.3
+Training Loss: 0.0257
+X: 5.551115123125783e-17, Y: -0.3
+Training Loss: 0.0290
+X: 0.10000000000000003, Y: -0.3
+Training Loss: 0.0277
+X: 0.2, Y: -0.3
+Training Loss: 0.0265
+X: 0.3000000000000001, Y: -0.3
+Training Loss: 0.0249
+X: -0.3, Y: -0.19999999999999998
+Training Loss: 0.0260
+X: -0.19999999999999998, Y: -0.19999999999999998
+Training Loss: 0.0283
+X: -0.09999999999999998, Y: -0.19999999999999998
+Training Loss: 0.0327
+X: 5.551115123125783e-17, Y: -0.19999999999999998
+Training Loss: 0.0309
+X: 0.10000000000000003, Y: -0.19999999999999998
+Training Loss: 0.0239
+X: 0.2, Y: -0.19999999999999998
+Training Loss: 0.0259
+X: 0.3000000000000001, Y: -0.19999999999999998
+Training Loss: 0.0267
+X: -0.3, Y: -0.09999999999999998
+Training Loss: 0.0234
+X: -0.19999999999999998, Y: -0.09999999999999998
+Training Loss: 0.0261
+X: -0.09999999999999998, Y: -0.09999999999999998
+Training Loss: 0.0264
+X: 5.551115123125783e-17, Y: -0.09999999999999998
+Training Loss: 0.0244
+X: 0.10000000000000003, Y: -0.09999999999999998
+Training Loss: 0.0248
+X: 0.2, Y: -0.09999999999999998
+Training Loss: 0.0241
+X: 0.3000000000000001, Y: -0.09999999999999998
+Training Loss: 0.0250
+X: -0.3, Y: 5.551115123125783e-17
+Training Loss: 0.0274
+X: -0.19999999999999998, Y: 5.551115123125783e-17
+Training Loss: 0.0286
+X: -0.09999999999999998, Y: 5.551115123125783e-17
+Training Loss: 0.0254
+X: 5.551115123125783e-17, Y: 5.551115123125783e-17
+Training Loss: 0.0246
+X: 0.10000000000000003, Y: 5.551115123125783e-17
+Training Loss: 0.0276
+X: 0.2, Y: 5.551115123125783e-17
+Training Loss: 0.0259
+X: 0.3000000000000001, Y: 5.551115123125783e-17
+Training Loss: 0.0287
+X: -0.3, Y: 0.10000000000000003
+Training Loss: 0.0238
+X: -0.19999999999999998, Y: 0.10000000000000003
+Training Loss: 0.0260
+X: -0.09999999999999998, Y: 0.10000000000000003
+Training Loss: 0.0255
+X: 5.551115123125783e-17, Y: 0.10000000000000003
+Training Loss: 0.0254
+X: 0.10000000000000003, Y: 0.10000000000000003
+Training Loss: 0.0290
+X: 0.2, Y: 0.10000000000000003
+Training Loss: 0.0275
+X: 0.3000000000000001, Y: 0.10000000000000003
+Training Loss: 0.0252
+X: -0.3, Y: 0.2
+Training Loss: 0.0291
+X: -0.19999999999999998, Y: 0.2
+Training Loss: 0.0249
+X: -0.09999999999999998, Y: 0.2
+Training Loss: 0.0264
+X: 5.551115123125783e-17, Y: 0.2
+Training Loss: 0.0269
+X: 0.10000000000000003, Y: 0.2
+Training Loss: 0.0287
+X: 0.2, Y: 0.2
+Training Loss: 0.0290
+X: 0.3000000000000001, Y: 0.2
+Training Loss: 0.0291
+X: -0.3, Y: 0.3000000000000001
+Training Loss: 0.0278
+X: -0.19999999999999998, Y: 0.3000000000000001
+Training Loss: 0.0266
+X: -0.09999999999999998, Y: 0.3000000000000001
+Training Loss: 0.0270
+X: 5.551115123125783e-17, Y: 0.3000000000000001
+Training Loss: 0.0244
+X: 0.10000000000000003, Y: 0.3000000000000001
+Training Loss: 0.0300
+X: 0.2, Y: 0.3000000000000001
+Training Loss: 0.0259
+X: 0.3000000000000001, Y: 0.3000000000000001
+Training Loss: 0.0307
+Saved to runs/15_epochs_17_8_12_7_2022/new_data_ResNet_PCA_pca.ply
