@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex final_project"] 1670463557 "final_project.aux" "final_project.bbl" "final_project" 1670463558
+["bibtex final_project"] 1670489614 "final_project.aux" "final_project.bbl" "final_project" 1670489615
   "./acmsiggraph.bst" 1670370624 23437 379793d86df76794fd7d06d3cc00dde1 ""
-  "final_project.aux" 1670463558 4050 08812e5aa050bba64d0519c901c68776 "pdflatex"
+  "final_project.aux" 1670489615 4050 046acb8b2d5c4c8d33c5deabd842e968 "pdflatex"
   "final_project_references.bib" 1670451879 3164 57178f3acc74814b6307a037414fcbe6 ""
   (generated)
   "final_project.bbl"
   "final_project.blg"
-["pdflatex"] 1670463557 "/Users/mattm/repos/cs_453/sv_term_project/final_report/final_project.tex" "final_project.pdf" "final_project" 1670463558
-  "../images/Resnet-0.5to0.5_high_res/contours-in-air.png" 1670460253 495272 f5fa0aaa51d0904ccd446d2ebe1bce77 ""
-  "../images/Resnet-0.5to0.5_high_res/rainbow_gradient_with_height.png" 1670462432 801904 529c87a774ff2f32cf057d34fc1cb913 ""
-  "/Users/mattm/repos/cs_453/sv_term_project/final_report/final_project.tex" 1670463555 13730 bc6a158ec8f1d6d4bacbd0893bb9c097 ""
+["pdflatex"] 1670489615 "/Users/mattm/repos/cs_453/sv_term_project/final_report/final_project.tex" "final_project.pdf" "final_project" 1670489615
+  "../images/Resnet_Random-Images-Ultra-High-Resolution/contours-in-air.png" 1670489461 495272 f5fa0aaa51d0904ccd446d2ebe1bce77 ""
+  "../images/Resnet_Random-Images-Ultra-High-Resolution/rainbow_gradient_with_height.png" 1670489461 801904 529c87a774ff2f32cf057d34fc1cb913 ""
+  "/Users/mattm/repos/cs_453/sv_term_project/final_report/final_project.tex" 1670489613 13934 b3ee7f0c5f3a4c1f0b3245b5c8b92c01 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -118,12 +118,10 @@
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1668755082 2826450 f69859864132c6cf14889cf64d493e1f ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "acmsiggraph.cls" 1670370624 17089 9fcce482b7b9b32d5dc0ee62888f6ad0 ""
-  "final_project.aux" 1670463558 4050 08812e5aa050bba64d0519c901c68776 "pdflatex"
-  "final_project.bbl" 1670463557 1895 cf7673ed0584dc58aadc598ddb232364 "bibtex final_project"
-  "final_project.out" 1670463558 920 9dde9f0733fad97c8d9c7bdb273246d7 "pdflatex"
-  "final_project.tex" 1670463555 13730 bc6a158ec8f1d6d4bacbd0893bb9c097 ""
-  "images/resnet_normalized_color.png" 1670450727 611866 4cef4eba8f98d9f4cf3ad8345393d0ff ""
-  "images/vgg-normalized-color.png" 1670451134 685144 df45e45b7c5625fa846d72b0c55e7fc7 ""
+  "final_project.aux" 1670489615 4050 046acb8b2d5c4c8d33c5deabd842e968 "pdflatex"
+  "final_project.bbl" 1670489615 1895 cf7673ed0584dc58aadc598ddb232364 "bibtex final_project"
+  "final_project.out" 1670489615 920 9dde9f0733fad97c8d9c7bdb273246d7 "pdflatex"
+  "final_project.tex" 1670489613 13934 b3ee7f0c5f3a4c1f0b3245b5c8b92c01 ""
   (generated)
   "final_project.aux"
   "final_project.log"
