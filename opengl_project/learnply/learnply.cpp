@@ -106,7 +106,7 @@ int main(int argc, char* argv[])
 {
 
 	/*load mesh from ply file*/
-	const char* filepath = "../../jupyter_notebooks/runs/PCA/VGG_PCA.ply";
+	const char* filepath = "../../jupyter_notebooks/runs/PCA/ResNet_PCA.ply";
 	FILE* this_file = fopen(filepath, "r");
 	if (this_file == NULL) {
 		printf("Cannot find file %s\n", filepath);
@@ -697,7 +697,7 @@ void keyboard(unsigned char key, int x, int y) {
 		{
 			icVector3 point = critical_points[k].m_coord;
 			icVector3 rgb_color = critical_points[k].m_rgb;
-			drawDot(point.x, point.y, point.z, 0.01, rgb_color.x, rgb_color.y, rgb_color.z);
+			drawDot(point.x, point.y, point.z, 0.15, rgb_color.x, rgb_color.y, rgb_color.z);
 		}
 
 		glutPostRedisplay();
@@ -1059,7 +1059,7 @@ void display(void)
 	{
 		icVector3 point = critical_points[k].m_coord;
 		icVector3 rgb_color = critical_points[k].m_rgb;
-		drawDot(point.x, point.y, point.z, 0.01, rgb_color.x, rgb_color.y, rgb_color.z);
+		drawDot(point.x, point.y, point.z, 0.15, rgb_color.x, rgb_color.y, rgb_color.z);
 	}
 
 	glFlush();

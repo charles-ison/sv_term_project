@@ -54,7 +54,7 @@ double weighted_mean(Quad* q, icVector3& point) {
 }
 
 std::vector<icVector3> load_grad_descent_points_from_csv() {
-	const char* csv_filepath = "../../jupyter_notebooks/runs/PCA/VGG_PCA_gradient_descent_results.csv";
+	const char* csv_filepath = "../../jupyter_notebooks/runs/PCA/ResNet_PCA_gradient_descent_results.csv";
 	std::ifstream csv_filestream;
 	csv_filestream.open(csv_filepath);
 	if (!csv_filestream) {
@@ -84,6 +84,17 @@ std::vector<icVector3> load_grad_descent_points_from_csv() {
 }
 
 void add_grad_descent_points_to_polylines(std::vector<icVector3>& grad_descent_points, std::vector<POLYLINE>* polylines) {
+	
+	bool use_solid_color = false;
+
+	// Create a gradient of color for the descent line from the top to the bottom of the line.
+	double min_height = grad_descent_points.back().z;
+	double max_height = grad_descent_points.front().z;
+
+	// Define two rgb colors
+	icVector3 color_1(1.0, 0.0, 0.0);
+	icVector3 color_2(0.0, 0.0, 1.0);
+
 	for (int i = 1; i < grad_descent_points.size(); i++) {
 		icVector3 point_a = grad_descent_points[i - 1];
 		icVector3 point_b = grad_descent_points[i];
@@ -91,7 +102,17 @@ void add_grad_descent_points_to_polylines(std::vector<icVector3>& grad_descent_p
 		POLYLINE line;
 		line.m_vertices.push_back(point_a);
 		line.m_vertices.push_back(point_b);
-		line.m_rgb = icVector3(0.0, 1.0, 0.0);
+
+		double l = (point_a.z - min_height) / (max_height - min_height);
+		double r = (max_height - point_b.z) / (max_height - min_height);
+		icVector3 color = color_1 * l + color_2 * r;
+
+		if (use_solid_color) {
+			line.m_rgb = icVector3(0, 1, 0);
+		}
+		else {
+			line.m_rgb = icVector3(color.x, color.y, color.z);
+		}
 		line.m_weight = 2;
 		polylines->push_back(line);
 	}
