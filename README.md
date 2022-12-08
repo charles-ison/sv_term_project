@@ -29,7 +29,7 @@
         - Press the key `a`
             - displays the the loss landscape as height.
         - Press the `s` key:
-            - sets the mesh of vertices to 0, which creates the visualization of a floor.
+            - sets the mesh of vertices to a height of 0, which creates the visualization of a floor.
         - Press the `d` key:
             - removes the mesh of vertices from the visualization (leaving just the contours).
 
@@ -44,6 +44,8 @@
             - combine colors/height/contours. 
         - Press the key `b`
             - combine colors/height/contours and show critical points.
+        - Press the key `7`
+            - removes contours and the gradient descent curve if it exists.
 
     - Color:
         - Press the key `t`
