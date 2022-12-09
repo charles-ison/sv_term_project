@@ -11,7 +11,6 @@
 2. Start without debugging
     - Press the green arrow at top of the screen
     - *or* key-chord: `Ctrl + F5`
-    - *or* run `Debug/learnply.exe`
 
 3. Choose a rendering mode
     - Press the key `1`
@@ -23,7 +22,7 @@
 
 4. Choose a visualization
     - Press the key `r`
-        - resets to the default view
+        - resets everything to the default view.
 
     - Height:
         - Press the key `a`
@@ -39,29 +38,15 @@
         - Press the key `x`
             - displays a bi-color gradient of contours from red to blue.
         - Press the key `c`
-            - combine contours with height fields.
-        - Press the key `v`
-            - combine colors/height/contours.
-        - Press the key `b`
-            - combine colors/height/contours and show critical points.
-        - Press the key `7`
-            - removes contours and the gradient descent curve if it exists.
-
+            - displays contours and shows critical points.
+        
     - Color:
         - Press the key `t`
-            - displays a grey scale map of the loss landscape at the mesh grid points.
+            - displays a greyscale map of the loss landscape.
         - Press the key `y`
             - displays a bi-color map of the loss landscape from red to blue.
         - Press the key `u`
-            - displays a rainbow map heat map.
-
-    - Height and Color:
-        - Press the key `i`
-            - displays the the loss landscape as height and grey scale map.
-        - Press the key `o`
-            - displays the the loss landscape as height and bi-color map.
-        - Press the key `p`
-            - displays the the loss landscape as height and rainbow map.
+            - displays a rainbow-colored map of the loss landscape.
 
     - Gradient Descent (for PCA only):
         -  Press the key `g`
