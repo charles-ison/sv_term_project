@@ -51,6 +51,9 @@ const int view_mode = 0;		// 0 = othogonal, 1=perspective
 const double radius_factor = 0.9;
 bool draw_descent_dots = false;
 
+bool solid_contours_visible = false;
+bool bicolor_contours_visible = false;
+
 /*
 Use keys 1 to 0 to switch among different display modes.
 Each display mode can be designed to show one type
@@ -504,6 +507,13 @@ void display_selected_vertex(Polyhedron* this_poly)
 	CHECK_GL_ERROR();
 }
 
+void setVerticesToHeight(int height) {
+	for (int i = 0; i < poly->nverts; i++) {
+		auto& vertex = poly->vlist[i];
+		vertex->z = height;
+	}
+}
+
 /******************************************************************************
 Process a keyboard action.  In particular, exit the program when an
 "escape" is pressed in the window.
@@ -544,30 +554,6 @@ void keyboard(unsigned char key, int x, int y) {
 	}
 	break;
 
-	case '7': {
-		polylines.clear();
-
-		// Sets how many contours there are.
-		int num_contours = 40;
-		for (int i = 1; i <= num_contours; i++) {
-			std::list<POLYLINE> edgei;
-
-			// `iso_val` is the iso-value at which to draw the contour
-			// In this case, we draw contours at iso-values of: [0, 30, 60, 90, 120, ..., 1170, 1200].
-			marchingSquare(edgei, *poly, i * 30);
-
-			std::vector<POLYLINE> polylinei;
-			makePolylineFromEdges(polylinei, edgei);
-			for (auto& polyline_ : polylinei) {
-				polyline_.m_rgb = icVector3(i * 1.0 / num_contours, 0, 0); // We color based on the index of the # line it is.
-				polylines.push_back(polyline_);
-			}
-		}
-
-		glutPostRedisplay();
-
-	} break;
-
 	case 'z': {
 		polylines.clear();
 		generate_and_show_contours();
@@ -593,8 +579,10 @@ void keyboard(unsigned char key, int x, int y) {
 		translation[0] = 0;
 		translation[1] = 0;
 		zoom = 1.0;
+		polylines.clear();
 		critical_points.clear();
 		draw_descent_dots = false;
+		setVerticesToHeight(0);
 		glutPostRedisplay();
 		break;
 
@@ -615,6 +603,12 @@ void keyboard(unsigned char key, int x, int y) {
 
 	case 'a':
 		transform_and_show_height();
+		if (solid_contours_visible)
+			generate_and_show_contours();
+
+		if (bicolor_contours_visible)
+			generate_and_show_colored_contours();
+
 		break;
 
 	case 'g':
@@ -628,10 +622,7 @@ void keyboard(unsigned char key, int x, int y) {
 		break;
 
 	case 'd':
-		for (int i = 0; i < poly->nverts; i++) {
-			auto& vertex = poly->vlist[i];
-			vertex->z = 5000;
-		}
+		setVerticesToHeight(5000);
 
 		// Draw critical points:
 		for (int k = 0; k < critical_points.size(); k++)
@@ -649,6 +640,12 @@ void keyboard(unsigned char key, int x, int y) {
 			auto& vertex = poly->vlist[i];
 			vertex->z = 0;
 		}
+
+		if (solid_contours_visible)
+			generate_and_show_contours();
+
+		if (bicolor_contours_visible)
+			generate_and_show_colored_contours();
 
 		glutPostRedisplay();
 		break;

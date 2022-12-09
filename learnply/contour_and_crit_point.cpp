@@ -10,8 +10,14 @@ extern int NUM_CONTOURS;
 extern Polyhedron* poly;
 extern std::vector<POLYLINE> polylines;
 extern std::vector<CRITICAL_POINT> critical_points;
+extern bool solid_contours_visible;
+extern bool bicolor_contours_visible;
+
 
 void generate_and_show_contours() {
+	polylines.clear();
+	solid_contours_visible = true;
+
 	double min_iso_val = INFINITY;
 	double max_iso_val = -min_iso_val;
 	findMinMax(min_iso_val, max_iso_val);
@@ -47,6 +53,9 @@ void generate_and_show_contours() {
 }
 
 void generate_and_show_colored_contours() {
+	bicolor_contours_visible = true;
+	polylines.clear();
+
 	double min_iso_val = INFINITY;
 	double max_iso_val = -min_iso_val;
 	findMinMax(min_iso_val, max_iso_val);
