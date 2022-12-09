@@ -24,7 +24,7 @@
 4. Choose a visualization
     - Press the key `r`
         - resets to the default view
-    
+
     - Height:
         - Press the key `a`
             - displays the the loss landscape as height.
@@ -41,7 +41,7 @@
         - Press the key `c`
             - combine contours with height fields.
         - Press the key `v`
-            - combine colors/height/contours. 
+            - combine colors/height/contours.
         - Press the key `b`
             - combine colors/height/contours and show critical points.
         - Press the key `7`
@@ -62,7 +62,7 @@
             - displays the the loss landscape as height and bi-color map.
         - Press the key `p`
             - displays the the loss landscape as height and rainbow map.
-    
+
     - Gradient Descent (for PCA only):
         -  Press the key `g`
             - displays the gradient descent curve. The yellow dot is the start and the cyan dot is the end of the gradient descent.
@@ -74,7 +74,7 @@
 ### Options
 1. Select a .ply file to view
     - Is this a PCA loss landscape?
-        - Yes: 
+        - Yes:
             1. modify line 26 of `learnply.cpp` to the filepath of the .ply file you would like to view.
             2.  modify line 27 of `learnply.cpp` to the filepath of the .csv file of the gradient descent.
             3. set `bool is_pca = true;` on line 28 of `learnply.cpp`
@@ -88,8 +88,8 @@
 ### List of the parameters we used to create our visualizations:
 1. ResNet PCA:
 ```
-char* ply_filepath = "../jupyter_notebooks/runs/PCA/ResNet_PCA.ply";
-char* csv_filepath = "../jupyter_notebooks/runs/PCA/ResNet_PCA_gradient_descent_results.csv";
+char* ply_filepath = "../python_scripts/runs/PCA/ResNet_PCA.ply";
+char* csv_filepath = "../python_scripts/runs/PCA/ResNet_PCA_gradient_descent_results.csv";
 bool is_pca = true;
 
 double CAP_HEIGHT = 1;
@@ -101,8 +101,8 @@ int NUM_CONTOURS = 60;
 
 2. VGG PCA:
 ```
-char* ply_filepath = "../jupyter_notebooks/runs/PCA/VGG_PCA.ply";
-char* csv_filepath = "../jupyter_notebooks/runs/PCA/VGG_PCA_gradient_descent_results.csv";
+char* ply_filepath = "../python_scripts/runs/PCA/VGG_PCA.ply";
+char* csv_filepath = "../python_scripts/runs/PCA/VGG_PCA_gradient_descent_results.csv";
 bool is_pca = true;
 
 double CAP_HEIGHT = 1;
@@ -114,8 +114,8 @@ int NUM_CONTOURS = 40;
 
 3. ResNet Random:
 ```
-char* ply_filepath = "../jupyter_notebooks/runs/Random/ResNet_Random.ply";
-char* csv_filepath = "../jupyter_notebooks/runs/PCA/ResNet_PCA_gradient_descent_results.csv";
+char* ply_filepath = "../python_scripts/runs/Random/ResNet_Random.ply";
+char* csv_filepath = "../python_scripts/runs/PCA/ResNet_PCA_gradient_descent_results.csv";
 bool is_pca = false;
 
 double CAP_HEIGHT = 6;
@@ -127,8 +127,8 @@ int NUM_CONTOURS = 40;
 
 4. VGG Random:
 ```
-char* ply_filepath = "../jupyter_notebooks/runs/Random/VGG_Random.ply";
-char* csv_filepath = "../jupyter_notebooks/runs/PCA/VGG_PCA_gradient_descent_results.csv";
+char* ply_filepath = "../python_scripts/runs/Random/VGG_Random.ply";
+char* csv_filepath = "../python_scripts/runs/PCA/VGG_PCA_gradient_descent_results.csv";
 bool is_pca = false;
 
 double CAP_HEIGHT = 6;

@@ -23,8 +23,8 @@
 
 
 // User-Input Parameters:
-char* ply_filepath = "../jupyter_notebooks/runs/PCA/ResNet_PCA.ply";
-char* csv_filepath = "../jupyter_notebooks/runs/PCA/ResNet_PCA_gradient_descent_results.csv";
+char* ply_filepath = "../python_scripts/runs/PCA/ResNet_PCA.ply";
+char* csv_filepath = "../python_scripts/runs/PCA/ResNet_PCA_gradient_descent_results.csv";
 bool is_pca = true;
 
 double CAP_HEIGHT = 1;
@@ -53,10 +53,10 @@ bool draw_descent_dots = false;
 
 /*
 Use keys 1 to 0 to switch among different display modes.
-Each display mode can be designed to show one type 
+Each display mode can be designed to show one type
 visualization result.
 
-Predefined ones: 
+Predefined ones:
 display mode 1: solid rendering
 display mode 2: show wireframes
 display mode 3: render each quad with colors of vertices
@@ -120,7 +120,7 @@ int main(int argc, char* argv[])
 
 	poly = new Polyhedron(this_file);
 	fclose(this_file);
-	
+
 	/*initialize the mesh*/
 	poly->initialize(); // initialize the mesh
 	poly->write_info();
@@ -140,7 +140,7 @@ int main(int argc, char* argv[])
 
 	/*initialize openGL*/
 	init();
-	
+
 	/*the render function and callback registration*/
 	glutKeyboardFunc(keyboard);
 	glutReshapeFunc(reshape);
@@ -151,10 +151,10 @@ int main(int argc, char* argv[])
 
 	/*apply height transformations initially*/
 	transform_and_show_height();
-	
+
 	/*event processing loop*/
 	glutMainLoop();
-	
+
 	/*clear memory before exit*/
 	poly->finalize();	// finalize everything
 	free(pixels);
@@ -255,10 +255,10 @@ void init(void) {
 	glDisable(GL_DITHER);
 	glEnable(GL_DEPTH_TEST);
 	glDepthFunc(GL_LESS);
-	
+
 	//set pixel storage modes
 	glPixelStorei(GL_PACK_ALIGNMENT, 1);
-	
+
 	glEnable(GL_NORMALIZE);
 	if (poly->orientation == 0)
 		glFrontFace(GL_CW);
@@ -297,7 +297,7 @@ void initIBFV()
 			pat[i][j][3] = ALPHA;
 		}
 	}
-	
+
 	glNewList(1, GL_COMPILE);
 	glTexImage2D(GL_TEXTURE_2D, 0, 4, NPN, NPN, 0, GL_RGBA, GL_UNSIGNED_BYTE, pat);
 	glEndList();
@@ -363,7 +363,7 @@ void display_quads(GLenum mode, Polyhedron* this_poly)
 			glLoadName(i + 1);
 
 		Quad* temp_q = this_poly->qlist[i];
-		
+
 		glBegin(GL_POLYGON);
 		for (j = 0; j < 4; j++) {
 			Vertex* temp_v = temp_q->verts[j];
@@ -398,7 +398,7 @@ void display_vertices(GLenum mode, Polyhedron* this_poly)
 
 		Vertex* temp_v = this_poly->vlist[i];
 		drawDot(temp_v->x, temp_v->y, temp_v->z, 0.15);
-		
+
 		CHECK_GL_ERROR();
 
 		{
@@ -572,7 +572,7 @@ void keyboard(unsigned char key, int x, int y) {
 		{
 
 			// your code goes here
-			
+
 		}
 		glutPostRedisplay();
 		break;
@@ -697,7 +697,7 @@ void keyboard(unsigned char key, int x, int y) {
 
 		glutPostRedisplay();
 		break;
-		
+
 	case 'd':
 		for (int i = 0; i < poly->nverts; i++) {
 			auto& vertex = poly->vlist[i];
@@ -780,7 +780,7 @@ void mouse(int button, int state, int x, int y) {
 	int key = glutGetModifiers();
 
 	if (button == GLUT_LEFT_BUTTON || button == GLUT_RIGHT_BUTTON) {
-		
+
 		if (state == GLUT_DOWN) {
 			float xsize = (float)win_width;
 			float ysize = (float)win_height;
@@ -976,7 +976,7 @@ void displayIBFV()
 
 			tx = tx / win_width;
 			ty = ty / win_height;
-			
+
 			icVector2 dp = icVector2(vtemp->vx, vtemp->vy);
 			normalize(dp);
 			dp *= dmax;
@@ -1231,7 +1231,7 @@ void display_polyhedron(Polyhedron* poly)
 
 	case 6: // add your own display mode
 	{
-		
+
 		// your code goes here
 
 	}
