@@ -1,5 +1,5 @@
 # Term Project
-## CS 4/553 Scientific Visualization
+## CS 453/553 Scientific Visualization
 ### Charles Ison and Matthew Morgan
 
 
