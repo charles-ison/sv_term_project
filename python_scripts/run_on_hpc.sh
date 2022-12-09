@@ -8,4 +8,4 @@
 #SBATCH --nodelist=cn-m-2    
 #SBATCH -t 1-00:00:00       
 #SBATCH --export=ALL
-python create_loss_hpc.py
+python create_loss_lanscape_as_PLY_file.py
