@@ -202,14 +202,6 @@ void transform_and_show_height() {
 	
 	std::cout << "Displaying scalar values as height. Height multiplier = " << HEIGHT_MULTIPLIER << std::endl;
 
-	for (int i = 0; i < poly->nverts; i++) {
-		auto& vertex = poly->vlist[i];
-		vertex->scalar = vertex->scalar;
-
-		if (vertex->scalar > CAP_HEIGHT)
-			vertex->scalar = CAP_HEIGHT;
-	}
-
 	double min = INFINITY;
 	double max = -min;
 	findMinMax(min, max);
@@ -226,4 +218,14 @@ void transform_and_show_height() {
 	}
 
 	glutPostRedisplay();
+}
+
+void transform_threshold_height() {
+	for (int i = 0; i < poly->nverts; i++) {
+		auto& vertex = poly->vlist[i];
+		vertex->scalar = vertex->scalar;
+
+		if (vertex->scalar > CAP_HEIGHT)
+			vertex->scalar = CAP_HEIGHT;
+	}
 }

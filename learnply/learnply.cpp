@@ -61,7 +61,7 @@ display mode 1: solid rendering
 display mode 2: show wireframes
 display mode 3: render each quad with colors of vertices
 */
-int display_mode = 1;
+int display_mode = 2;
 
 /*User Interaction related variabes*/
 float s_old, t_old;
@@ -150,7 +150,7 @@ int main(int argc, char* argv[])
 	glutMouseWheelFunc(mousewheel);
 
 	/*apply height transformations initially*/
-	transform_and_show_height();
+	transform_threshold_height();
 
 	/*event processing loop*/
 	glutMainLoop();
@@ -536,46 +536,14 @@ void keyboard(unsigned char key, int x, int y) {
 		glutPostRedisplay();
 		break;
 
-	case '3':	// checkerboard display
+	case '3':	// color display
 	{
 		display_mode = 3;
-
-		double L = (poly->radius * 2) / 30;
-		for (int i = 0; i < poly->nquads; i++) {
-			Quad* temp_q = poly->qlist[i];
-			for (int j = 0; j < 4; j++) {
-
-				Vertex* temp_v = temp_q->verts[j];
-
-				temp_v->R = int(temp_v->x / L) % 2 == 0 ? 1 : 0;
-				temp_v->G = int(temp_v->y / L) % 2 == 0 ? 1 : 0;
-				temp_v->B = 0.0;
-			}
-		}
+		transform_and_show_rainbow_colors();
 		glutPostRedisplay();
 	}
 	break;
 
-	case '4':	// Drawing points and lines created by the dots_and_lines_example() function
-		display_mode = 4;
-		dots_and_lines_example(&points, &lines);
-		glutPostRedisplay();
-		break;
-
-	case '5':	// IBFV vector field display
-		display_mode = 5;
-		glutPostRedisplay();
-		break;
-
-	case '6':	// add your own display mode
-		display_mode = 6;
-		{
-
-			// your code goes here
-
-		}
-		glutPostRedisplay();
-		break;
 	case '7': {
 		polylines.clear();
 
@@ -601,45 +569,18 @@ void keyboard(unsigned char key, int x, int y) {
 	} break;
 
 	case 'z': {
-		// This is step 2a in Project 2:
 		polylines.clear();
 		generate_and_show_contours();
 
 	} break;
 
 	case 'x': {
-		// This is step 2b in Project 2:
 		polylines.clear();
 		generate_and_show_colored_contours();
 
 	} break;
 
 	case 'c': {
-		// This is step 2c in Project 2:
-		polylines.clear();
-		transform_and_show_height();
-		generate_and_show_contours();
-
-	} break;
-
-	case 'v': {
-		// This is step 2d in Project 2:
-		polylines.clear();
-		transform_and_show_height();
-		generate_and_show_colored_contours();
-
-	} break;
-
-	case 'b': {
-		// This is step 3 in Project 2 with heights:
-		transform_and_show_height();
-		generate_and_show_colored_contours();
-		generate_and_show_critical_points();
-
-	} break;
-
-	case 'n': {
-		// This is step 3 in Project 2:
 		polylines.clear();
 		generate_and_show_colored_contours();
 		generate_and_show_critical_points();
@@ -658,33 +599,21 @@ void keyboard(unsigned char key, int x, int y) {
 		break;
 
 	case 't':
+		display_mode = 3;
 		transform_and_show_greyscale();
 		break;
 
 	case 'y':
+		display_mode = 3;
 		transform_and_show_bicolor();
 		break;
 
 	case 'u':
+		display_mode = 3;
 		transform_and_show_rainbow_colors();
 		break;
 
 	case 'a':
-		transform_and_show_height();
-		break;
-
-	case 'i':
-		transform_and_show_greyscale();
-		transform_and_show_height();
-		break;
-
-	case 'o':
-		transform_and_show_bicolor();
-		transform_and_show_height();
-		break;
-
-	case 'p':
-		transform_and_show_rainbow_colors();
 		transform_and_show_height();
 		break;
 
