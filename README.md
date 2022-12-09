@@ -13,7 +13,7 @@
     - *or* key-chord: `Ctrl + F5`
     - *or* run `Debug/learnply.exe`
 
-3. Choose a visualization
+3. Choose a rendering mode
     - Press the key `1`
         - display mode 1: solid rendering.
     - Press the key `2`
